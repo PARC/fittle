@@ -1,0 +1,20 @@
+{
+  "askDate" : "-1",
+  "askTime" : "07:00",
+  "preferenceToSet" : "favouriteColor",
+  "choices" :
+    "Blue, Yellow",
+  "answers" : {
+    "Blue" : "blue",
+    "Yellow" : "thrownOverTheEdgeIntoTheVolcano"
+  },
+  "expireDate" : "28",
+  "expireTime" : "23:59",
+  "notify" : "false",
+  "responseFormat" : "list-choose-one",
+  "sequence" : 1,
+  "name" : "Monty Python",
+  "tag" : "exampleQuestion",
+  "text" : "What... is your favourite colour?",
+  "emailAddress" : "lnelson@parc.com"
+}

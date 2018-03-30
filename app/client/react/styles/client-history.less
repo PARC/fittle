@@ -1,0 +1,142 @@
+@import "/client/react/styles/color-template.import.less";
+
+.rTable {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+
+  width: 100%;
+  overflow-y: scroll;
+  margin-top: 0;
+  margin-bottom:0;
+  padding-top: 0;
+  padding-bottom:0;
+}
+
+.rTableHeading, .rTableBody, .rTableFoot, .rTableRow {
+  clear: both;
+}
+
+.rTableRow {
+  margin-top: 1.5vh;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.rTableCell {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  float: left;
+  overflow: hidden;
+  padding-left: 2vw;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.rTableRight {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  overflow: hidden;
+  padding-left: 1.5vw;
+  text-align: left;
+  width: 70vw;
+}
+
+.rTableLeft {
+  width: 20vw;
+  font-size: smaller;
+}
+
+.rTableCellDivider {
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  text-align: center;
+  padding: 0;
+  margin-top:-0.3vh !important;
+  float: left;
+  height: 8vh;
+  font-size: @history-dot-font-size;
+  background: linear-gradient(180deg, transparent, #353535, transparent);
+  background-position: 49%;
+  background-repeat: repeat-y;
+  background-size: 2px auto;
+}
+
+div.rTableRight>button {
+  padding:0;
+  margin:0;
+  text-align: left;
+}
+
+.history-header {
+  width: 100vh;
+}
+
+.history-text {
+  font-size: @history-font-size;
+}
+
+.history-start-date {
+  margin-left:-19%;
+  text-align: center;
+}
+
+.history-image-box {
+  display: inline-block;
+  min-width: 2.7vw;
+  max-width: 20px;
+  margin-right: 10px;
+}
+
+.btn-history {
+  border-radius: @default-box-radius  !important;
+  -moz-border-radius: @default-box-radius !important;
+  -webkit-border-radius: @default-box-radius !important;
+  font-size: @default-btn-history-font-size !important;
+  color: black;
+  border-color: black;
+}
+
+.btn-history-goal-met {
+  border-color: @btn-primary-bg !important;
+  color: @btn-primary-bg !important;
+}
+
+.btn-history-goal-not-met {
+  border-color: @error-color !important;
+  color: @error-color !important;
+}
+
+.btn-history-no-content {
+  border-color: white !important;
+  color: darkgray !important;
+  box-shadow: none !important;
+}
+
+.btn-history label {
+  vertical-align: text-top !important;
+  margin: 0 !important;
+}
+
+/*************************************************************************
+ *
+ *  © [2018] PARC Inc., A Xerox Company
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Xerox Corporation.
+ * The intellectual and technical concepts contained
+ * herein are proprietary to PARC Inc. and Xerox Corp.,
+ * and may be covered by U.S. and Foreign Patents,
+ * patents in process, and may be protected by copyright law.
+ * This file is subject to the terms and conditions defined in
+ * file 'LICENSE.md', which is part of this source code package.
+ *
+ **************************************************************************/

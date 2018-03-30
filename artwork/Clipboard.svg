@@ -1,0 +1,35 @@
+<svg id="Clipboard" xmlns="http://www.w3.org/2000/svg" width="603.169" height="772.731" viewBox="0 0 603.169 772.731">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 40.2px;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke-width: 35.2px;
+      }
+
+      .cls-4 {
+        fill: #3f51b5;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" d="M281,209H743.974a50,50,0,0,1,50,50V765.04a50,50,0,0,1-50,50H281a50,50,0,0,1-50-50V259A50,50,0,0,1,281,209Z" transform="translate(-210.9 -62.4)"/>
+  <path class="cls-2" d="M459.4,503.3l32.678,63.348S545.178,437.913,628.915,395c-2.042,30.652-10.212,57.217,4.085,89.913C596.237,493.087,520.669,585.043,496.161,630c-34.72-42.913-75.568-75.609-104.161-85.826Z" transform="translate(-210.9 -62.4)"/>
+  <path class="cls-3" d="M242.1,83.6h118a90,90,0,0,1,90,90v35.375a0,0,0,0,1,0,0h-298a0,0,0,0,1,0,0V173.6a90,90,0,0,1,90-90Z"/>
+  <path class="cls-3" d="M280.1,17.6h37a50,50,0,0,1,50,50v34a0,0,0,0,1,0,0h-137a0,0,0,0,1,0,0v-34a50,50,0,0,1,50-50Z"/>
+  <circle class="cls-4" cx="299.1" cy="75.6" r="31"/>
+</svg>

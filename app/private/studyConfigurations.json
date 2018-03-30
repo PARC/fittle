@@ -1,0 +1,154 @@
+{
+  "ACTUAL_VALUE_HERE": {
+    "_study": "Set up basic Study data",
+    "study": {
+      "studyLength": 28,
+      "adminName": "Les Nelson",
+      "adminPhone": "+1-650-812-4000",
+      "adminEmail": "Les.Nelson@parc.com"
+    },
+    "_assignments": "Make assignments based on other data values interactively enterred by users for a given study",
+    "assignments": []
+  },
+  "SILVER": {
+    "_study": "Set up basic Study data",
+    "study": {
+      "studyLength": 100,
+      "adminName": "Les Nelson",
+      "adminPhone": "+1-650-812-4000",
+      "adminEmail": "Les.Nelson@parc.com"
+    },
+    "_assignments": "Make assignments based on other data values interactively enterred by users for a given study",
+    "assignments": []
+  },
+  "I2": {
+    "_study": "Set up basic Study data",
+    "study": {
+      "studyLength": 28,
+      "adminName": "Shiwali Mohan",
+      "adminPhone": "+1-650-812-4000",
+      "adminEmail": "Shiwali.Mohan@parc.com"
+    },
+    "_assignments": "Make assignments based on other data values interactively enterred by users for a given study",
+    "assignments": [
+      {
+        "_comment": "When a goalType is entered this sets the cardLink",
+        "from": "goalType",
+        "to": "goalContent",
+        "assign": {
+          "eatSlowly": "I2_Eat_Slower",
+          "walk": "I2_Walk",
+          "eatVeggies": "I2_Eat_Veggies"
+        }
+      },
+      {
+        "_comment": "When a goalSpecific is entered this sets the dailyGoalText",
+        "from": "goalSpecific",
+        "to": "dailyGoalText",
+        "assign": {
+          "eat_slowly_5_additional": "Take an additional 5 minutes to have {{choice}}",
+          "eat_slowly_20_min": "Take at least 20 minutes to have {{choice}}",
+          "eat_slowly_10_times": "Chew each bite 10 times while having {{choice}}",
+          "eat_slowly_15_additional": "Take 15 additional minutes to have {{choice}}",
+          "eat_slowly_45_min": "Take 45 minutes to have {{choice}}",
+          "eat_slowly_20_times": "Chew each bite 20 times while having {{choice}}",
+          "add_2_servings": "Add two servings of vegetables to {{choice}}",
+          "try_new_vegetable": "Try a new vegetable for {{choice}}",
+          "record_vegetables": "Email yourself the vegetables you eat for {{choice}}",
+          "add_1_serving": "Add one serving of vegetables to {{choice}}",
+          "have_salad": "Have a salad for {{choice}}",
+          "double_favorite_vegetable": "Double the serving of your favorite vegetable in your {{choice}}",
+          "stretch_10_walk_45": "Stretch for 10 minutes and walk for 45 minutes in the {{choice}}",
+          "walk_45": "Walk for 45 minutes in the {{choice}}",
+          "stretch_10_walk_30": "Stretch for 10 minutes and walk for 30 minutes in the {{choice}}",
+          "stretch_5_walk_10": "Stretch for 5 minutes and walk for 10 minutes in the {{choice}}",
+          "walk_15": "Walk 15 minutes in the {{choice}}",
+          "stretch_5": "Stretch for 5 minutes and walk for 15 minutes in the {{choice}}"
+        }
+      },
+      {
+        "_comment": "When a goalSpecific is entered this sets the reminderText template, which gets filled in later",
+        "from": "goalSpecific",
+        "to": "reminderText",
+        "assign": {
+          "eat_slowly_5_additional": "Remember to take additional 5 minutes to have {{choice}}, at: {{place}}, with: {{person}}",
+          "eat_slowly_20_min": "Remember to take at least 20 minutes to have {{choice}}, at: {{place}}, with: {{person}}",
+          "eat_slowly_10_times": "Remember to chew eat bite 10 times while having {{choice}}, at: {{place}}, with: {{person}}",
+          "eat_slowly_15_additional": "Remember to take 15 additional minutes to have {{choice}}, at: {{place}}, with: {{person}}",
+          "eat_slowly_45_min": "Remember to take 45 minutes to have {{choice}}, at: {{place}}, with: {{person}}",
+          "eat_slowly_20_times": "Remember to chew each bite 20 times while having {{choice}}, at: {{place}}, with: {{person}}",
+          "add_2_servings": "Remember to add two servings of vegetables to {{choice}}, at: {{place}}, with: {{person}}",
+          "try_new_vegetable": "Remember to try a new vegetable for {{choice}}, at: {{place}}, with: {{person}}",
+          "record_vegetables": "Remember to email yourself the list vegetables you eat for {{choice}}, at: {{place}}, with: {{person}}",
+          "add_1_serving": "Remember to add one serving of vegetables to {{choice}}, at: {{place}}, with: {{person}}",
+          "have_salad": "Remember to have a salad for {{choice}}, at: {{place}}, with: {{person}}",
+          "double_favorite_vegetable": "Remember to double the serving of your favorite vegetable in your {{choice}}, at: {{place}}, with: {{person}}",
+          "stretch_10_walk_45": "Remember to stretch for 10 minutes and walk for 45 minutes in the {{choice}}, at: {{place}}, with: {{person}}",
+          "walk_45": "Remember to walk for 45 minutes in the {{choice}}, at: {{place}}, with: {{person}}",
+          "stretch_10_walk_30": "Remember to stretch for 10 minutes and walk for 30 minutes in the {{choice}}, at: {{place}}, with: {{person}}",
+          "stretch_5_walk_10": "Remember to stretch for 5 minutes and walk for 10 minutes in the {{choice}}, at: {{place}}, with: {{person}}",
+          "walk_15": "Remember to walk 15 minutes in the: {{choice}} at: {{place}}, with: {{person}}",
+          "stretch_5": "Remember to stretch for 5 minutes and walk for 15 minutes in the {{choice}}, at: {{place}}, with: {{person}}"
+        }
+      }
+    ],
+    "reminderGenericSchedule": {
+      "_comment": "reminder schedules for condition combinations",
+      "uniform": {
+        "_comment": "registration day is day 1",
+        "7": [
+          "2",
+          "6",
+          "10",
+          "14",
+          "18",
+          "22",
+          "26"
+        ],
+        "14": [
+          "2",
+          "4",
+          "6",
+          "8",
+          "10",
+          "12",
+          "14",
+          "16",
+          "18",
+          "20",
+          "22",
+          "24",
+          "26",
+          "28"
+        ]
+      },
+      "masked": {
+        "7": [
+          "2",
+          "3",
+          "10",
+          "11",
+          "18",
+          "19",
+          "26"
+        ],
+        "14": [
+          "2",
+          "3",
+          "6",
+          "7",
+          "10",
+          "11",
+          "14",
+          "15",
+          "18",
+          "19",
+          "22",
+          "23",
+          "26",
+          "27"
+        ]
+      }
+    }
+  }
+}

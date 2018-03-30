@@ -1,0 +1,1297 @@
+[
+  {
+    "_id": "DDZGrWzQGfJN88cMk",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "start",
+    "source": "static.ACTUAL_VALUE_HERE@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "startup",
+      "eventName": "ClientStart"
+    },
+    "createdAt": "2017-08-17T21:25:33.437Z"
+  },
+  {
+    "_id": "2v92Cktc694nYJxtf",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "static.ACTUAL_VALUE_HERE@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "ts5zyjyhmEyQvNSX8",
+        "answered": false,
+        "answers": {
+          "Not at all difficult": "1",
+          "Slightly difficult": "2",
+          "Somewhat difficult": "3",
+          "Moderately difficult": "4",
+          "Extremely difficult": "5"
+        },
+        "answeredOnDay": null,
+        "askDate": "2017-08-17T07:00:00Z",
+        "askDay": "1",
+        "askDatetime": "2017-08-17T07:00:00Z",
+        "askTime": "00:00",
+        "preferenceToSet": null,
+        "choices": [
+          "Not at all difficult",
+          "Slightly difficult",
+          "Somewhat difficult",
+          "Moderately difficult",
+          "Extremely difficult"
+        ],
+        "expireDate": "2017-08-17T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-08-18T06:59:00Z",
+        "expireDay": "1",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 201,
+        "name": "activityDebrief",
+        "tag": "difficulty",
+        "text": "How difficult was it to meet this goal?",
+        "username": "static.ACTUAL_VALUE_HERE@parc.com",
+        "taskId": "Rqn658mMYQEpz8uQd",
+        "createdAt": "2017-08-17T21:29:27.753Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-17T21:25:33.437Z"
+  },
+  {
+    "_id": "hxS2iEKigM9yHWYKh",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "static.ACTUAL_VALUE_HERE@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "8TufmbtKPpWkLB3p5",
+        "answered": true,
+        "answers": {
+          "Not at all confident": "1",
+          "Slightly confident": "2",
+          "Somewhat confident": "3",
+          "Moderately confident": "4",
+          "Extremely confident": "5"
+        },
+        "answeredOnDay": 1,
+        "askDate": "2017-08-17T07:00:00Z",
+        "askDay": "1",
+        "askDatetime": "2017-08-17T07:00:00Z",
+        "askTime": "00:00",
+        "preferenceToSet": null,
+        "choices": [
+          "Not at all confident",
+          "Slightly confident",
+          "Somewhat confident",
+          "Moderately confident",
+          "Extremely confident"
+        ],
+        "expireDate": "2017-08-17T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-08-18T06:59:00Z",
+        "expireDay": "1",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 202,
+        "name": "activityDebrief",
+        "tag": "confidence",
+        "text": "How confident are you that you can meet this goal for the next 3 days?",
+        "username": "static.ACTUAL_VALUE_HERE@parc.com",
+        "taskId": "Rqn658mMYQEpz8uQd",
+        "createdAt": "2017-08-17T21:29:27.769Z",
+        "answer": "Extremely confident",
+        "answerDate": "2017-08-17T21:29:34.209Z"
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-17T21:25:33.437Z"
+  },
+  {
+    "_id": "6ETzTdGrocXip8PLz",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "static.ACTUAL_VALUE_HERE@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "TP58L6hQHQ47BcPE4",
+        "answered": false,
+        "answers": {
+          "Not at all keen": "1",
+          "Slightly keen": "2",
+          "Somewhat keen": "3",
+          "Moderately keen": "4",
+          "Extremely keen": "5"
+        },
+        "answeredOnDay": null,
+        "askDate": "2017-08-17T07:00:00Z",
+        "askDay": "1",
+        "askDatetime": "2017-08-17T07:00:00Z",
+        "askTime": "00:00",
+        "preferenceToSet": null,
+        "choices": [
+          "Not at all keen",
+          "Slightly keen",
+          "Somewhat keen",
+          "Moderately keen",
+          "Extremely keen"
+        ],
+        "expireDate": "2017-08-17T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-08-18T06:59:00Z",
+        "expireDay": "1",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 203,
+        "name": "activityDebrief",
+        "tag": "inclination",
+        "text": "How inclined are you to do this every day?",
+        "username": "static.ACTUAL_VALUE_HERE@parc.com",
+        "taskId": "Rqn658mMYQEpz8uQd",
+        "createdAt": "2017-08-17T21:29:27.778Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-17T21:25:33.437Z"
+  },
+  {
+    "_id": "nMP8L7A9xSLhGPHim",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "static.ACTUAL_VALUE_HERE@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "FovbfbzpoBgYJjS3N",
+        "answered": true,
+        "answers": {
+          "Much more effort than benefit": "1",
+          "Some more effort than benefit": "2",
+          "Almost the same effort as benefit": "3",
+          "Some more benefit than effort": "4",
+          "Much more benefit than effort": "5"
+        },
+        "answeredOnDay": 1,
+        "askDate": "2017-08-17T07:00:00Z",
+        "askDay": "1",
+        "askDatetime": "2017-08-17T07:00:00Z",
+        "askTime": "00:00",
+        "preferenceToSet": null,
+        "choices": [
+          "Much more effort than benefit",
+          "Some more effort than benefit",
+          "Almost the same effort as benefit",
+          "Some more benefit than effort",
+          "Much more benefit than effort"
+        ],
+        "expireDate": "2017-08-17T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-08-18T06:59:00Z",
+        "expireDay": "1",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 204,
+        "name": "activityDebrief",
+        "tag": "worth",
+        "text": "Was doing this worth the effort?",
+        "username": "static.ACTUAL_VALUE_HERE@parc.com",
+        "taskId": "Rqn658mMYQEpz8uQd",
+        "createdAt": "2017-08-17T21:29:27.788Z",
+        "answer": "Much more benefit than effort",
+        "answerDate": "2017-08-17T21:29:37.255Z"
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-17T21:25:33.437Z"
+  },
+  {
+    "_id": "n78DZBYnmt66At7qg",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "start",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "startup",
+      "eventName": "ClientStart"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "5rwjS5ztWeaWk4MSx",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "start",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "startup",
+      "eventName": "ClientStart"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "XcwCEHCSotB7qMGYx",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "start",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "startup",
+      "eventName": "ClientStart"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "STt6Kdq3m3AhHtaQd",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "zJyzFnSzieTNqa5zr",
+        "answered": false,
+        "answers": {},
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": "bio.displayName",
+        "choices": [],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "text",
+        "sequence": 11,
+        "name": "getDisplayName",
+        "tag": "you",
+        "text": "Set your public display name which is seen by your team members.  To protect your privacy, do not use your full name.",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:16.377Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "phr8QtPdYZd7AcEkv",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "start",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "startup",
+      "eventName": "ClientStart"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "yPK7YANxfbr5Byw7z",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "3FxXiR6jNnZGDwC5G",
+        "answered": false,
+        "answers": {
+          "OK": "ok"
+        },
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": null,
+        "choices": [
+          "OK"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 11,
+        "name": "goalTypeSelect",
+        "tag": "instruction",
+        "text": "Hi there!! I will help you set a health goal to work on daily for the next 4 weeks. Please answer the next few questions carefully.",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:16.385Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "e7yipqGAzEeXrtPPu",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "yY6o7nb6buhQACd2s",
+        "answered": false,
+        "answers": {
+          "Eat slowly and mindfully": "eatSlowly",
+          "Walk everyday": "walk",
+          "Eat more vegetables": "eatVeggies"
+        },
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": "goalType",
+        "choices": [
+          "Eat slowly and mindfully",
+          "Walk everyday",
+          "Eat more vegetables"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 12,
+        "name": "goalTypeSelect",
+        "tag": "goaltype",
+        "text": "Which health goal below would you like to pursue?",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:16.391Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "uDki5LCu2qKkB5EYE",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "iGcHxnhg7AkuJNLHf",
+        "answered": true,
+        "answers": {
+          "Okay": "1"
+        },
+        "answeredOnDay": 0,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": null,
+        "choices": [
+          "Okay"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 13,
+        "name": "dispayName1",
+        "tag": "valid",
+        "text": "For the following please rate the degree to which you agree",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:16.141Z",
+        "answer": "Eat more vegetables",
+        "answerDate": "2017-08-16T21:28:25.006Z"
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "drz6HhNbFm5poL49k",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "DuZyRS3WLnQ7S73yS",
+        "answered": true,
+        "answers": {
+          "Strongly Agree": "1",
+          "Agree": "2",
+          "Undecided": "3",
+          "Disagree": "4",
+          "Strongly Disagree": "5"
+        },
+        "answeredOnDay": 0,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": null,
+        "choices": [
+          "Strongly Agree",
+          "Agree",
+          "Undecided",
+          "Disagree",
+          "Strongly Disagree"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 14,
+        "name": "dispayName1",
+        "tag": "own actions",
+        "text": "My life is determined by my own actions.",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:16.310Z",
+        "answer": "Strongly Disagree",
+        "answerDate": "2017-08-16T21:28:26.792Z"
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "PqC3LchqC6yie38h4",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "HsQEmbgNctYxnWnzQ",
+        "answered": false,
+        "answers": {
+          "Strongly Agree": "1",
+          "Agree": "2",
+          "Undecided": "3",
+          "Disagree": "4",
+          "Strongly Disagree": "5"
+        },
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": null,
+        "choices": [
+          "Strongly Agree",
+          "Agree",
+          "Undecided",
+          "Disagree",
+          "Strongly Disagree"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 15,
+        "name": "dispayName1",
+        "tag": "determine",
+        "text": "I can pretty much determine what will happen in my life.",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:16.319Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "jhmafDoo7cq43THPm",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "Adjwoxiyyhkfd79Le",
+        "answered": false,
+        "answers": {
+          "Strongly Agree": "1",
+          "Agree": "2",
+          "Undecided": "3",
+          "Disagree": "4",
+          "Strongly Disagree": "5"
+        },
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": null,
+        "choices": [
+          "Strongly Agree",
+          "Agree",
+          "Undecided",
+          "Disagree",
+          "Strongly Disagree"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 16,
+        "name": "dispayName1",
+        "tag": "protect",
+        "text": "I am usually able to protect my personal interests.",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:16.329Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "mAHhsamfZrBu3tYBq",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "hMDmGHSPdzNdRJ4nk",
+        "answered": false,
+        "answers": {
+          "Strongly Agree": "1",
+          "Agree": "2",
+          "Undecided": "3",
+          "Disagree": "4",
+          "Strongly Disagree": "5"
+        },
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": null,
+        "choices": [
+          "Strongly Agree",
+          "Agree",
+          "Undecided",
+          "Disagree",
+          "Strongly Disagree"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 17,
+        "name": "dispayName1",
+        "tag": "accidental happenings",
+        "text": "To a great extent, my life is controlled by accidental happenings.",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:16.336Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "3LeejJBbMoWT9o4hd",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "FxihAwCzXWMDAWHgA",
+        "answered": false,
+        "answers": {
+          "Strongly Agree": "1",
+          "Agree": "2",
+          "Undecided": "3",
+          "Disagree": "4",
+          "Strongly Disagree": "5"
+        },
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": null,
+        "choices": [
+          "Strongly Agree",
+          "Agree",
+          "Undecided",
+          "Disagree",
+          "Strongly Disagree"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 18,
+        "name": "dispayName1",
+        "tag": "bad happenings",
+        "text": "Often there is no chance of protecting my personal interests from bad luck happenings.",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:16.343Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "XSZ66hQvHXpFS85bA",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "fm3iTgJuP786T77FH",
+        "answered": false,
+        "answers": {
+          "Strongly Agree": "1",
+          "Agree": "2",
+          "Undecided": "3",
+          "Disagree": "4",
+          "Strongly Disagree": "5"
+        },
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": null,
+        "choices": [
+          "Strongly Agree",
+          "Agree",
+          "Undecided",
+          "Disagree",
+          "Strongly Disagree"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 19,
+        "name": "dispayName1",
+        "tag": "lucky",
+        "text": "When I get what I want, it's usually because I'm lucky.",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:16.348Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "SYQspNHC4PyRAxT7X",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "RJPJjN4nLZ6fJS8Kh",
+        "answered": true,
+        "answers": {
+          "Strongly Agree": "1",
+          "Agree": "2",
+          "Undecided": "3",
+          "Disagree": "4",
+          "Strongly Disagree": "5"
+        },
+        "answeredOnDay": 0,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": null,
+        "choices": [
+          "Strongly Agree",
+          "Agree",
+          "Undecided",
+          "Disagree",
+          "Strongly Disagree"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 20,
+        "name": "dispayName1",
+        "tag": "pressure-groups",
+        "text": "People like myself have very little chance of protecting our personal interests where they conflict with those of strong pressure groups.",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:16.355Z",
+        "answer": "Strongly Disagree",
+        "answerDate": "2017-08-16T21:28:35.758Z"
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "bXLe7CsdEWe4Cb3Ct",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "CKwbqj75e4ZEeQfZG",
+        "answered": false,
+        "answers": {
+          "Strongly Agree": "1",
+          "Agree": "2",
+          "Undecided": "3",
+          "Disagree": "4",
+          "Strongly Disagree": "5"
+        },
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": null,
+        "choices": [
+          "Strongly Agree",
+          "Agree",
+          "Undecided",
+          "Disagree",
+          "Strongly Disagree"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 21,
+        "name": "dispayName1",
+        "tag": "powerful others",
+        "text": "My life is chiefly controlled by powerful others.",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:16.364Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "BLqvDKd6XC3WC4sL6",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "ddkpy8pY8u7AnieaJ",
+        "answered": true,
+        "answers": {
+          "Add one serving of vegetables to a meal": "add_1_serving",
+          "Have a salad for a meal": "have_salad",
+          "Double the serving of your favorite vegetable in a meal": "double_favorite_vegetable"
+        },
+        "answeredOnDay": 0,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": "goalSpecific",
+        "choices": [
+          "Add one serving of vegetables to a meal",
+          "Have a salad for a meal",
+          "Double the serving of your favorite vegetable in a meal"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 21,
+        "name": "I2eatVeggiesSpecificGoalSelectHighEasy",
+        "tag": "eatveggiesspecificgoal",
+        "text": "Which strategy will you use will use to eat more vegetables?",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:24.119Z",
+        "answer": "Double the serving of your favorite vegetable in a meal",
+        "answerDate": "2017-08-16T21:28:41.575Z"
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "LYZB7dyMdcmb7yqoK",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "mvSnqmThGqqgcv8to",
+        "answered": false,
+        "answers": {
+          "Strongly Agree": "1",
+          "Agree": "2",
+          "Undecided": "3",
+          "Disagree": "4",
+          "Strongly Disagree": "5"
+        },
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": null,
+        "choices": [
+          "Strongly Agree",
+          "Agree",
+          "Undecided",
+          "Disagree",
+          "Strongly Disagree"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 22,
+        "name": "dispayName1",
+        "tag": "powerful people",
+        "text": "I feel like what happens in my life is mostly determined by powerful people.",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:16.370Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "mqpfdPbdXG4c2Xjmv",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "fJsM3hMqohM26Shfr",
+        "answered": false,
+        "answers": {
+          "Not confident at all": "Not confident at all",
+          "Slightly confident": "Slightly confident",
+          "Somewhat confident": "Somewhat confident",
+          "Moderately confident": "Moderately confident",
+          "Extremely confident": "Extremely confident"
+        },
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": "difficulty",
+        "choices": [
+          "Not confident at all",
+          "Slightly confident",
+          "Somewhat confident",
+          "Moderately confident",
+          "Extremely confident"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 101,
+        "name": "eatVeggiesI2SelectReminder",
+        "tag": "difficulty",
+        "text": "How confident are you that you can do this everyday for the next 28 days?",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:24.057Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "PMfrGE7BjQ2rf8G26",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "hAuwpuuA9cSBvhu5c",
+        "answered": false,
+        "answers": {
+          "breakfast": "breakfast",
+          "lunch": "lunch",
+          "dinner": "dinner"
+        },
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": "choice",
+        "choices": [
+          "breakfast",
+          "lunch",
+          "dinner"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 102,
+        "name": "eatVeggiesI2SelectReminder",
+        "tag": "choice",
+        "text": "For the next 4 weeks, which meal do you want to try this at?",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:24.069Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "qiyZnrkPvnEkm4EjA",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "LT7tM2TW3sZxcDKD7",
+        "answered": true,
+        "answers": {},
+        "answeredOnDay": 0,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": "place",
+        "choices": [],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "text",
+        "sequence": 103,
+        "name": "eatVeggiesI2SelectReminder",
+        "tag": "place",
+        "text": "Where are you most likely to have this meal?",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:24.079Z",
+        "answer": "home",
+        "answerDate": "2017-08-16T21:28:53.417Z"
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "ca7A2pi55KqTbSci3",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "B2F7WB6GHB5Q8kYpD",
+        "answered": false,
+        "answers": {},
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": "person",
+        "choices": [],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "text",
+        "sequence": 104,
+        "name": "eatVeggiesI2SelectReminder",
+        "tag": "person",
+        "text": "Who are you most likely to have this meal with?",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:24.086Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "7sr4FBzBEwhCf56qu",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "nM4u7NFmXPtJqdQcD",
+        "answered": false,
+        "answers": {},
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": "eventTime",
+        "choices": [],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "time",
+        "sequence": 105,
+        "name": "eatVeggiesI2SelectReminder",
+        "tag": "eventtime",
+        "text": "When are you most likely to have this meal?",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:24.097Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  },
+  {
+    "_id": "jx6JTs52BKtNDfMac",
+    "studyName": "ACTUAL_VALUE_HERE",
+    "kind": "answer",
+    "source": "lnelson@parc.com",
+    "shared": [
+      "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/ACTUAL_TOKEN_GOES_HERE"
+    ],
+    "data": {
+      "event": "answerQuestion",
+      "question": {
+        "_id": "SYTknojznvL2AFjZu",
+        "answered": false,
+        "answers": {
+          "15 minutes": "15 minutes",
+          "30 minutes": "30 minutes",
+          "45 minutes": "45 minutes",
+          "60 minutes": "60 minutes"
+        },
+        "answeredOnDay": null,
+        "askDate": "2017-08-15T07:00:00Z",
+        "askDay": "-1",
+        "askDatetime": "2017-08-15T14:00:00Z",
+        "askTime": "07:00",
+        "preferenceToSet": "reminderPeriod",
+        "choices": [
+          "15 minutes",
+          "30 minutes",
+          "45 minutes",
+          "60 minutes"
+        ],
+        "expireDate": "2017-09-13T07:00:00Z",
+        "expired": false,
+        "expireDatetime": "2017-09-14T06:59:00Z",
+        "expireDay": "28",
+        "expireTime": "23:59",
+        "noneAllowed": false,
+        "notify": "false",
+        "responseFormat": "list-choose-one",
+        "sequence": 106,
+        "name": "eatVeggiesI2SelectReminder",
+        "tag": "reminderperiod",
+        "text": "How soon before the meal would you like to be reminded of your goal?",
+        "username": "lnelson@parc.com",
+        "taskId": null,
+        "createdAt": "2017-08-16T21:28:24.108Z",
+        "answer": ""
+      },
+      "eventName": "answerQuestion"
+    },
+    "createdAt": "2017-08-16T21:20:19.950Z"
+  }
+]

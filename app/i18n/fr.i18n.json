@@ -1,0 +1,10 @@
+
+{ "hello": "Howdy",
+  "welcome-header":"Bienvenue à PARC Coach, veuillez saisir votre adresse e-mail",
+  "about-header": "L'application PARC Coach est une application de recherche développée par le Palo Alto Research Center",
+  "about-terms-conditions": "Pour voir les conditions d'utilisation de cette application, cliquez sur",
+  "here-link": "here",
+  "about-privacy" : "Pour voir la déclaration de confidentialité de cette application, cliquez",
+  "next-button": "Prochain"
+}
+

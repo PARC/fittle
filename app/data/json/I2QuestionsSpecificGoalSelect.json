@@ -1,0 +1,218 @@
+{
+  "_comment": [
+    "If we want a participant to be in a low self-efficacy condition, then they should be assigned difficult goals",
+    "If we want a participant to be in a high self-efficacy condition, then they should be assigned easy goals"
+  ],
+  "sequences": [
+    {
+      "name": "I2eatSlowlySpecificGoalSelectLowDifficult",
+      "constraints": [
+        {
+          "attribute": "preferences.goalType",
+          "value": "eatSlowly"
+        },
+        {
+          "attribute": "preferences.goalSpecific",
+          "value": ""
+        },
+        {
+          "attribute": "settings.selfEfficacy",
+          "value": "low"
+        }
+      ],
+      "askDate": "-1",
+      "askTime": "07:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 20,
+      "questions": [
+        {
+          "tag": "eatSlowlySpecificGoal",
+          "text": "Which strategy will you use to eat slowly?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "eat_slowly_5_additional" : "Chew each bite 20 times during a meal",
+            "eat_slowly_20_min" : "Take 45 minutes to complete a meal",
+            "eat_slowly_10_times": "Chew your food until it liquefies in your mouth"
+          },
+          "preferenceToSet": "goalSpecific"
+        }
+      ]
+    },
+    {
+      "name": "I2eatSlowlySpecificGoalSelectHighEasy",
+      "constraints": [
+        {
+          "attribute": "preferences.goalType",
+          "value": "eatSlowly"
+        },
+        {
+          "attribute": "preferences.goalSpecific",
+          "value": ""
+        },
+        {
+          "attribute": "settings.selfEfficacy",
+          "value": "high"
+        }
+      ],
+      "askDate": "-1",
+      "askTime": "07:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 20,
+      "questions": [
+        {
+          "tag": "eatSlowlySpecificGoal",
+          "text": "Which strategy will you use to eat slowly?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "eat_slowly_5_additional" : "Take additional 5 minutes for a meal",
+            "eat_slowly_20_min" : "Take smaller bites during a meal",
+            "eat_slowly_10_times": "Take a deep breath between bites during a meal"
+          },
+          "preferenceToSet": "goalSpecific"
+        }
+      ]
+    },
+    {
+      "name": "I2walkSpecificGoalSelectLowDifficult",
+      "constraints": [
+        {
+          "attribute": "preferences.goalType",
+          "value": "walk"
+        },
+        {
+          "attribute": "preferences.goalSpecific",
+          "value": ""
+        },
+        {
+          "attribute": "settings.selfEfficacy",
+          "value": "low"
+        }
+      ],
+      "askDate": "-1",
+      "askTime": "07:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 20,
+      "questions": [
+        {
+          "tag": "walkSpecificGoal",
+          "text": "How much exercise will you do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "stretch_10_walk_45" : "Stretch for 10 minutes and walk for 45 minutes",
+            "walk_45" : "Walk for 45 minutes",
+            "stretch_10_walk_30": "Stretch for 10 minutes and walk for 30 minutes"
+          },
+          "preferenceToSet": "goalSpecific"
+        }
+      ]
+    },
+    {
+      "name": "I2walkSpecificGoalSelectHighEasy",
+      "constraints": [
+        {
+          "attribute": "preferences.goalType",
+          "value": "walk"
+        },
+        {
+          "attribute": "preferences.goalSpecific",
+          "value": ""
+        },
+        {
+          "attribute": "settings.selfEfficacy",
+          "value": "high"
+        }
+      ],
+      "askDate": "-1",
+      "askTime": "07:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 20,
+      "questions": [
+        {
+          "tag": "walkSpecificGoal",
+          "text": "How much exercise will you do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "stretch_5_walk_10" : "Stretch for 5 minutes and walk for 10 minutes",
+            "walk_15" : "Walk 15 minutes",
+            "stretch_5": "Stretch for 5 minutes and walk for 15 minutes"
+          },
+          "preferenceToSet": "goalSpecific"
+        }
+      ]
+    },
+    {
+      "name": "I2eatVeggiesSpecificGoalSelectLowDifficult",
+      "constraints": [
+        {
+          "attribute": "preferences.goalType",
+          "value": "eatVeggies"
+        },
+        {
+          "attribute": "preferences.goalSpecific",
+          "value": ""
+        },
+        {
+          "attribute": "settings.selfEfficacy",
+          "value": "low"
+        }
+      ],
+      "askDate": "-1",
+      "askTime": "07:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 20,
+      "questions": [
+        {
+          "tag": "eatVeggiesSpecificGoal",
+          "text": "Which strategy will you use will use to eat more vegetables?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "add_2_servings" : "Add two servings of vegetables to a meal",
+            "try_new_vegetable" : "Try a new vegetable in a meal",
+            "record_vegetables": "Email yourself the list of vegetables you eat in a meal"
+          },
+          "preferenceToSet": "goalSpecific"
+        }
+      ]
+    },
+    {
+      "name": "I2eatVeggiesSpecificGoalSelectHighEasy",
+      "constraints": [
+        {
+          "attribute": "preferences.goalType",
+          "value": "eatVeggies"
+        },
+        {
+          "attribute": "preferences.goalSpecific",
+          "value": ""
+        },
+        {
+          "attribute": "settings.selfEfficacy",
+          "value": "high"
+        }
+      ],
+      "askDate": "-1",
+      "askTime": "07:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 20,
+      "questions": [
+        {
+          "tag": "eatVeggiesSpecificGoal",
+          "text": "Which strategy will you use will use to eat more vegetables?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "add_1_serving" : "Add one serving of vegetables to a meal",
+            "have_salad" : "Have a salad for a meal",
+            "double_favorite_vegetable": "Double the serving of your favorite vegetable in a meal"
+          },
+          "preferenceToSet": "goalSpecific"
+        }
+      ]
+    }
+  ]
+}

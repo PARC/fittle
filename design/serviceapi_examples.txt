@@ -1,0 +1,29 @@
+Feel free to pull the code (https://githubenterprise.parc.com/I2/positivedayI2/tree/developmentI2) and change the pathnames here, and try it out.
+Let me know what breaks. Don't worry about messing up this server. Is a playground.
+
+curl -H "Content-Type: application/json" -X GET http://parc-positive-day.herokuapp.com/serviceapi/help/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X GET http://parc-positive-day.herokuapp.com/serviceapi/participants/help/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X GET http://parc-positive-day.herokuapp.com/serviceapi/scheduledmessages/help/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X GET http://parc-positive-day.herokuapp.com/serviceapi/questions/help/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X GET http://parc-positive-day.herokuapp.com/serviceapi/tasks/help/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X DELETE http://parc-positive-day.herokuapp.com/serviceapi/resetAllForTesting/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @/Users/lnelson/meteor_home/positivedayI2/shell/herokuTestOnboarding.json http://parc-positive-day.herokuapp.com/serviceapi/participants/add/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @/Users/lnelson/meteor_home/positivedayI2/data/json/I2QuestionsGoalTypeSelect.json http://parc-positive-day.herokuapp.com/serviceapi/scheduledmessages/add/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @/Users/lnelson/meteor_home/positivedayI2/data/json/I2QuestionsI2Select.json http://parc-positive-day.herokuapp.com/serviceapi/scheduledmessages/add/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @/Users/lnelson/meteor_home/positivedayI2/data/json/I2QuestionsSpecificGoalSelect.json http://parc-positive-day.herokuapp.com/serviceapi/scheduledmessages/add/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X GET http://parc-positive-day.herokuapp.com/serviceapi/scheduledmessages/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X GET http://parc-positive-day.herokuapp.com/serviceapi/participants/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X GET http://parc-positive-day.herokuapp.com/serviceapi/questions/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X GET http://parc-positive-day.herokuapp.com/serviceapi/tasks/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @/Users/lnelson/meteor_home/positivedayI2/data/json/exampleQuestion.json http://parc-positive-day.herokuapp.com/serviceapi/questions/add/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X DELETE http://parc-positive-day.herokuapp.com/serviceapi/participant/<put ID here>/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X DELETE http://parc-positive-day.herokuapp.com/serviceapi/scheduledmessages//ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X DELETE http://parc-positive-day.herokuapp.com/serviceapi/question/<put ID here>/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X DELETE http://parc-positive-day.herokuapp.com/serviceapi/task/<put ID here>/ACTUAL_TOKEN_GOES_HERE
+
+After you are done playing, run the following to reset the database back to the begining state:
+curl -H "Content-Type: application/json" -X DELETE http://parc-positive-day.herokuapp.com/serviceapi/resetAllForTesting/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @/Users/lnelson/meteor_home/positivedayI2/shell/herokuTestOnboarding.json http://parc-positive-day.herokuapp.com/serviceapi/participants/add/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @/Users/lnelson/meteor_home/positivedayI2/data/json/I2QuestionsGoalTypeSelect.json http://parc-positive-day.herokuapp.com/serviceapi/scheduledmessages/add/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @/Users/lnelson/meteor_home/positivedayI2/data/json/I2QuestionsI2Select.json http://parc-positive-day.herokuapp.com/serviceapi/scheduledmessages/add/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @/Users/lnelson/meteor_home/positivedayI2/data/json/I2QuestionsSpecificGoalSelect.json http://parc-positive-day.herokuapp.com/serviceapi/scheduledmessages/add/ACTUAL_TOKEN_GOES_HERE

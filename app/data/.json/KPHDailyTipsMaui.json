@@ -1,0 +1,364 @@
+{
+  "sequences": [
+    {
+      "name": "DailyTipsDay01",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "1",
+      "askTime": "07:00",
+      "expireDate": "1",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "Welcome to the Reflect and Move Forward habit, a set of personal reflection and supportive team sharing exercises. Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DailyTipsDay02",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "2",
+      "askTime": "07:00",
+      "expireDate": "2",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "How do you acknowledge accomplishments and reward success? Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DailyTipsDay03",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "3",
+      "askTime": "07:00",
+      "expireDate": "3",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "Repeat yesterday’s Group Exercise on how you acknowledge accomplishments and reward success. Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DailyTipsDay04",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "4",
+      "askTime": "07:00",
+      "expireDate": "4",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "Progress can be measured in several meaningful ways. Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DailyTipsDay05",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "5",
+      "askTime": "07:00",
+      "expireDate": "5",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "See today’s examples of successful behavior goals and share some of your own with the team. Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DailyTipsDay06",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "6",
+      "askTime": "07:00",
+      "expireDate": "6",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "Change how you view and measure a habit’s success to one that’s a bit saner and self-compassionate. Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DailyTipsDay07",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "7",
+      "askTime": "07:00",
+      "expireDate": "7",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "Repeat yesterday’s exercise on measuring a habits’ success using exercise as an example and share with the team. Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DailyTipsDay08",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "8",
+      "askTime": "07:00",
+      "expireDate": "8",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "See today’s new examples of subtle behavior changes and share some of your own with the team. Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DailyTipsDay09",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "9",
+      "askTime": "07:00",
+      "expireDate": "9",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "Mastering habits. How does it happen for you and what conditions need to be in place? Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DailyTipsDay10",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "10",
+      "askTime": "07:00",
+      "expireDate": "10",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "Mastering a new habit can give you the space and energy needed to reduce the frequency of undesirable behaviors. Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DailyTipsDay11",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "11",
+      "askTime": "07:00",
+      "expireDate": "11",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "Learn how to spot improvements in your desired behaviors and mindset and then share with the team. Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DailyTipsDay12",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "12",
+      "askTime": "07:00",
+      "expireDate": "12",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "See today’s new information on mastering habits using examples from the Eat Protein Early and Often habit and share with the team. Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DailyTipsDay13",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "13",
+      "askTime": "07:00",
+      "expireDate": "13",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "Share with the team any last minute thoughts or experiences you’ve had while in the program. Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DailyTipsDay14",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "14",
+      "askTime": "07:00",
+      "expireDate": "14",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "The Reflect and Move Forward team sharing habit ends today. Read the wrap-up and learn about the next challenge. Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "DailyTipsDay22",
+      "constraints": [
+        {
+          "attribute": "settings.location",
+          "value": "maui"
+        }
+      ],
+      "askDate": "22",
+      "askTime": "07:00",
+      "expireDate": "22",
+      "expireTime": "23:59",
+      "sequenceBase": 5,
+      "questions": [
+        {
+          "tag": "tip",
+          "text": "The Reflect and Move Forward team sharing habit ends today. Read the wrap-up and learn about the next challenge. Tap the icon to get more info.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "ok": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

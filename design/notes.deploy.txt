@@ -1,0 +1,48 @@
+Updated 10/28/2016
+Notes about doing things on localhost for meteor mongo:
+ mongoimport -h localhost:3001 --db meteor --collection activities --type json --jsonArray --file private/activities.json
+Something similar needs to happen for deployed mongo databases
+mongoimport -h HOSTNAME.mlab.com:37207 --db YOUR_HOSTNAME_HERE -u YOUR_DBUSER_HERE -p  --collection activities --type json --jsonArray --file private/activities.json
+
+Updated 11/6/2016
+Galaxy linked app:
+meteor run ios-device --mobile-server https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com --settings settings.json
+meteor run ios-device --mobile-server https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com --settings settings.altdev.json
+
+
+How system can be deployed on Heroku:
+Got to heroku.com and create an app and add the mLab mongo database
+From local project git repository:
+heroic login
+heroku git:remote -a parc-positive-day
+heroku config:set MONGO_URL=mongodb://parcuser:xx@HOSTNAME.mlab.com:21010/heroku_mqft0h64
+heroku config:set ROOT_URL=https://HOSTNAME.herokuapp.com
+heroku buildpacks:set https://github.com/AdmitHub/meteor-buildpack-horse.git
+git push heroku master
+
+
+<DEPRECATED "9/30/16">
+And import things to the deployment database
+mongoimport —host=HOSTNAME.mlab.com —port=21010 —username=parcuser —password=xx —db=heroku_mqft0h64 --collection challenges --type json --file /Users/lnelson/meteor_home/positiveday/challenges/KPT123.json
+mongoimport —host=HOSTNAME.mlab.com —port=21010 —username=parcuser —password=xx —db=heroku_mqft0h64 --collection challenges --type json --file /Users/lnelson/meteor_home/positiveday/challenges/Lobby.json
+mongoimport -h HOSTNAME.mlab.com:21010 -u parcuser -p xx -d heroku_mqft0h64 -c activities --type=json --file=/Users/lnelson/meteor_home/positiveday/challenges/activities.json --jsonArray
+[on localhost: mongoimport -h localhost:3001 -d meteor -c activities --type=json --jsonArray --file=/Users/lnelson/meteor_home/positivedayI2/private/activities.json]
+Check with
+mongo HOSTNAME.mlab.com:21010/heroku_mqft0h64 -u  parcuser -p xx
+</DEPRECATED>
+
+<DEPRECATED "9/30/16">
+Note this manual step has been removed (9/30/16):
+And manually add the studycodes to the database (eventually use a similar import as above)
+ meteor mongo
+ MongoDB shell version: 2.6.7
+ connecting to: 127.0.0.1:3001/meteor
+meteor:PRIMARY> db.studycodes.insert({code: 'TNWRR0',value:true})
+WriteResult({ "nInserted" : 1 })
+meteor:PRIMARY> db.studycodes.findOne()
+{
+	"_id" : ObjectId("5797a083c7cf7c7b11780cd6"),
+	"code" : "TNWRR0",
+	"value" : true
+}
+<DEPRECATED "9/30/16">

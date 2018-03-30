@@ -1,0 +1,11 @@
+{
+  "studyName": "somename",
+  "kind": "one of 'answer' or 'report' or 'start' or 'stop' - this is negotiable",
+  "source": "someidentifieferforsource - currently a user email but will change to a userId like ",
+  "data": {
+    "attribute1": "value1 which maybe be a string, number, object, array, etc - anything JSON",
+    "attributeN": "valueN - this is negotiable"
+  },
+  "shared": true,
+  "createdAt": "someUnixTimestamp probably like "
+}

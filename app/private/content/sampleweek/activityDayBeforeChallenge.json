@@ -1,0 +1,10 @@
+{
+  "title": "Sample Schedule Before Challenge",
+  "scheduling": "FromRegistered",
+  "schedule": [
+    {
+      "activity": "Tomorrow",
+      "scheduledDay": 0
+    }
+  ]
+}

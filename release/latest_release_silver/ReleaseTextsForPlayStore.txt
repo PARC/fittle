@@ -1,0 +1,87 @@
+
+# Product Description
+
+## Title
+-- Your app's name on Google Play.	50 character limit	You can add one localized title per language.
+Fittle-Silver
+Fittle-Silver-2
+Note: Fittle-Silver was in the Google Play Store but removed a day prior to re-submit
+
+## Short description
+-- The first text users see when looking at your app's detail page on the Play Store app.	80 character limit	Users can expand this text to view your app's full description.
+This application runs a private study for registered participants.
+
+## Full description
+-- Your app's description on Google Play.	4000 character limit
+This application runs a private study for registered participants. People who are registered in the study use the Fittle-Silver App as directed as part of the study.
+
+# APK
+Attached to this folder
+-rw-r--r--  1 lnelson  staff  91514224 Jan 30 14:37 parccoach-silver-30Jan2018.apk
+
+# Images
+Attached to this folder
+```
+-rw-r--r--@ 1 lnelson  staff     84594 Jan 24 15:12 appstore-1024x1024.png
+-rw-r--r--@ 1 lnelson  staff     48841 Jan 30 14:25 appstore-1024x500.png
+-rw-r--r--@ 1 lnelson  staff     31589 Jan 30 14:20 appstore-512x512.png
+```
+
+# Screenshots
+Attached to this folder
+```
+-rwxr-----@ 1 lnelson  staff    383000 Jan 30 14:42 Screenshot_20180130-144208.png
+-rwxr-----@ 1 lnelson  staff    114562 Jan 30 14:42 Screenshot_20180130-144212.png
+-rwxr-----@ 1 lnelson  staff    141145 Jan 30 14:42 Screenshot_20180130-144216.png
+-rwxr-----@ 1 lnelson  staff     97637 Jan 30 14:42 Screenshot_20180130-144221.png
+-rwxr-----@ 1 lnelson  staff     81185 Jan 30 14:42 Screenshot_20180130-144226.png
+```
+
+# Contact information:
+
+## Website
+https://ACTUAL_URL_GOES_HERE.zendesk.com
+
+# Content Rating
+
+## App Category
+Reference, News, or Educational
+
+## Email
+lnelson@parc.com
+
+# Privacy Policy
+
+## URL
+https://s3-us-west-1.amazonaws.com/ACTUAL_HOSTNAME_GOES_HERE/docs/en/privacy-policy.html
+
+## Text of that URL
+
+Privacy Policy
+
+English is the official language of this agreement.
+El ingláes es el idioma oficial de este acuerdo.
+
+PARC's Commitment To Privacy This website (the "Site") is operated and maintained by the Palo Alto Research Center Incorporated ("PARC"). PARC is committed to protecting your privacy online. This policy informs you of the information PARC collects through the Site and how PARC may use the information that is collected or submitted to the Site.
+
+The Information We Collect Through the use of web beacons, cookies, embedded links and other commonly used data-gathering tools, the Site automatically gathers certain usage information on PARC's server logs including your IP address; what web page you've last visited; computer and connection information such as browser type and version, operating system and platform; the frequency of your visits to the Site and the pages you view and other actions you take while on the Site. If you submit information or register on the Site, PARC may ask for your name, email address, company name, mailing address, and information about your interests and preferences. Once you submit information or register you are no longer anonymous to PARC.
+
+How We Use the Information PARC may use this information to help customize the content that you see and to contact you. PARC may send you information, including email, unless you advise PARC during the information submission or registration process, or subsequently request, that you do not want to receive these types of correspondence from PARC.
+
+How We Share the Information PARC maintains the information it receives online in strict confidence; information you submit to PARC is not sold to third parties. PARC reserves the right to notify its customers about administrative matters. When required by law, PARC will share information with government entities. Although PARC does not currently anticipate a change in its corporate status, in the event of a merger or acquisition of the company or a substantial portion of its assets, PARC may disclose, transfer or sell personal information collected online to the surviving or acquiring party, respectively. PARC may share or disclose this information if PARC suspects a violation of its policies or to protect the safety of any person or entity. PARC may also share or disclose information to its service providers and suppliers that use the information solely on PARC's behalf or to its parent company and affiliates for reporting processes and marketing research. Personal information collected online will remain subject to promises made in this Privacy Policy. Any information, including personal identifiable information or content, you post to a PARC blog, forum, or message board is available to and shared with all persons accessing and viewing those social networking spaces. Such information is not confidential and shall be treated in accordance with the terms and conditions of the PARC's Terms of Use.
+
+Third-Party Sites This Site contains links to other web sites and services. PARC is not responsible for the privacy practices or the content of these other web sites. You will need to check the policy statement of these other web sites to understand their policies regarding the collection and use of information.
+
+Employment Information When you choose to participate in PARC's hiring process, you will be asked to provide PARC with personally identifiable information about yourself. The information that you provide will be used to match your skills and interest to PARC's job requirements. Your personally identifiable information may also be used to contact and identify you throughout the hiring process and relevant portions of your personal information, if you are hired, may be used to establish a basic employment record. Access to your information will be restricted to those PARC staff and designated agents who have a need to know the specific information in question in order to carry out their responsibilities with regard to recruitment or employment law. Your information may also be disclosed to governmental entities in compliance with applicable law, such as to those agencies authorized to review and enforce equal opportunity laws. PARC may also collect information about you from other third parties, in order to: (a) verify information about your credentials, such as education and prior employment; (b) follow-up on references that you may provide; and (c) conduct background investigations. It is PARC's policy to collect such information from third parties only with your knowledge and agreement. PARC retains your personal information only as long as is necessary for evaluation for employment, as well as to comply with applicable laws relating to the evaluation of those seeking employment.
+
+Cookies A cookie is a small file that a website puts on a user's hard drive. This file identifies specific information about previous visits to the site. PARC uses cookies to recognize repeat visits to the Site and to facilitate web navigation. The cookie stores the user's country and language, along with an assigned random session ID. In some cases, the cookie stores name and address information so that the user does not have to re-enter this same information in multiple forms. The cookie information that PARC collects helps PARC track the number of visitors to the Site over time and determine whether these were new or repeat visits. For the purpose of internal analysis, PARC also uses cookies to track pages visited during a single session. PARC uses this information to adjust the presentation of the Site and to make it more relevant to our users. Information collected by PARC through the use of cookies is maintained as confidential data and is not shared beyond the corporation and its authorized agents. Most browser applications allow you to block or limit the use of cookies. Consult the help menu of your browser application for details. If you block the use of cookies, you may not be able to use some of the features on the Site.
+
+PARC's Commitment To Data Security To prevent unauthorized access, maintain data accuracy, and ensure the correct use of information, PARC has put in place appropriate physical, electronic, and managerial procedures to safeguard and secure the information PARC collects online.
+
+PARC's Commitment To Children's Privacy Protecting the privacy of the very young is especially important. For that reason, PARC does not knowingly collect or maintain information through the Site from children under 13, and no part of the Site is structured to attract children under 13.
+
+California Privacy Rights Under California law, California residents can now ask companies with whom they have an established business relationship to provide certain information about the companies' sharing of personal information with third parties for direct marketing purposes during the past year. To make such a request please contact us as described below.
+
+Privacy Policy Changes If PARC decides to change this Privacy Policy, PARC will post those changes here so that you will always know what information PARC gathers, how PARC might use that information and whether PARC will disclose it to anyone.
+
+How To Contact Us Should you have other questions or concerns about this Privacy Policy, please contact us at: Palo Alto Research Center Incorporated 3333 Coyote Hill Road Palo Alto, CA 94304 webpolicy@parc.com

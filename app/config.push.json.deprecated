@@ -1,0 +1,21 @@
+{
+  "apn": {
+    "passphrase": "Atigdng04",
+    "key": "APN_Fittle_ACTUAL_VALUE_HERE_Production_Key.pem",
+    "cert": "APN_Fittle_ACTUAL_VALUE_HERE_Production_Cert.pem"
+  },
+  "apn-dev": {
+    "passphrase": "Atigdng04",
+    "key": "APN_Fittle_ACTUAL_VALUE_HERE_Production_Key.pem",
+    "cert": "APN_Fittle_ACTUAL_VALUE_HERE_Production_Cert.pem"
+  },  
+  "gcm": {
+    "apiKey": "AIzaSyCqbdIPYIQ2NiE0yFBw1gSYLyxtRZewbl8",
+    "projectNumber": 455365303431
+  },
+  "production": true,
+  "badge": true,
+  "sound": true,
+  "alert": true,
+  "vibrate": true
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template for showing and hiding bits of content in HTML</title>
+</head>
+<body>
+<h1>Exercises</h1>
+<p>Here are some exercises</p>
+<p>
+    You can do Exercise 1<br/>
+    <button onclick="var x = document.getElementById('exercise1');if (x.style.display === 'none') {x.style.display = 'block';} else {x.style.display = 'none';}">
+        Do Exercise 1
+    </button>
+</p>
+<div id="exercise1" style="display:none;">
+    <h1>Do Exercise 1</h1>
+    <p> Describe exercise 1</p>
+    <p> etc etc etc</p>
+</div>
+<p>
+    You can do Exercise 2<br/>
+    <button onclick="var x = document.getElementById('exercise2');if (x.style.display === 'none') {x.style.display = 'block';} else {x.style.display = 'none';}">
+        Do Exercise 2
+    </button>
+</p>
+<div id="exercise2" style="display:none;">
+    <h1>Do Exercise 2</h1>
+    <p> Describe exercise 2</p>
+    <p> etc etc etc</p>
+</div>
+<p>
+    You can do Exercise 2<br/>
+    <button onclick="var x = document.getElementById('exercise3');if (x.style.display === 'none') {x.style.display = 'block';} else {x.style.display = 'none';}">
+        Do Exercise 3
+    </button>
+</p>
+<div id="exercise3" style="display:none;">
+    <h1>Do Exercise 3</h1>
+    <p> Describe exercise 3</p>
+    <p> etc etc etc</p>
+</div>
+<p>More exercises are coming next week!</p>
+<p>Notes:
+<ul>
+    <li>There is no styling (Cascading Style Sheets) applied to anything here to make it appear in any specific way. This is all default HTML.</li>
+    <li>This uses a minimal amount of Javascript attached to each button above to achieve showing and hiding of bits of content. There are other ways
+        of doing this that most Web developers will likely know.
+    </li>
+    <li>Things that you want to show and hide are placed inside the HTML div elements above. One way to do this is to copy and paste from existing HTML files into each div element.</li>
+</ul>
+</p>
+</body>
+</html>

@@ -1,0 +1,62 @@
+[
+  {
+    "emailAddress": "lnelson@parc.com",
+    "condition": "ACTUAL_VALUE_HERE",
+    "settings": {
+      "name": "Les",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/ACTUAL_VALUE_HERE_Transitions_Content/activityScheduleACTUAL_VALUE_HERE.json"
+    },
+    "preferences": {
+    }
+  },
+  {
+    "emailAddress": "ppirolli@ihmc.us",
+    "condition": "ACTUAL_VALUE_HERE",
+    "settings": {
+      "name": "Miami",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/ACTUAL_VALUE_HERE_Transitions_Content/activityScheduleACTUAL_VALUE_HERE.json"
+    },
+    "preferences": {
+    }
+  },
+  {
+    "emailAddress": "test1@parc.com",
+    "condition": "ACTUAL_VALUE_HERE",
+    "settings": {
+      "name": "Les",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/ACTUAL_VALUE_HERE_Transitions_Content/activityScheduleACTUAL_VALUE_HERE.json"
+    },
+    "preferences": {
+    }
+  },
+  {
+    "emailAddress": "test2@parc.com",
+    "condition": "test",
+    "settings": {
+      "name": "Les",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/ACTUAL_VALUE_HERE_Transitions_Content/activityScheduleACTUAL_VALUE_HERE.json"
+    },
+    "preferences": {
+    }
+  },
+  {
+    "emailAddress": "test3@parc.com",
+    "condition": "test",
+    "settings": {
+      "name": "Les",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/ACTUAL_VALUE_HERE_Transitions_Content/activityScheduleACTUAL_VALUE_HERE.json"
+    },
+    "preferences": {
+    }
+  }
+]

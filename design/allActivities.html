@@ -1,0 +1,768 @@
+<template name="tempAdmin">
+    <h3>Add Activity</h3>
+
+    <form class="new-task">
+        <label for="text">What to do: </label>
+        <select name="text" id="newTaskSelect">
+            <optgroup label="Band_Workout_Instructions">
+                <option value="Active_Recv_Rest_Days/content/Band_Workout_Instructions/Active_Recv_Rest_Days.html">
+                    Active_Recv_Rest_Days
+                </option>
+                <option value="KP_Full_Body_Workout/content/Band_Workout_Instructions/KP_Full_Body_Workout.html">
+                    KP_Full_Body_Workout
+                </option>
+                <option value="KP_Lower_Body_Workout/content/Band_Workout_Instructions/KP_Lower_Body_Workout.html">
+                    KP_Lower_Body_Workout
+                </option>
+                <option value="KP_safety_guidelines/content/Band_Workout_Instructions/KP_safety_guidelines.html">
+                    KP_safety_guidelines
+                </option>
+                <option value="ACTUAL_VALUE_HERE_Band_Exercise_Instr/content/Band_Workout_Instructions/ACTUAL_VALUE_HERE_Band_Exercise_Instr.html">
+                    ACTUAL_VALUE_HERE_Band_Exercise_Instr
+                </option>
+                <option value="ACTUAL_VALUE_HERE_Band_Intro/content/Band_Workout_Instructions/ACTUAL_VALUE_HERE_Band_Intro.html">
+                    ACTUAL_VALUE_HERE_Band_Intro
+                </option>
+                <option value="ACTUAL_VALUE_HERE_Band_Summary/content/Band_Workout_Instructions/ACTUAL_VALUE_HERE_Band_Summary.html">
+                    ACTUAL_VALUE_HERE_Band_Summary
+                </option>
+                <option value="ACTUAL_VALUE_HERE_Exercise_T_Guidelines/content/Band_Workout_Instructions/ACTUAL_VALUE_HERE_Exercise_T_Guidelines.html">
+                    ACTUAL_VALUE_HERE_Exercise_T_Guidelines
+                </option>
+                <option value="warm_up_cool_down_KP/content/Band_Workout_Instructions/warm_up_cool_down_KP.html">
+                    warm_up_cool_down_KP
+                </option>
+                <option value="Why__KP_Band/content/Band_Workout_Instructions/Why__KP_Band.html">Why__KP_Band
+                </option>
+            </optgroup>
+            <optgroup label="Choose_Healthier_Carbs">
+                <option value="Choose Healthier Carbs/content/Choose_Healthier_Carbs/Choose Healthier Carbs.html">
+                    Choose Healthier Carbs
+                </option>
+                <option value="Choose Healthier Carbs_D2/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D2.html">
+                    Choose Healthier Carbs_D2
+                </option>
+                <option value="Choose Healthier Carbs_D3/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D3.html">
+                    Choose Healthier Carbs_D3
+                </option>
+                <option value="Choose Healthier Carbs_D4/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D4.html">
+                    Choose Healthier Carbs_D4
+                </option>
+                <option value="Choose Healthier Carbs_D5/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D5.html">
+                    Choose Healthier Carbs_D5
+                </option>
+                <option value="Choose Healthier Carbs_D6/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D6.html">
+                    Choose Healthier Carbs_D6
+                </option>
+                <option value="Choose Healthier Carbs_D7/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D7.html">
+                    Choose Healthier Carbs_D7
+                </option>
+                <option value="Choose Healthier Carbs_D8/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D8.html">
+                    Choose Healthier Carbs_D8
+                </option>
+                <option value="Choose Healthier Carbs_D9/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D9.html">
+                    Choose Healthier Carbs_D9
+                </option>
+                <option value="Choose Healthier Carbs_D10/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D10.html">
+                    Choose Healthier Carbs_D10
+                </option>
+                <option value="Choose Healthier Carbs_D11/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D11.html">
+                    Choose Healthier Carbs_D11
+                </option>
+                <option value="Choose Healthier Carbs_D12/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D12.html">
+                    Choose Healthier Carbs_D12
+                </option>
+                <option value="Choose Healthier Carbs_D13/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D13.html">
+                    Choose Healthier Carbs_D13
+                </option>
+                <option value="Choose Healthier Carbs_D14/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D14.html">
+                    Choose Healthier Carbs_D14
+                </option>
+                <option value="Choose Healthier Carbs_D15/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D15.html">
+                    Choose Healthier Carbs_D15
+                </option>
+                <option value="Choose Healthier Carbs_D16/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D16.html">
+                    Choose Healthier Carbs_D16
+                </option>
+                <option value="Choose Healthier Carbs_D17/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D17.html">
+                    Choose Healthier Carbs_D17
+                </option>
+                <option value="Choose Healthier Carbs_D18/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D18.html">
+                    Choose Healthier Carbs_D18
+                </option>
+                <option value="Choose Healthier Carbs_D19/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D19.html">
+                    Choose Healthier Carbs_D19
+                </option>
+                <option value="Choose Healthier Carbs_D20/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D20.html">
+                    Choose Healthier Carbs_D20
+                </option>
+                <option value="Choose Healthier Carbs_D21/content/Choose_Healthier_Carbs/Choose Healthier Carbs_D21.html">
+                    Choose Healthier Carbs_D21
+                </option>
+            </optgroup>
+            <optgroup label="Eat_Slower_Eat_Less">
+                <option value="Eat_Slower_Eat_Less/content/Eat_Slower_Eat_Less/Eat_Slower_Eat_Less.html">
+                    Eat_Slower_Eat_Less
+                </option>
+                <option value="Eat_Slower_Eat_Less_D2/content/Eat_Slower_Eat_Less/Eat_Slower_Eat_Less_D2.html">
+                    Eat_Slower_Eat_Less_D2
+                </option>
+                <option value="Eat_Slower_Eat_Less_D3/content/Eat_Slower_Eat_Less/Eat_Slower_Eat_Less_D3.html">
+                    Eat_Slower_Eat_Less_D3
+                </option>
+                <option value="Eat_Slower_Eat_Less_D4/content/Eat_Slower_Eat_Less/Eat_Slower_Eat_Less_D4.html">
+                    Eat_Slower_Eat_Less_D4
+                </option>
+                <option value="Eat_Slower_Eat_Less_D5/content/Eat_Slower_Eat_Less/Eat_Slower_Eat_Less_D5.html">
+                    Eat_Slower_Eat_Less_D5
+                </option>
+                <option value="Eat_Slower_Eat_Less_D6/content/Eat_Slower_Eat_Less/Eat_Slower_Eat_Less_D6.html">
+                    Eat_Slower_Eat_Less_D6
+                </option>
+                <option value="Eat_Slower_Eat_Less_D7/content/Eat_Slower_Eat_Less/Eat_Slower_Eat_Less_D7.html">
+                    Eat_Slower_Eat_Less_D7
+                </option>
+                <option value="Eat_Slower_Eat_Less_D8/content/Eat_Slower_Eat_Less/Eat_Slower_Eat_Less_D8.html">
+                    Eat_Slower_Eat_Less_D8
+                </option>
+                <option value="Eat_Slower_Eat_Less_D9/content/Eat_Slower_Eat_Less/Eat_Slower_Eat_Less_D9.html">
+                    Eat_Slower_Eat_Less_D9
+                </option>
+                <option value="Eat_Slower_Eat_Less_D10/content/Eat_Slower_Eat_Less/Eat_Slower_Eat_Less_D10.html">
+                    Eat_Slower_Eat_Less_D10
+                </option>
+                <option value="Eat_Slower_Eat_Less_D11/content/Eat_Slower_Eat_Less/Eat_Slower_Eat_Less_D11.html">
+                    Eat_Slower_Eat_Less_D11
+                </option>
+                <option value="Eat_Slower_Eat_Less_D12/content/Eat_Slower_Eat_Less/Eat_Slower_Eat_Less_D12.html">
+                    Eat_Slower_Eat_Less_D12
+                </option>
+                <option value="Eat_Slower_Eat_Less_D13/content/Eat_Slower_Eat_Less/Eat_Slower_Eat_Less_D13.html">
+                    Eat_Slower_Eat_Less_D13
+                </option>
+                <option value="Eat_Slower_Eat_Less_D14/content/Eat_Slower_Eat_Less/Eat_Slower_Eat_Less_D14.html">
+                    Eat_Slower_Eat_Less_D14
+                </option>
+            </optgroup>
+            <optgroup label="Eat_Veggies">
+                <option value="Eat_Veggies/content/Eat_Veggies/Eat_Veggies.html">Eat_Veggies</option>
+                <option value="Eat_Veggies_D2/content/Eat_Veggies/Eat_Veggies_D2.html">Eat_Veggies_D2</option>
+                <option value="Eat_Veggies_D3/content/Eat_Veggies/Eat_Veggies_D3.html">Eat_Veggies_D3</option>
+                <option value="Eat_Veggies_D4/content/Eat_Veggies/Eat_Veggies_D4.html">Eat_Veggies_D4</option>
+                <option value="Eat_Veggies_D5/content/Eat_Veggies/Eat_Veggies_D5.html">Eat_Veggies_D5</option>
+                <option value="Eat_Veggies_D6/content/Eat_Veggies/Eat_Veggies_D6.html">Eat_Veggies_D6</option>
+                <option value="Eat_Veggies_D7/content/Eat_Veggies/Eat_Veggies_D7.html">Eat_Veggies_D7</option>
+                <option value="Eat_Veggies_D8/content/Eat_Veggies/Eat_Veggies_D8.html">Eat_Veggies_D8</option>
+                <option value="Eat_Veggies_D9/content/Eat_Veggies/Eat_Veggies_D9.html">Eat_Veggies_D9</option>
+                <option value="Eat_Veggies_D10/content/Eat_Veggies/Eat_Veggies_D10.html">Eat_Veggies_D10
+                </option>
+                <option value="Eat_Veggies_D11/content/Eat_Veggies/Eat_Veggies_D11.html">Eat_Veggies_D11
+                </option>
+                <option value="Eat_Veggies_D12/content/Eat_Veggies/Eat_Veggies_D12.html">Eat_Veggies_D12
+                </option>
+                <option value="Eat_Veggies_D13/content/Eat_Veggies/Eat_Veggies_D13.html">Eat_Veggies_D13
+                </option>
+                <option value="Eat_Veggies_D14/content/Eat_Veggies/Eat_Veggies_D14.html">Eat_Veggies_D14
+                </option>
+            </optgroup>
+            <optgroup label="Eat_Whole_Foods">
+                <option value="Eat_Whole_Foods/content/Eat_Whole_Foods/Eat_Whole_Foods.html">Eat_Whole_Foods
+                </option>
+                <option value="Eat_Whole_Foods_D2/content/Eat_Whole_Foods/Eat_Whole_Foods_D2.html">
+                    Eat_Whole_Foods_D2
+                </option>
+                <option value="Eat_Whole_Foods_D3/content/Eat_Whole_Foods/Eat_Whole_Foods_D3.html">
+                    Eat_Whole_Foods_D3
+                </option>
+                <option value="Eat_Whole_Foods_D4/content/Eat_Whole_Foods/Eat_Whole_Foods_D4.html">
+                    Eat_Whole_Foods_D4
+                </option>
+                <option value="Eat_Whole_Foods_D5/content/Eat_Whole_Foods/Eat_Whole_Foods_D5.html">
+                    Eat_Whole_Foods_D5
+                </option>
+                <option value="Eat_Whole_Foods_D6/content/Eat_Whole_Foods/Eat_Whole_Foods_D6.html">
+                    Eat_Whole_Foods_D6
+                </option>
+                <option value="Eat_Whole_Foods_D7/content/Eat_Whole_Foods/Eat_Whole_Foods_D7.html">
+                    Eat_Whole_Foods_D7
+                </option>
+                <option value="Eat_Whole_Foods_D8/content/Eat_Whole_Foods/Eat_Whole_Foods_D8.html">
+                    Eat_Whole_Foods_D8
+                </option>
+                <option value="Eat_Whole_Foods_D9/content/Eat_Whole_Foods/Eat_Whole_Foods_D9.html">
+                    Eat_Whole_Foods_D9
+                </option>
+                <option value="Eat_Whole_Foods_D10/content/Eat_Whole_Foods/Eat_Whole_Foods_D10.html">
+                    Eat_Whole_Foods_D10
+                </option>
+                <option value="Eat_Whole_Foods_D11/content/Eat_Whole_Foods/Eat_Whole_Foods_D11.html">
+                    Eat_Whole_Foods_D11
+                </option>
+                <option value="Eat_Whole_Foods_D12/content/Eat_Whole_Foods/Eat_Whole_Foods_D12.html">
+                    Eat_Whole_Foods_D12
+                </option>
+                <option value="Eat_Whole_Foods_D13/content/Eat_Whole_Foods/Eat_Whole_Foods_D13.html">
+                    Eat_Whole_Foods_D13
+                </option>
+                <option value="Eat_Whole_Foods_D14/content/Eat_Whole_Foods/Eat_Whole_Foods_D14.html">
+                    Eat_Whole_Foods_D14
+                </option>
+            </optgroup>
+            <optgroup label="Keep_A_Food_Journal">
+                <option value="Keep_A_Food_Journal/content/Keep_A_Food_Journal/Keep_A_Food_Journal.html">
+                    Keep_A_Food_Journal
+                </option>
+                <option value="Keep_A_Food_Journal_D2/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D2.html">
+                    Keep_A_Food_Journal_D2
+                </option>
+                <option value="Keep_A_Food_Journal_D3/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D3.html">
+                    Keep_A_Food_Journal_D3
+                </option>
+                <option value="Keep_A_Food_Journal_D4/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D4.html">
+                    Keep_A_Food_Journal_D4
+                </option>
+                <option value="Keep_A_Food_Journal_D5/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D5.html">
+                    Keep_A_Food_Journal_D5
+                </option>
+                <option value="Keep_A_Food_Journal_D6/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D6.html">
+                    Keep_A_Food_Journal_D6
+                </option>
+                <option value="Keep_A_Food_Journal_D7/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D7.html">
+                    Keep_A_Food_Journal_D7
+                </option>
+                <option value="Keep_A_Food_Journal_D8/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D8.html">
+                    Keep_A_Food_Journal_D8
+                </option>
+                <option value="Keep_A_Food_Journal_D9/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D9.html">
+                    Keep_A_Food_Journal_D9
+                </option>
+                <option value="Keep_A_Food_Journal_D10/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D10.html">
+                    Keep_A_Food_Journal_D10
+                </option>
+                <option value="Keep_A_Food_Journal_D11/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D11.html">
+                    Keep_A_Food_Journal_D11
+                </option>
+                <option value="Keep_A_Food_Journal_D12/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D12.html">
+                    Keep_A_Food_Journal_D12
+                </option>
+                <option value="Keep_A_Food_Journal_D13/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D13.html">
+                    Keep_A_Food_Journal_D13
+                </option>
+                <option value="Keep_A_Food_Journal_D14/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D14.html">
+                    Keep_A_Food_Journal_D14
+                </option>
+                <option value="Keep_A_Food_Journal_D15/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D15.html">
+                    Keep_A_Food_Journal_D15
+                </option>
+                <option value="Keep_A_Food_Journal_D16/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D16.html">
+                    Keep_A_Food_Journal_D16
+                </option>
+                <option value="Keep_A_Food_Journal_D17/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D17.html">
+                    Keep_A_Food_Journal_D17
+                </option>
+                <option value="Keep_A_Food_Journal_D18/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D18.html">
+                    Keep_A_Food_Journal_D18
+                </option>
+                <option value="Keep_A_Food_Journal_D19/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D19.html">
+                    Keep_A_Food_Journal_D19
+                </option>
+                <option value="Keep_A_Food_Journal_D20/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D20.html">
+                    Keep_A_Food_Journal_D20
+                </option>
+                <option value="Keep_A_Food_Journal_D21/content/Keep_A_Food_Journal/Keep_A_Food_Journal_D21.html">
+                    Keep_A_Food_Journal_D21
+                </option>
+            </optgroup>
+            <optgroup label="KP Band Exercises_Phase1">
+                <option value="Chair_Squats_W1_Ex1a_P1L1/content/KP Band Exercises_Phase1/Chair_Squats_W1_Ex1a_P1L1.html">
+                    Chair_Squats_W1_Ex1a_P1L1
+                </option>
+                <option value="Floor_Bridge_W1_Ex7b_P1L2/content/KP Band Exercises_Phase1/Floor_Bridge_W1_Ex7b_P1L2.html">
+                    Floor_Bridge_W1_Ex7b_P1L2
+                </option>
+                <option value="Mini_Plie_Squat_Chairasst_W2_Ex1a_P1L1/content/KP Band Exercises_Phase1/Mini_Plie_Squat_Chairasst_W2_Ex1a_P1L1.html">
+                    Mini_Plie_Squat_Chairasst_W2_Ex1a_P1L1
+                </option>
+                <option value="Neutral Plank_W1_Ex6b_P1L2/content/KP Band Exercises_Phase1/Neutral Plank_W1_Ex6b_P1L2.html">
+                    Neutral Plank_W1_Ex6b_P1L2
+                </option>
+                <option value="Plie_Squat_wBand_W2_Ex1b_P1L2/content/KP Band Exercises_Phase1/Plie_Squat_wBand_W2_Ex1b_P1L2.html">
+                    Plie_Squat_wBand_W2_Ex1b_P1L2
+                </option>
+                <option value="Prone_Back_Ext_Ex3b_P1L2/content/KP Band Exercises_Phase1/Prone_Back_Ext_Ex3b_P1L2.html">
+                    Prone_Back_Ext_Ex3b_P1L2
+                </option>
+                <option value="Pull_Downs_Reg_W1_Ex5c_P1L1L2/content/KP Band Exercises_Phase1/Pull_Downs_Reg_W1_Ex5c_P1L1L2.html">
+                    Pull_Downs_Reg_W1_Ex5c_P1L1L2
+                </option>
+                <option value="Seat_SingleArm_Bentovr_row_chair_W2_Ex2a_P1L1/content/KP Band Exercises_Phase1/Seat_SingleArm_Bentovr_row_chair_W2_Ex2a_P1L1.html">
+                    Seat_SingleArm_Bentovr_row_chair_W2_Ex2a_P1L1
+                </option>
+                <option value="Seated_Leg_Press_W2_Ex4a_P1L1/content/KP Band Exercises_Phase1/Seated_Leg_Press_W2_Ex4a_P1L1.html">
+                    Seated_Leg_Press_W2_Ex4a_P1L1
+                </option>
+                <option value="Seated_Pull_Downs_W1_Ex5a_P1L1/content/KP Band Exercises_Phase1/Seated_Pull_Downs_W1_Ex5a_P1L1.html">
+                    Seated_Pull_Downs_W1_Ex5a_P1L1
+                </option>
+                <option value="Seated_Side_Bends_W1_Ex3a_P1L1/content/KP Band Exercises_Phase1/Seated_Side_Bends_W1_Ex3a_P1L1.html">
+                    Seated_Side_Bends_W1_Ex3a_P1L1
+                </option>
+                <option value="Seated_Single_Arm_Bicurl_W2_Ex8a_P1L1/content/KP Band Exercises_Phase1/Seated_Single_Arm_Bicurl_W2_Ex8a_P1L1.html">
+                    Seated_Single_Arm_Bicurl_W2_Ex8a_P1L1
+                </option>
+                <option value="Seated_Single_Arm_ChestPress_W1_Ex2a_P1L1/content/KP Band Exercises_Phase1/Seated_Single_Arm_ChestPress_W1_Ex2a_P1L1.html">
+                    Seated_Single_Arm_ChestPress_W1_Ex2a_P1L1
+                </option>
+                <option value="Seated_Single_Arm_VSPress_W2_Ex5a_P1L1/content/KP Band Exercises_Phase1/Seated_Single_Arm_VSPress_W2_Ex5a_P1L1.html">
+                    Seated_Single_Arm_VSPress_W2_Ex5a_P1L1
+                </option>
+                <option value="Seated_SingleArm_Back_Row_W2_Ex2b_P1L2/content/KP Band Exercises_Phase1/Seated_SingleArm_Back_Row_W2_Ex2b_P1L2.html">
+                    Seated_SingleArm_Back_Row_W2_Ex2b_P1L2
+                </option>
+                <option value="Seated_TBack_Ext_Chair_Ex3a_P1L1/content/KP Band Exercises_Phase1/Seated_TBack_Ext_Chair_Ex3a_P1L1.html">
+                    Seated_TBack_Ext_Chair_Ex3a_P1L1
+                </option>
+                <option value="Seated_Two_Arm_ChestPress_L1/content/KP Band Exercises_Phase1/Seated_Two_Arm_ChestPress_L1.html">
+                    Seated_Two_Arm_ChestPress_L1
+                </option>
+                <option value="Side_Lunge_chairasst_W2_Ex7a_P1L1/content/KP Band Exercises_Phase1/Side_Lunge_chairasst_W2_Ex7a_P1L1.html">
+                    Side_Lunge_chairasst_W2_Ex7a_P1L1
+                </option>
+                <option value="Side_Lunge_W2_Ex7b_P1L2/content/KP Band Exercises_Phase1/Side_Lunge_W2_Ex7b_P1L2.html">
+                    Side_Lunge_W2_Ex7b_P1L2
+                </option>
+                <option value="Side_Plank_W2_Ex6b_P1L2/content/KP Band Exercises_Phase1/Side_Plank_W2_Ex6b_P1L2.html">
+                    Side_Plank_W2_Ex6b_P1L2
+                </option>
+                <option value="Single-Leg_Abduct_wband_W1_Ex4b_P1L2/content/KP Band Exercises_Phase1/Single-Leg_Abduct_wband_W1_Ex4b_P1L2.html">
+                    Single-Leg_Abduct_wband_W1_Ex4b_P1L2
+                </option>
+                <option value="Single_Arm_LatShoulder_Raise_W1_Ex8a_P1L1/content/KP Band Exercises_Phase1/Single_Arm_LatShoulder_Raise_W1_Ex8a_P1L1.html">
+                    Single_Arm_LatShoulder_Raise_W1_Ex8a_P1L1
+                </option>
+                <option value="Single_Arm_LatShoulder_Raise_W1_Ex8b_P1L2/content/KP Band Exercises_Phase1/Single_Arm_LatShoulder_Raise_W1_Ex8b_P1L2.html">
+                    Single_Arm_LatShoulder_Raise_W1_Ex8b_P1L2
+                </option>
+                <option value="Single_Arm_Tri_Kickback_W2_Ex9a_P1L1/content/KP Band Exercises_Phase1/Single_Arm_Tri_Kickback_W2_Ex9a_P1L1.html">
+                    Single_Arm_Tri_Kickback_W2_Ex9a_P1L1
+                </option>
+                <option value="Single_Arm_Tri_Ovh_Ext__W2_Ex9b_P1L2/content/KP Band Exercises_Phase1/Single_Arm_Tri_Ovh_Ext__W2_Ex9b_P1L2.html">
+                    Single_Arm_Tri_Ovh_Ext__W2_Ex9b_P1L2
+                </option>
+                <option value="Single_Leg_Abduct_Chairasst_W1_Ex4a_P1L1/content/KP Band Exercises_Phase1/Single_Leg_Abduct_Chairasst_W1_Ex4a_P1L1.html">
+                    Single_Leg_Abduct_Chairasst_W1_Ex4a_P1L1
+                </option>
+                <option value="Split_Squat_ChairAsst_W3_Ex4a_P2L1/content/KP Band Exercises_Phase1/Split_Squat_ChairAsst_W3_Ex4a_P2L1.html">
+                    Split_Squat_ChairAsst_W3_Ex4a_P2L1
+                </option>
+                <option value="Split_Squat_W2_Ex4b_P1L2/content/KP Band Exercises_Phase1/Split_Squat_W2_Ex4b_P1L2.html">
+                    Split_Squat_W2_Ex4b_P1L2
+                </option>
+                <option value="Squats_W1_Ex1b_P1L2/content/KP Band Exercises_Phase1/Squats_W1_Ex1b_P1L2.html">
+                    Squats_W1_Ex1b_P1L2
+                </option>
+                <option value="Stand_Single_Arm_VSPress_W2_Ex5b_P1L2/content/KP Band Exercises_Phase1/Stand_Single_Arm_VSPress_W2_Ex5b_P1L2.html">
+                    Stand_Single_Arm_VSPress_W2_Ex5b_P1L2
+                </option>
+                <option value="Standing_Chest__Stretch_W1_Ex9a_P1L1/content/KP Band Exercises_Phase1/Standing_Chest__Stretch_W1_Ex9a_P1L1.html">
+                    Standing_Chest__Stretch_W1_Ex9a_P1L1
+                </option>
+                <option value="Standing_Chest__Stretch_W1_Ex9b_P1L2/content/KP Band Exercises_Phase1/Standing_Chest__Stretch_W1_Ex9b_P1L2.html">
+                    Standing_Chest__Stretch_W1_Ex9b_P1L2
+                </option>
+                <option value="Standing_Pull_Downs_W1_Ex5b_P1L2/content/KP Band Exercises_Phase1/Standing_Pull_Downs_W1_Ex5b_P1L2.html">
+                    Standing_Pull_Downs_W1_Ex5b_P1L2
+                </option>
+                <option value="Standing_Side_Bends_W1_Ex3b_P1L2/content/KP Band Exercises_Phase1/Standing_Side_Bends_W1_Ex3b_P1L2.html">
+                    Standing_Side_Bends_W1_Ex3b_P1L2
+                </option>
+                <option value="Standing_Single_Arm_Bicurl_W2_Ex8b_P1L2/content/KP Band Exercises_Phase1/Standing_Single_Arm_Bicurl_W2_Ex8b_P1L2.html">
+                    Standing_Single_Arm_Bicurl_W2_Ex8b_P1L2
+                </option>
+                <option value="Standing_Single_Arm_ChestPress_W1_Ex2b_P1L2/content/KP Band Exercises_Phase1/Standing_Single_Arm_ChestPress_W1_Ex2b_P1L2.html">
+                    Standing_Single_Arm_ChestPress_W1_Ex2b_P1L2
+                </option>
+                <option value="Standing_SingleArm_Bicurl_W2_Ex8b_P1L1/content/KP Band Exercises_Phase1/Standing_SingleArm_Bicurl_W2_Ex8b_P1L1.html">
+                    Standing_SingleArm_Bicurl_W2_Ex8b_P1L1
+                </option>
+                <option value="Standing_Two_Arm_ChestPress_L2/content/KP Band Exercises_Phase1/Standing_Two_Arm_ChestPress_L2.html">
+                    Standing_Two_Arm_ChestPress_L2
+                </option>
+                <option value="Wall_Bridge_W1_Ex7a_P1L1/content/KP Band Exercises_Phase1/Wall_Bridge_W1_Ex7a_P1L1.html">
+                    Wall_Bridge_W1_Ex7a_P1L1
+                </option>
+                <option value="Wall_Plank_W1_Ex6a_P1L1/content/KP Band Exercises_Phase1/Wall_Plank_W1_Ex6a_P1L1.html">
+                    Wall_Plank_W1_Ex6a_P1L1
+                </option>
+                <option value="Wall_Side_Plank_W2_Ex6a_P1L1/content/KP Band Exercises_Phase1/Wall_Side_Plank_W2_Ex6a_P1L1.html">
+                    Wall_Side_Plank_W2_Ex6a_P1L1
+                </option>
+                <option value="WU_Ankle_RotationsL1/content/KP Band Exercises_Phase1/WU_Ankle_RotationsL1.html">
+                    WU_Ankle_RotationsL1
+                </option>
+                <option value="WU_Jumping JacksL2/content/KP Band Exercises_Phase1/WU_Jumping JacksL2.html">
+                    WU_Jumping JacksL2
+                </option>
+                <option value="WU_Kneeling_Hip_Flexor_StretchL2/content/KP Band Exercises_Phase1/WU_Kneeling_Hip_Flexor_StretchL2.html">
+                    WU_Kneeling_Hip_Flexor_StretchL2
+                </option>
+                <option value="WU_March_in_PlaceL1/content/KP Band Exercises_Phase1/WU_March_in_PlaceL1.html">
+                    WU_March_in_PlaceL1
+                </option>
+                <option value="WU_Standing_Ankle_DrillL2/content/KP Band Exercises_Phase1/WU_Standing_Ankle_DrillL2.html">
+                    WU_Standing_Ankle_DrillL2
+                </option>
+                <option value="WU_Standing_Calf_StretchL1/content/KP Band Exercises_Phase1/WU_Standing_Calf_StretchL1.html">
+                    WU_Standing_Calf_StretchL1
+                </option>
+                <option value="WU_Standing_Calf_StretchL2/content/KP Band Exercises_Phase1/WU_Standing_Calf_StretchL2.html">
+                    WU_Standing_Calf_StretchL2
+                </option>
+                <option value="WU_Standing_Chest__StretchL1/content/KP Band Exercises_Phase1/WU_Standing_Chest__StretchL1.html">
+                    WU_Standing_Chest__StretchL1
+                </option>
+                <option value="WU_Standing_Chest__StretchL2/content/KP Band Exercises_Phase1/WU_Standing_Chest__StretchL2.html">
+                    WU_Standing_Chest__StretchL2
+                </option>
+                <option value="WU_Standing_Hip_Flexor_wchairL1/content/KP Band Exercises_Phase1/WU_Standing_Hip_Flexor_wchairL1.html">
+                    WU_Standing_Hip_Flexor_wchairL1
+                </option>
+                <option value="WU_Wall_SlidesL1/content/KP Band Exercises_Phase1/WU_Wall_SlidesL1.html">
+                    WU_Wall_SlidesL1
+                </option>
+                <option value="WU_Wall_SlidesL2/content/KP Band Exercises_Phase1/WU_Wall_SlidesL2.html">
+                    WU_Wall_SlidesL2
+                </option>
+            </optgroup>
+            <optgroup label="KP_Band Exercises_Phase2">
+                <option value="Bird_Dog_Ex5a_P2L1/content/KP_Band Exercises_Phase2/Bird_Dog_Ex5a_P2L1.html">
+                    Bird_Dog_Ex5a_P2L1
+                </option>
+                <option value="Bird_Dog_Zipper_Ex5b_P2L2/content/KP_Band Exercises_Phase2/Bird_Dog_Zipper_Ex5b_P2L2.html">
+                    Bird_Dog_Zipper_Ex5b_P2L2
+                </option>
+                <option value="Deadbug_Active_W4_Ex3b_P2L2/content/KP_Band Exercises_Phase2/Deadbug_Active_W4_Ex3b_P2L2.html">
+                    Deadbug_Active_W4_Ex3b_P2L2
+                </option>
+                <option value="Deadbug_W4_Ex3a_P2L1/content/KP_Band Exercises_Phase2/Deadbug_W4_Ex3a_P2L1.html">
+                    Deadbug_W4_Ex3a_P2L1
+                </option>
+                <option value="Deadlift_Band_W4_Ex6b_P2L2/content/KP_Band Exercises_Phase2/Deadlift_Band_W4_Ex6b_P2L2.html">
+                    Deadlift_Band_W4_Ex6b_P2L2
+                </option>
+                <option value="Floor_Bridge_W3_Ex6a_P2L1/content/KP_Band Exercises_Phase2/Floor_Bridge_W3_Ex6a_P2L1.html">
+                    Floor_Bridge_W3_Ex6a_P2L1
+                </option>
+                <option value="Half-Kneel_HipFlex_Stretch_W4_Ex7a_P2L1/content/KP_Band Exercises_Phase2/Half-Kneel_HipFlex_Stretch_W4_Ex7a_P2L1.html">
+                    Half-Kneel_HipFlex_Stretch_W4_Ex7a_P2L1
+                </option>
+                <option value="Half-Kneel_HipFlex_Stretch_W4_Ex7b_P2L2/content/KP_Band Exercises_Phase2/Half-Kneel_HipFlex_Stretch_W4_Ex7b_P2L2.html">
+                    Half-Kneel_HipFlex_Stretch_W4_Ex7b_P2L2
+                </option>
+                <option value="High Plank_W3_Ex3b_P2L2/content/KP_Band Exercises_Phase2/High Plank_W3_Ex3b_P2L2.html">
+                    High Plank_W3_Ex3b_P2L2
+                </option>
+                <option value="Kneeling Plank_W3_Ex3a_P2L1/content/KP_Band Exercises_Phase2/Kneeling Plank_W3_Ex3a_P2L1.html">
+                    Kneeling Plank_W3_Ex3a_P2L1
+                </option>
+                <option value="Kneeling Pushup_W3_Ex7b_P2L2/content/KP_Band Exercises_Phase2/Kneeling Pushup_W3_Ex7b_P2L2.html">
+                    Kneeling Pushup_W3_Ex7b_P2L2
+                </option>
+                <option value="Lunge_W3_Ex4b_P2L2/content/KP_Band Exercises_Phase2/Lunge_W3_Ex4b_P2L2.html">
+                    Lunge_W3_Ex4b_P2L2
+                </option>
+                <option value="Rev_Lunge_Asst_W4_Ex2a_P2L1/content/KP_Band Exercises_Phase2/Rev_Lunge_Asst_W4_Ex2a_P2L1.html">
+                    Rev_Lunge_Asst_W4_Ex2a_P2L1
+                </option>
+                <option value="Rev_Lunge_W4_Ex2b_P2L2/content/KP_Band Exercises_Phase2/Rev_Lunge_W4_Ex2b_P2L2.html">
+                    Rev_Lunge_W4_Ex2b_P2L2
+                </option>
+                <option value="Seated_Back_Row_W3_Ex5a_P2L1/content/KP_Band Exercises_Phase2/Seated_Back_Row_W3_Ex5a_P2L1.html">
+                    Seated_Back_Row_W3_Ex5a_P2L1
+                </option>
+                <option value="Single-Leg_FBridge_W3_Ex6b__P2L2/content/KP_Band Exercises_Phase2/Single-Leg_FBridge_W3_Ex6b__P2L2.html">
+                    Single-Leg_FBridge_W3_Ex6b__P2L2
+                </option>
+                <option value="Single-leg_RDL_W4_Ex4a_P2L1/content/KP_Band Exercises_Phase2/Single-leg_RDL_W4_Ex4a_P2L1.html">
+                    Single-leg_RDL_W4_Ex4a_P2L1
+                </option>
+                <option value="Single-leg_RDL_W4_Ex4b_P2L2/content/KP_Band Exercises_Phase2/Single-leg_RDL_W4_Ex4b_P2L2.html">
+                    Single-leg_RDL_W4_Ex4b_P2L2
+                </option>
+                <option value="Squats_W4_Ex6a_P2L1/content/KP_Band Exercises_Phase2/Squats_W4_Ex6a_P2L1.html">
+                    Squats_W4_Ex6a_P2L1
+                </option>
+                <option value="Standing_ Band_Chops_W3_Ex1a_P2L1/content/KP_Band Exercises_Phase2/Standing_ Band_Chops_W3_Ex1a_P2L1.html">
+                    Standing_ Band_Chops_W3_Ex1a_P2L1
+                </option>
+                <option value="Standing_ Band_Chops_W3_Ex1b_P2L2/content/KP_Band Exercises_Phase2/Standing_ Band_Chops_W3_Ex1b_P2L2.html">
+                    Standing_ Band_Chops_W3_Ex1b_P2L2
+                </option>
+                <option value="Standing_Back_Row_W3_Ex5b_P2L2/content/KP_Band Exercises_Phase2/Standing_Back_Row_W3_Ex5b_P2L2.html">
+                    Standing_Back_Row_W3_Ex5b_P2L2
+                </option>
+                <option value="Standing_Side_Bends_W4_Ex1a_P2L1/content/KP_Band Exercises_Phase2/Standing_Side_Bends_W4_Ex1a_P2L1.html">
+                    Standing_Side_Bends_W4_Ex1a_P2L1
+                </option>
+                <option value="Standing_Side_Crunches_W4_Ex1b_P2L2/content/KP_Band Exercises_Phase2/Standing_Side_Crunches_W4_Ex1b_P2L2.html">
+                    Standing_Side_Crunches_W4_Ex1b_P2L2
+                </option>
+                <option value="Wall_Pushup_W3_Ex7a_P2L1/content/KP_Band Exercises_Phase2/Wall_Pushup_W3_Ex7a_P2L1.html">
+                    Wall_Pushup_W3_Ex7a_P2L1
+                </option>
+                <option value="Wall_Sit_W3_Ex2a_P2L1/content/KP_Band Exercises_Phase2/Wall_Sit_W3_Ex2a_P2L1.html">
+                    Wall_Sit_W3_Ex2a_P2L1
+                </option>
+                <option value="Wall_Sit_W3_Ex2b_P2L2/content/KP_Band Exercises_Phase2/Wall_Sit_W3_Ex2b_P2L2.html">
+                    Wall_Sit_W3_Ex2b_P2L2
+                </option>
+            </optgroup>
+            <optgroup label="KP_Transition:Eat_protein">
+                <option value="Eat_protein/content/KP_Transition/Eat_protein.html">Eat_protein</option>
+                <option value="Eat_protein_D02/content/KP_Transition/Eat_protein_D02.html">Eat_protein_D02
+                </option>
+                <option value="Eat_protein_D03/content/KP_Transition/Eat_protein_D03.html">Eat_protein_D03
+                </option>
+                <option value="Eat_protein_D04/content/KP_Transition/Eat_protein_D04.html">Eat_protein_D04
+                </option>
+                <option value="Eat_protein_D05/content/KP_Transition/Eat_protein_D05.html">Eat_protein_D05
+                </option>
+                <option value="Eat_protein_D06/content/KP_Transition/Eat_protein_D06.html">Eat_protein_D06
+                </option>
+                <option value="Eat_protein_D07/content/KP_Transition/Eat_protein_D07.html">Eat_protein_D07
+                </option>
+                <option value="Eat_protein_D08/content/KP_Transition/Eat_protein_D08.html">Eat_protein_D08
+                </option>
+                <option value="Eat_protein_D09/content/KP_Transition/Eat_protein_D09.html">Eat_protein_D09
+                </option>
+                <option value="Eat_protein_D10/content/KP_Transition/Eat_protein_D10.html">Eat_protein_D10
+                </option>
+                <option value="Eat_protein_D11/content/KP_Transition/Eat_protein_D11.html">Eat_protein_D11
+                </option>
+                <option value="Eat_protein_D12/content/KP_Transition/Eat_protein_D12.html">Eat_protein_D12
+                </option>
+                <option value="Eat_protein_D13/content/KP_Transition/Eat_protein_D13.html">Eat_protein_D13
+                </option>
+                <option value="Eat_protein_D14/content/KP_Transition/Eat_protein_D14.html">Eat_protein_D14
+                </option>
+            </optgroup>
+            <optgroup label="KP_Transition:Eat_slower">
+                <option value="Eat_slower/content/KP_Transition/Eat_slower.html">Eat_slower</option>
+                <option value="Eat_slower_D02/content/KP_Transition/Eat_slower_D02.html">Eat_slower_D02</option>
+                <option value="Eat_slower_D03/content/KP_Transition/Eat_slower_D03.html">Eat_slower_D03</option>
+                <option value="Eat_slower_D04/content/KP_Transition/Eat_slower_D04.html">Eat_slower_D04</option>
+                <option value="Eat_slower_D05/content/KP_Transition/Eat_slower_D05.html">Eat_slower_D05</option>
+                <option value="Eat_slower_D06/content/KP_Transition/Eat_slower_D06.html">Eat_slower_D06</option>
+                <option value="Eat_slower_D07/content/KP_Transition/Eat_slower_D07.html">Eat_slower_D07</option>
+                <option value="Eat_slower_D08/content/KP_Transition/Eat_slower_D08.html">Eat_slower_D08</option>
+                <option value="Eat_slower_D09/content/KP_Transition/Eat_slower_D09.html">Eat_slower_D09</option>
+                <option value="Eat_slower_D10/content/KP_Transition/Eat_slower_D10.html">Eat_slower_D10</option>
+                <option value="Eat_slower_D11/content/KP_Transition/Eat_slower_D11.html">Eat_slower_D11</option>
+                <option value="Eat_slower_D12/content/KP_Transition/Eat_slower_D12.html">Eat_slower_D12</option>
+                <option value="Eat_slower_D13/content/KP_Transition/Eat_slower_D13.html">Eat_slower_D13</option>
+                <option value="Eat_slower_D14/content/KP_Transition/Eat_slower_D14.html">Eat_slower_D14</option>
+            </optgroup>
+            <optgroup label="KP_Transition:Plan_healthier_meals">
+                <option value="Plan_healthier_meals/content/KP_Transition/Plan_healthier_meals.html">
+                    Plan_healthier_meals
+                </option>
+                <option value="Plan_healthier_meals_D02/content/KP_Transition/Plan_healthier_meals_D02.html">
+                    Plan_healthier_meals_D02
+                </option>
+                <option value="Plan_healthier_meals_D03/content/KP_Transition/Plan_healthier_meals_D03.html">
+                    Plan_healthier_meals_D03
+                </option>
+                <option value="Plan_healthier_meals_D04/content/KP_Transition/Plan_healthier_meals_D04.html">
+                    Plan_healthier_meals_D04
+                </option>
+                <option value="Plan_healthier_meals_D05/content/KP_Transition/Plan_healthier_meals_D05.html">
+                    Plan_healthier_meals_D05
+                </option>
+                <option value="Plan_healthier_meals_D06/content/KP_Transition/Plan_healthier_meals_D06.html">
+                    Plan_healthier_meals_D06
+                </option>
+                <option value="Plan_healthier_meals_D07/content/KP_Transition/Plan_healthier_meals_D07.html">
+                    Plan_healthier_meals_D07
+                </option>
+                <option value="Plan_healthier_meals_D08/content/KP_Transition/Plan_healthier_meals_D08.html">
+                    Plan_healthier_meals_D08
+                </option>
+                <option value="Plan_healthier_meals_D09/content/KP_Transition/Plan_healthier_meals_D09.html">
+                    Plan_healthier_meals_D09
+                </option>
+                <option value="Plan_healthier_meals_D10/content/KP_Transition/Plan_healthier_meals_D10.html">
+                    Plan_healthier_meals_D10
+                </option>
+                <option value="Plan_healthier_meals_D11/content/KP_Transition/Plan_healthier_meals_D11.html">
+                    Plan_healthier_meals_D11
+                </option>
+                <option value="Plan_healthier_meals_D12/content/KP_Transition/Plan_healthier_meals_D12.html">
+                    Plan_healthier_meals_D12
+                </option>
+                <option value="Plan_healthier_meals_D13/content/KP_Transition/Plan_healthier_meals_D13.html">
+                    Plan_healthier_meals_D13
+                </option>
+                <option value="Plan_healthier_meals_D14/content/KP_Transition/Plan_healthier_meals_D14.html">
+                    Plan_healthier_meals_D14
+                </option>
+                <option value="Plan_healthier_meals_D15/content/KP_Transition/Plan_healthier_meals_D15.html">
+                    Plan_healthier_meals_D15
+                </option>
+                <option value="Plan_healthier_meals_D16/content/KP_Transition/Plan_healthier_meals_D16.html">
+                    Plan_healthier_meals_D16
+                </option>
+                <option value="Plan_healthier_meals_D17/content/KP_Transition/Plan_healthier_meals_D17.html">
+                    Plan_healthier_meals_D17
+                </option>
+                <option value="Plan_healthier_meals_D18/content/KP_Transition/Plan_healthier_meals_D18.html">
+                    Plan_healthier_meals_D18
+                </option>
+                <option value="Plan_healthier_meals_D19/content/KP_Transition/Plan_healthier_meals_D19.html">
+                    Plan_healthier_meals_D19
+                </option>
+                <option value="Plan_healthier_meals_D20/content/KP_Transition/Plan_healthier_meals_D20.html">
+                    Plan_healthier_meals_D20
+                </option>
+                <option value="Plan_healthier_meals_D21/content/KP_Transition/Plan_healthier_meals_D21.html">
+                    Plan_healthier_meals_D21
+                </option>
+                <option value="Plan_healthier_meals_D22/content/KP_Transition/Plan_healthier_meals_D22.html">
+                    Plan_healthier_meals_D22
+                </option>
+                <option value="Plan_healthier_meals_D23/content/KP_Transition/Plan_healthier_meals_D23.html">
+                    Plan_healthier_meals_D23
+                </option>
+                <option value="Plan_healthier_meals_D24/content/KP_Transition/Plan_healthier_meals_D24.html">
+                    Plan_healthier_meals_D24
+                </option>
+                <option value="Plan_healthier_meals_D25/content/KP_Transition/Plan_healthier_meals_D25.html">
+                    Plan_healthier_meals_D25
+                </option>
+                <option value="Plan_healthier_meals_D26/content/KP_Transition/Plan_healthier_meals_D26.html">
+                    Plan_healthier_meals_D26
+                </option>
+                <option value="Plan_healthier_meals_D27/content/KP_Transition/Plan_healthier_meals_D27.html">
+                    Plan_healthier_meals_D27
+                </option>
+                <option value="Plan_healthier_meals_D28/content/KP_Transition/Plan_healthier_meals_D28.html">
+                    Plan_healthier_meals_D28
+                </option>
+            </optgroup>
+            <optgroup label="KP_Transition:Positive_daily_action">
+                <option value="Positive_daily_action/content/KP_Transition/Positive_daily_action.html">
+                    Positive_daily_action
+                </option>
+                <option value="Positive_daily_action_D02/content/KP_Transition/Positive_daily_action_D02.html">
+                    Positive_daily_action_D02
+                </option>
+                <option value="Positive_daily_action_D03/content/KP_Transition/Positive_daily_action_D03.html">
+                    Positive_daily_action_D03
+                </option>
+                <option value="Positive_daily_action_D04/content/KP_Transition/Positive_daily_action_D04.html">
+                    Positive_daily_action_D04
+                </option>
+                <option value="Positive_daily_action_D05/content/KP_Transition/Positive_daily_action_D05.html">
+                    Positive_daily_action_D05
+                </option>
+                <option value="Positive_daily_action_D06/content/KP_Transition/Positive_daily_action_D06.html">
+                    Positive_daily_action_D06
+                </option>
+                <option value="Positive_daily_action_D07/content/KP_Transition/Positive_daily_action_D07.html">
+                    Positive_daily_action_D07
+                </option>
+                <option value="Positive_daily_action_D08/content/KP_Transition/Positive_daily_action_D08.html">
+                    Positive_daily_action_D08
+                </option>
+                <option value="Positive_daily_action_D09/content/KP_Transition/Positive_daily_action_D09.html">
+                    Positive_daily_action_D09
+                </option>
+                <option value="Positive_daily_action_D10/content/KP_Transition/Positive_daily_action_D10.html">
+                    Positive_daily_action_D10
+                </option>
+                <option value="Positive_daily_action_D11/content/KP_Transition/Positive_daily_action_D11.html">
+                    Positive_daily_action_D11
+                </option>
+                <option value="Positive_daily_action_D12/content/KP_Transition/Positive_daily_action_D12.html">
+                    Positive_daily_action_D12
+                </option>
+                <option value="Positive_daily_action_D13/content/KP_Transition/Positive_daily_action_D13.html">
+                    Positive_daily_action_D13
+                </option>
+                <option value="Positive_daily_action_D14/content/KP_Transition/Positive_daily_action_D14.html">
+                    Positive_daily_action_D14
+                </option>
+                <option value="Positive_daily_action_D15/content/KP_Transition/Positive_daily_action_D15.html">
+                    Positive_daily_action_D15
+                </option>
+                <option value="Positive_daily_action_D16/content/KP_Transition/Positive_daily_action_D16.html">
+                    Positive_daily_action_D16
+                </option>
+                <option value="Positive_daily_action_D17/content/KP_Transition/Positive_daily_action_D17.html">
+                    Positive_daily_action_D17
+                </option>
+                <option value="Positive_daily_action_D18/content/KP_Transition/Positive_daily_action_D18.html">
+                    Positive_daily_action_D18
+                </option>
+                <option value="Positive_daily_action_D19/content/KP_Transition/Positive_daily_action_D19.html">
+                    Positive_daily_action_D19
+                </option>
+                <option value="Positive_daily_action_D20/content/KP_Transition/Positive_daily_action_D20.html">
+                    Positive_daily_action_D20
+                </option>
+                <option value="Positive_daily_action_D21/content/KP_Transition/Positive_daily_action_D21.html">
+                    Positive_daily_action_D21
+                </option>
+            </optgroup>
+            <optgroup label="KP_Transition:Reflect_and_Move_Forward">
+                <option value="Reflect_and_Move_Forward/content/KP_Transition/Reflect_and_Move_Forward.html">
+                    Reflect_and_Move_Forward
+                </option>
+                <option value="Reflect_and_Move_Forward_D02/content/KP_Transition/Reflect_and_Move_Forward_D02.html">
+                    Reflect_and_Move_Forward_D02
+                </option>
+                <option value="Reflect_and_Move_Forward_D03/content/KP_Transition/Reflect_and_Move_Forward_D03.html">
+                    Reflect_and_Move_Forward_D03
+                </option>
+                <option value="Reflect_and_Move_Forward_D04/content/KP_Transition/Reflect_and_Move_Forward_D04.html">
+                    Reflect_and_Move_Forward_D04
+                </option>
+                <option value="Reflect_and_Move_Forward_D05/content/KP_Transition/Reflect_and_Move_Forward_D05.html">
+                    Reflect_and_Move_Forward_D05
+                </option>
+                <option value="Reflect_and_Move_Forward_D06/content/KP_Transition/Reflect_and_Move_Forward_D06.html">
+                    Reflect_and_Move_Forward_D06
+                </option>
+                <option value="Reflect_and_Move_Forward_D07/content/KP_Transition/Reflect_and_Move_Forward_D07.html">
+                    Reflect_and_Move_Forward_D07
+                </option>
+                <option value="Reflect_and_Move_Forward_D08/content/KP_Transition/Reflect_and_Move_Forward_D08.html">
+                    Reflect_and_Move_Forward_D08
+                </option>
+                <option value="Reflect_and_Move_Forward_D09/content/KP_Transition/Reflect_and_Move_Forward_D09.html">
+                    Reflect_and_Move_Forward_D09
+                </option>
+                <option value="Reflect_and_Move_Forward_D10/content/KP_Transition/Reflect_and_Move_Forward_D10.html">
+                    Reflect_and_Move_Forward_D10
+                </option>
+                <option value="Reflect_and_Move_Forward_D11/content/KP_Transition/Reflect_and_Move_Forward_D11.html">
+                    Reflect_and_Move_Forward_D11
+                </option>
+                <option value="Reflect_and_Move_Forward_D12/content/KP_Transition/Reflect_and_Move_Forward_D12.html">
+                    Reflect_and_Move_Forward_D12
+                </option>
+                <option value="Reflect_and_Move_Forward_D13/content/KP_Transition/Reflect_and_Move_Forward_D13.html">
+                    Reflect_and_Move_Forward_D13
+                </option>
+                <option value="Reflect_and_Move_Forward_D14/content/KP_Transition/Reflect_and_Move_Forward_D14.html">
+                    Reflect_and_Move_Forward_D14
+                </option>
+            </optgroup>
+            <optgroup label="KP_Transition:Activity">
+                <option value="Stretch/content/KP_Transition/Stretch.htm">Stretch</option>
+                <option value="Walk/content/KP_Transition/Walk.htm" selected>Walk</option>
+                <option value="Walking_schedule/content/KP_Transition/Walking_schedule.html">Walking_schedule
+                </option>
+            </optgroup>
+        </select>
+    </form>
+</template>

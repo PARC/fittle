@@ -1,0 +1,33 @@
+{
+  "sequences": [
+    {
+      "name": "getDisplayName",
+      "constraints": [
+        {
+          "attribute": "preferences.displayName",
+          "value": ""
+        }
+      ],
+      "askDate": "-1",
+      "askTime": "07:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 10,
+      "questions": [
+        {
+          "tag":"you",
+          "text": "Set the public display name to be seen by your team members.",
+          "responseFormat": "text",
+          "choices": [],
+          "preferenceToSet": "displayName",
+          "props": {
+            "textLabel":"Display name",
+            "textPlaceholder":"Display name (min 2 chars)",
+            "startWithChar": true,
+            "minLength": 2
+          }
+        }
+      ]
+    }
+  ]
+}

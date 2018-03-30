@@ -1,0 +1,30 @@
+[
+  {
+    "code": "269",
+    "activity": "I2_Walk",
+    "tag": "I2",
+    "content": "content/I2/I2_Walk.html",
+    "title": "Walk",
+    "description" : "Walk today",
+    "thumbnail": "content/I2/eatslowlythumb.png"
+  },
+  {
+    "code": "270",
+    "activity": "I2_Eat_Veggies",
+    "tag": "I2",
+    "content": "content/I2/I2_Eat_Veggies.html",
+    "title": "Eat Veggies",
+    "description" : "Eat vegetables today",
+    "thumbnail": "content/I2/eatslowlythumb.png"
+  },
+  {
+    "code": "271",
+    "activity": "I2_Eat_Slower",
+    "tag": "I2",
+    "content": "content/I2/I2_Eat_Slower.html",
+    "title": "Eat Slowly",
+    "description" : "Eat slowly today",
+    "thumbnail": "content/I2/eatslowlythumb.png"
+  }
+]
+

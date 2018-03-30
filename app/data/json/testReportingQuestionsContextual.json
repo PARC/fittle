@@ -1,0 +1,104 @@
+{
+  "sequences": [
+    {
+      "name": "activityDebriefMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "0"
+        }
+      ],
+      "askDate": "0",
+      "askTime": "00:00",
+      "expireDate": "0",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "You reported your goal for today was met",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "0"
+        }
+      ],
+      "askDate": "0",
+      "askTime": "00:00",
+      "expireDate": "0",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalunmet",
+          "text": "You reported your goal for today was not met",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "1"
+        }
+      ],
+      "askDate": "1",
+      "askTime": "00:00",
+      "expireDate": "1",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "You reported your goal for today was met",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "1"
+        }
+      ],
+      "askDate": "1",
+      "askTime": "00:00",
+      "expireDate": "1",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalunmet",
+          "text": "You reported your goal for today was not met",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}

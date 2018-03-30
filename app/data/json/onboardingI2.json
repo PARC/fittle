@@ -1,0 +1,97 @@
+[
+  {
+    "emailAddress": "test1@parc.com",
+    "condition": "I2-10",
+    "settings": {
+      "name": "Test1",
+      "studyId": "woof",
+      "language":"en",
+      "age": "105",
+      "location": "maui",
+      "selfEfficacy": "high",
+      "implementationIntention": "no",
+      "reminders": "yes",
+      "reminderDistribution": "masked",
+      "reminderCount": "7",
+      "goalReported": "empty",
+      "challengeActivities": "/content/I2/activityScheduleI2.json",
+      "reminderDay": "0"
+    },
+    "preferences": {
+      "goalType": "",
+      "goalSpecific": "",
+      "dailyGoalText": "",
+      "difficulty": "",
+      "goalContent": "",
+      "choice": "",
+      "place": "",
+      "person": "",
+      "eventTime": "",
+      "reminderPeriod": "",
+      "reminderText": ""
+    }
+  },
+  {
+    "emailAddress": "test2@parc.com",
+    "condition": "I2-10",
+    "settings": {
+      "name": "Test2",
+      "studyId": "",
+      "language":"en",
+      "selfEfficacy": "high",
+      "implementationIntention": "no",
+      "reminders": "yes",
+      "reminderDistribution": "masked",
+      "reminderCount": "7",
+      "goalReported": "empty",
+      "challengeActivities": "/content/I2/activityScheduleI2.json",
+      "reminderDay": "0"
+    },
+    "preferences": {
+      "goalType": "",
+      "goalSpecific": "",
+      "dailyGoalText": "",
+      "difficulty": "",
+      "goalContent": "",
+      "choice": "",
+      "place": "",
+      "person": "",
+      "eventTime": "",
+      "reminderPeriod": "",
+      "reminderText": "",
+      "reminderTime": "07:00"
+    }
+  },
+  {
+    "emailAddress": "test3@parc.com",
+    "condition": "I2-10",
+    "settings": {
+      "name": "Test3",
+      "studyId": "",
+      "language":"en",
+      "age": "105",
+      "location": "Here",
+      "selfEfficacy": "high",
+      "implementationIntention": "no",
+      "reminders": "yes",
+      "reminderDistribution": "masked",
+      "reminderCount": "7",
+      "goalReported": "empty",
+      "challengeActivities": "/content/I2/activityScheduleI2.json",
+      "reminderDay": "0"
+    },
+    "preferences": {
+      "goalType": "predefined",
+      "goalSpecific": "",
+      "dailyGoalText": "",
+      "difficulty": "",
+      "goalContent": "",
+      "choice": "",
+      "place": "",
+      "person": "",
+      "eventTime": "",
+      "reminderPeriod": "",
+      "reminderText": ""
+    }
+  }
+]

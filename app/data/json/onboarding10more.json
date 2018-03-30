@@ -1,0 +1,112 @@
+[
+  {
+    "emailAddress": "study001@parc.com",
+    "condition": "silver",
+    "settings": {
+      "name": "study001@parc.com",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/silver/en/activityScheduleSet.json"
+    },
+    "preferences": {}
+  },
+  {
+    "emailAddress": "study002@parc.com",
+    "condition": "silver",
+    "settings": {
+      "name": "study002@parc.com",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/silver/en/activityScheduleSet.json"
+    },
+    "preferences": {}
+  },
+  {
+    "emailAddress": "study003@parc.com",
+    "condition": "silver",
+    "settings": {
+      "name": "study003@parc.com",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/silver/en/activityScheduleSet.json"
+    },
+    "preferences": {}
+  },
+  {
+    "emailAddress": "study004@parc.com",
+    "condition": "silver",
+    "settings": {
+      "name": "study004@parc.com",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/silver/en/activityScheduleSet.json"
+    },
+    "preferences": {}
+  },
+  {
+    "emailAddress": "study005@parc.com",
+    "condition": "silver",
+    "settings": {
+      "name": "study005@parc.com",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/silver/en/activityScheduleSet.json"
+    },
+    "preferences": {}
+  },
+  {
+    "emailAddress": "study006@parc.com",
+    "condition": "silver",
+    "settings": {
+      "name": "study006@parc.com",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/silver/en/activityScheduleSet.json"
+    },
+    "preferences": {}
+  },
+  {
+    "emailAddress": "study007@parc.com",
+    "condition": "silver",
+    "settings": {
+      "name": "study007@parc.com",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/silver/en/activityScheduleSet.json"
+    },
+    "preferences": {}
+  },
+  {
+    "emailAddress": "study008@parc.com",
+    "condition": "silver",
+    "settings": {
+      "name": "study008@parc.com",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/silver/en/activityScheduleSet.json"
+    },
+    "preferences": {}
+  },
+  {
+    "emailAddress": "study009@parc.com",
+    "condition": "silver",
+    "settings": {
+      "name": "study009@parc.com",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/silver/en/activityScheduleSet.json"
+    },
+    "preferences": {}
+  },
+  {
+    "emailAddress": "study010@parc.com",
+    "condition": "silver",
+    "settings": {
+      "name": "study010@parc.com",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/silver/en/activityScheduleSet.json"
+    },
+    "preferences": {}
+  }
+]

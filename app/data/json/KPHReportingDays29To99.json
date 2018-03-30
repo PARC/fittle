@@ -1,0 +1,4619 @@
+{
+  "sequences": [
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "29"
+        }
+      ],
+      "askDate": "29",
+      "askTime": "00:00",
+      "expireDate": "29",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "30"
+        }
+      ],
+      "askDate": "30",
+      "askTime": "00:00",
+      "expireDate": "30",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "31"
+        }
+      ],
+      "askDate": "31",
+      "askTime": "00:00",
+      "expireDate": "31",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "32"
+        }
+      ],
+      "askDate": "32",
+      "askTime": "00:00",
+      "expireDate": "32",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "33"
+        }
+      ],
+      "askDate": "33",
+      "askTime": "00:00",
+      "expireDate": "33",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "34"
+        }
+      ],
+      "askDate": "34",
+      "askTime": "00:00",
+      "expireDate": "34",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "35"
+        }
+      ],
+      "askDate": "35",
+      "askTime": "00:00",
+      "expireDate": "35",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "36"
+        }
+      ],
+      "askDate": "36",
+      "askTime": "00:00",
+      "expireDate": "36",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "37"
+        }
+      ],
+      "askDate": "37",
+      "askTime": "00:00",
+      "expireDate": "37",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "38"
+        }
+      ],
+      "askDate": "38",
+      "askTime": "00:00",
+      "expireDate": "38",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "39"
+        }
+      ],
+      "askDate": "39",
+      "askTime": "00:00",
+      "expireDate": "39",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "40"
+        }
+      ],
+      "askDate": "40",
+      "askTime": "00:00",
+      "expireDate": "40",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "41"
+        }
+      ],
+      "askDate": "41",
+      "askTime": "00:00",
+      "expireDate": "41",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "42"
+        }
+      ],
+      "askDate": "42",
+      "askTime": "00:00",
+      "expireDate": "42",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "43"
+        }
+      ],
+      "askDate": "43",
+      "askTime": "00:00",
+      "expireDate": "43",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "44"
+        }
+      ],
+      "askDate": "44",
+      "askTime": "00:00",
+      "expireDate": "44",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "45"
+        }
+      ],
+      "askDate": "45",
+      "askTime": "00:00",
+      "expireDate": "45",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "46"
+        }
+      ],
+      "askDate": "46",
+      "askTime": "00:00",
+      "expireDate": "46",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "47"
+        }
+      ],
+      "askDate": "47",
+      "askTime": "00:00",
+      "expireDate": "47",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "48"
+        }
+      ],
+      "askDate": "48",
+      "askTime": "00:00",
+      "expireDate": "48",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "49"
+        }
+      ],
+      "askDate": "49",
+      "askTime": "00:00",
+      "expireDate": "49",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "50"
+        }
+      ],
+      "askDate": "50",
+      "askTime": "00:00",
+      "expireDate": "50",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "51"
+        }
+      ],
+      "askDate": "51",
+      "askTime": "00:00",
+      "expireDate": "51",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "52"
+        }
+      ],
+      "askDate": "52",
+      "askTime": "00:00",
+      "expireDate": "52",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "53"
+        }
+      ],
+      "askDate": "53",
+      "askTime": "00:00",
+      "expireDate": "53",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "54"
+        }
+      ],
+      "askDate": "54",
+      "askTime": "00:00",
+      "expireDate": "54",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "55"
+        }
+      ],
+      "askDate": "55",
+      "askTime": "00:00",
+      "expireDate": "55",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "56"
+        }
+      ],
+      "askDate": "56",
+      "askTime": "00:00",
+      "expireDate": "56",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "57"
+        }
+      ],
+      "askDate": "57",
+      "askTime": "00:00",
+      "expireDate": "57",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "58"
+        }
+      ],
+      "askDate": "58",
+      "askTime": "00:00",
+      "expireDate": "58",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "59"
+        }
+      ],
+      "askDate": "59",
+      "askTime": "00:00",
+      "expireDate": "59",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "60"
+        }
+      ],
+      "askDate": "60",
+      "askTime": "00:00",
+      "expireDate": "60",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "61"
+        }
+      ],
+      "askDate": "61",
+      "askTime": "00:00",
+      "expireDate": "61",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "62"
+        }
+      ],
+      "askDate": "62",
+      "askTime": "00:00",
+      "expireDate": "62",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "63"
+        }
+      ],
+      "askDate": "63",
+      "askTime": "00:00",
+      "expireDate": "63",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "64"
+        }
+      ],
+      "askDate": "64",
+      "askTime": "00:00",
+      "expireDate": "64",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "65"
+        }
+      ],
+      "askDate": "65",
+      "askTime": "00:00",
+      "expireDate": "65",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "66"
+        }
+      ],
+      "askDate": "66",
+      "askTime": "00:00",
+      "expireDate": "66",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "67"
+        }
+      ],
+      "askDate": "67",
+      "askTime": "00:00",
+      "expireDate": "67",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "68"
+        }
+      ],
+      "askDate": "68",
+      "askTime": "00:00",
+      "expireDate": "68",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "69"
+        }
+      ],
+      "askDate": "69",
+      "askTime": "00:00",
+      "expireDate": "69",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "70"
+        }
+      ],
+      "askDate": "70",
+      "askTime": "00:00",
+      "expireDate": "70",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "71"
+        }
+      ],
+      "askDate": "71",
+      "askTime": "00:00",
+      "expireDate": "71",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "72"
+        }
+      ],
+      "askDate": "72",
+      "askTime": "00:00",
+      "expireDate": "72",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "73"
+        }
+      ],
+      "askDate": "73",
+      "askTime": "00:00",
+      "expireDate": "73",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "74"
+        }
+      ],
+      "askDate": "74",
+      "askTime": "00:00",
+      "expireDate": "74",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "75"
+        }
+      ],
+      "askDate": "75",
+      "askTime": "00:00",
+      "expireDate": "75",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "76"
+        }
+      ],
+      "askDate": "76",
+      "askTime": "00:00",
+      "expireDate": "76",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "77"
+        }
+      ],
+      "askDate": "77",
+      "askTime": "00:00",
+      "expireDate": "77",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "78"
+        }
+      ],
+      "askDate": "78",
+      "askTime": "00:00",
+      "expireDate": "78",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "79"
+        }
+      ],
+      "askDate": "79",
+      "askTime": "00:00",
+      "expireDate": "79",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "80"
+        }
+      ],
+      "askDate": "80",
+      "askTime": "00:00",
+      "expireDate": "80",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "81"
+        }
+      ],
+      "askDate": "81",
+      "askTime": "00:00",
+      "expireDate": "81",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "82"
+        }
+      ],
+      "askDate": "82",
+      "askTime": "00:00",
+      "expireDate": "82",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "83"
+        }
+      ],
+      "askDate": "83",
+      "askTime": "00:00",
+      "expireDate": "83",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "84"
+        }
+      ],
+      "askDate": "84",
+      "askTime": "00:00",
+      "expireDate": "84",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "85"
+        }
+      ],
+      "askDate": "85",
+      "askTime": "00:00",
+      "expireDate": "85",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "86"
+        }
+      ],
+      "askDate": "86",
+      "askTime": "00:00",
+      "expireDate": "86",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "87"
+        }
+      ],
+      "askDate": "87",
+      "askTime": "00:00",
+      "expireDate": "87",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "88"
+        }
+      ],
+      "askDate": "88",
+      "askTime": "00:00",
+      "expireDate": "88",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "89"
+        }
+      ],
+      "askDate": "89",
+      "askTime": "00:00",
+      "expireDate": "89",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "90"
+        }
+      ],
+      "askDate": "90",
+      "askTime": "00:00",
+      "expireDate": "90",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "91"
+        }
+      ],
+      "askDate": "91",
+      "askTime": "00:00",
+      "expireDate": "91",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "92"
+        }
+      ],
+      "askDate": "92",
+      "askTime": "00:00",
+      "expireDate": "92",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "93"
+        }
+      ],
+      "askDate": "93",
+      "askTime": "00:00",
+      "expireDate": "93",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "94"
+        }
+      ],
+      "askDate": "94",
+      "askTime": "00:00",
+      "expireDate": "94",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "95"
+        }
+      ],
+      "askDate": "95",
+      "askTime": "00:00",
+      "expireDate": "95",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "96"
+        }
+      ],
+      "askDate": "96",
+      "askTime": "00:00",
+      "expireDate": "96",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "97"
+        }
+      ],
+      "askDate": "97",
+      "askTime": "00:00",
+      "expireDate": "97",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "98"
+        }
+      ],
+      "askDate": "98",
+      "askTime": "00:00",
+      "expireDate": "98",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebrief",
+      "constraints": [
+        {
+          "attribute": "settings.goalReported",
+          "value": "99"
+        }
+      ],
+      "askDate": "99",
+      "askTime": "00:00",
+      "expireDate": "99",
+      "expireTime": "23:59",
+      "sequenceBase": 200,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "difficulty",
+          "text": "How difficult was it to meet this goal?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all difficult",
+            "2": "Slightly difficult",
+            "3": "Somewhat difficult",
+            "4": "Moderately difficult",
+            "5": "Extremely difficult"
+          }
+        },
+        {
+          "tag": "confidence",
+          "text": "How confident are you that you can meet this goal for the next 3 days?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all confident",
+            "2": "Slightly confident",
+            "3": "Somewhat confident",
+            "4": "Moderately confident",
+            "5": "Extremely confident"
+          }
+        },
+        {
+          "tag": "inclination",
+          "text": "How inclined are you to do this every day?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Not at all keen",
+            "2": "Slightly keen",
+            "3": "Somewhat keen",
+            "4": "Moderately keen",
+            "5": "Extremely keen"
+          }
+        },
+        {
+          "tag": "worth",
+          "text": "Was doing this worth the effort?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "Much more effort than benefit",
+            "2": "Some more effort than benefit",
+            "3": "Almost the same effort as benefit",
+            "4": "Some more benefit than effort",
+            "5": "Much more benefit than effort"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+db.getUsers()
+db.participants.find()
+db.participants.findOne()
+db.participants.insert({emailAddress:"lnelson@parc.com"},{$set:{"preferences.goalType" : ""}})
+db.participants.remove({})
+db.questions.find()
+db.questions.remove({})
+db.questions.update({responseFormat: 'time'},{$set: {answered:false}})
+db.scheduledmessages.find()
+db.scheduledmessages.find({scheduleName: "foodJournal"})
+db.scheduledmessages.remove({})
+db.users.find()
+db.users.remove({ "_id" : "qYLvuKdZtanjiueor"})
+db.users.remove({username:/shakey/})
+show collections
+db.questions.update({answer:true},{$set: {answered:false}})
+db.questions.update({},{$set:{askDatetime: ISODate("2016-09-12T01:14:44.461Z")}},{multi:true})
+db.participants.update({_id: "8444miPhXNEvpP8hA"},{$set: {"preferences.goalType" : ""}})
+db.participants.update({_id: "8444miPhXNEvpP8hA"},{$set: {"preferences.goalSpecific" : ""}})
+db.participants.update({_id: "8444miPhXNEvpP8hA"},{$set: {"preferences.goalContent" : ""}})
+db.participants.update({_id: "8444miPhXNEvpP8hA"},{$set: {"preferences.dailyGoalText" : ""}})
+db.participants.update({},{$set: {"preferences.goalType" : "","preferences.goalSpecific": "","preferences.goalContent" : "","preferences.dailyGoalText" : ""}})
+
+db.participants.update({emailAddress: "lnelson@parc.com"},{$set: {"preferences.dailyGoalText" : ""}});
+db.questions.update({tag: 'choice'},{$set: {answered:false}});
+
+
+=== Clear For Testing ===
+db.users.remove({username:/nelson/})
+db.scheduledmessages.remove({})
+db.questions.remove({})
+db.participants.remove({})
+db.======================

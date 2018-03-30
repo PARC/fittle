@@ -1,0 +1,29 @@
+{
+  "sequences": [
+    {
+      "name": "testQuestionConstraintByEmail",
+      "constraints": [
+        {
+          "attribute": "emailAddress",
+          "value": "with.reminders@parc.com"
+        }
+      ],
+      "askDate": "-1",
+      "askTime": "07:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 10,
+      "questions": [
+        {
+          "tag":"test",
+          "text": "Can you see this test question?",
+          "responseFormat": "list-choose-one",
+          "choices":{
+            "yes": "Yes",
+            "no": "No"
+          }
+        }
+      ]
+    }
+  ]
+}

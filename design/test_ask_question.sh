@@ -1,0 +1,1 @@
+curl -X POST -H 'Content-Type: application/json' -d '{"username":"admin","text":"What is your favourite colour?","choices":"Blue,Green,Ahhhhh.....","responseFormat":"list-choose-one"}' http://localhost:3000/api/question/add/ACTUAL_TOKEN_GOES_HERE

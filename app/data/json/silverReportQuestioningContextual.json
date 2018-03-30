@@ -1,0 +1,227 @@
+{
+  "sequences": [
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "0"
+        }
+      ],
+      "askDate": "0",
+      "askTime": "00:00",
+      "expireDate": "30",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "0"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "0",
+      "askTime": "00:00",
+      "expireDate": "30",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "deleteOnReReport",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        },
+        {
+          "tag": "deleteOnReReport",
+          "text": "Great! Remember, you can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "0"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "0",
+      "askTime": "00:00",
+      "expireDate": "30",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "deleteOnReReport",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        },
+        {
+          "tag": "deleteOnReReport",
+          "text": "You may want to consider trying less challenging versions of these exercises.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "0"
+        }
+      ],
+      "askDate": "0",
+      "askTime": "00:00",
+      "expireDate": "30",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "deleteOnReReport",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "0"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "0",
+      "askTime": "00:00",
+      "expireDate": "30",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "deleteOnReReport",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        },
+        {
+          "tag": "deleteOnReReport",
+          "text": "OK, Try to do at least one or more of the exercises next time.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "OK"
+          }
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "0"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "0",
+      "askTime": "00:00",
+      "expireDate": "30",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "deleteOnReReport",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest",
+            "other": "Other reason(s)"
+          },
+          "preferenceToSet": "goalMetSome"
+        },
+        {
+          "tag": "deleteOnReReport",
+          "text": "OK, Try to do at least one or more of the exercises next time.",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "1": "OK"
+          }
+        }
+      ]
+    }
+  ]
+}
