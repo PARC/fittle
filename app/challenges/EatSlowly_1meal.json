@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Eat Slowly: 1 meal",
+    "info": [
+      "In this challenge you will be asked to eat your meals more slowly for one meal per day."
+    ],
+    "sponsor": "PARC",
+    "epoch": {
+      "title": "Week",
+      "length": 7
+    },
+    "image_filename": "/content/eat_slower.png",
+    "schedule": [
+      {
+        "epoch": 0,
+        "day": 0,
+        "activity": "Eat_slower",
+        "activityTitle": "Eat slower during one meal today",
+        "kind": "By day",
+        "quantity": 0,
+        "units": "minutes"
+      },
+      {
+        "epoch": 0,
+        "day": 1,
+        "activity": "Eat_slower",
+        "activityTitle": "Eat slower during one meal today",
+        "kind": "By day",
+        "quantity": 0,
+        "units": "minutes"
+      },
+      {
+        "epoch": 0,
+        "day": 2,
+        "activity": "Eat_slower",
+        "activityTitle": "Eat slower during one meal today",
+        "kind": "By day",
+        "quantity": 0,
+        "units": "minutes"
+      },
+      {
+        "epoch": 0,
+        "day": 3,
+        "activity": "Eat_slower",
+        "activityTitle": "Eat slower during one meal today",
+        "kind": "By day",
+        "quantity": 0,
+        "units": "minutes"
+      },
+      {
+        "epoch": 0,
+        "day": 4,
+        "activity": "Eat_slower",
+        "activityTitle": "Eat slower during one meal today",
+        "kind": "By day",
+        "quantity": 0,
+        "units": "minutes"
+      },
+      {
+        "epoch": 0,
+        "day": 5,
+        "activity": "Eat_slower",
+        "activityTitle": "Eat slower during one meal today",
+        "kind": "By day",
+        "quantity": 0,
+        "units": "minutes"
+      },
+      {
+        "epoch": 0,
+        "day": 6,
+        "activity": "Eat_slower",
+        "activityTitle": "Eat slower during one meal today",
+        "kind": "By day",
+        "quantity": 0,
+        "units": "minutes"
+      },
+      {
+        "epoch": 1,
+        "day": 0,
+        "activity": "Eat_slower",
+        "activityTitle": "Eat slower during one meal today",
+        "kind": "By day",
+        "quantity": 0,
+        "units": "minutes"
+      },
+      {
+        "epoch": 1,
+        "day": 1,
+        "activity": "Eat_slower",
+        "activityTitle": "Eat slower during one meal today",
+        "kind": "By day",
+        "quantity": 0,
+        "units": "minutes"
+      },
+      {
+        "epoch": 1,
+        "day": 2,
+        "activity": "Eat_slower",
+        "activityTitle": "Eat slower during one meal today",
+        "kind": "By day",
+        "quantity": 0,
+        "units": "minutes"
+      },
+      {
+        "epoch": 1,
+        "day": 3,
+        "activity": "Eat_slower",
+        "activityTitle": "Eat slower during one meal today",
+        "kind": "By day",
+        "quantity": 0,
+        "units": "minutes"
+      },
+      {
+        "epoch": 1,
+        "day": 4,
+        "activity": "Eat_slower",
+        "activityTitle": "Eat slower during one meal today",
+        "kind": "By day",
+        "quantity": 0,
+        "units": "minutes"
+      },
+      {
+        "epoch": 1,
+        "day": 5,
+        "activity": "Eat_slower",
+        "activityTitle": "Eat slower during one meal today",
+        "kind": "By day",
+        "quantity": 0,
+        "units": "minutes"
+      },
+      {
+        "epoch": 1,
+        "day": 6,
+        "activity": "Eat_slower",
+        "activityTitle": "Eat slower during one meal today",
+        "kind": "By day",
+        "quantity": 0,
+        "units": "minutes"
+      }
+    ]
+  }
+]

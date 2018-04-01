@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Week 1",
+    "contentLink": "content/silver/en/Low Functioning/lowfun_week1/lowfun_week1.html",
+    "tag": "low_functioning",
+    "visible": true,
+    "week": 1
+  },
+  {
+    "name": "Week 2",
+    "contentLink": "content/silver/en/Low Functioning/lowfun_week2/lowfun_week2_CCL.html",
+    "tag": "low_functioning",
+    "visible": true,
+    "week": 2
+  },
+  {
+    "name": "Week 3",
+    "contentLink": "content/silver/en/Low Functioning/lowfun_week3/lowfun_week3_CCL.html",
+    "tag": "low_functioning",
+    "visible": true,
+    "week": 3
+  },
+  {
+    "name": "Week 4",
+    "contentLink": "content/silver/en/Low Functioning/lowfun_week4/lowfun_week4_CCL.html",
+    "tag": "low_functioning",
+    "visible": true,
+    "week": 4
+  }
+]

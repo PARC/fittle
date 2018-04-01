@@ -1,0 +1,66 @@
+{
+  "title": "Eat Slower",
+  "scheduling": "FromRegistered",
+  "schedule": [
+    {
+      "activity": "EatSlower-D00",
+      "scheduledDay": 0
+    },
+    {
+      "activity": "EatSlower-D01",
+      "scheduledDay": 1
+    },
+    {
+      "activity": "EatSlower-D02",
+      "scheduledDay": 2
+    },
+    {
+      "activity": "EatSlower-D03",
+      "scheduledDay": 3
+    },
+    {
+      "activity": "EatSlower-D04",
+      "scheduledDay": 4
+    },
+    {
+      "activity": "EatSlower-D05",
+      "scheduledDay": 5
+    },
+    {
+      "activity": "EatSlower-D06",
+      "scheduledDay": 6
+    },
+    {
+      "activity": "EatSlower-D07",
+      "scheduledDay": 7
+    },
+    {
+      "activity": "EatSlower-D08",
+      "scheduledDay": 8
+    },
+    {
+      "activity": "EatSlower-D09",
+      "scheduledDay": 9
+    },
+    {
+      "activity": "EatSlower-D10",
+      "scheduledDay": 10
+    },
+    {
+      "activity": "EatSlower-D11",
+      "scheduledDay": 11
+    },
+    {
+      "activity": "EatSlower-D12",
+      "scheduledDay": 12
+    },
+    {
+      "activity": "EatSlower-D13",
+      "scheduledDay": 13
+    },
+    {
+      "activity": "EatSlower-D14",
+      "scheduledDay": 14
+    }
+  ]
+}

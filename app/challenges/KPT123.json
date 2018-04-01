@@ -1,0 +1,231 @@
+{
+  "title": "Positive Action",
+  "info": [
+    "In this challenge you will develop a better understanding of the motivational powers of practicing daily habits consistently and regularly.",
+    "Learning these habits give you a framework for building a strong foundation for healthy behavior change."
+  ],
+  "sponsor": "Kaisar-Permanente",
+  "epoch": {
+    "title": "Week",
+    "length": 7
+  },
+  "image_filename": "/content/KP_Transition/kp_walk_phil_15271.png",
+  "schedule": [
+    {
+      "epoch": 0,
+      "day": 0,
+      "activity": "Positive_daily_action",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 0,
+      "day": 1,
+      "activity": "Positive_daily_action_D02",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 0,
+      "day": 2,
+      "activity": "Positive_daily_action_D03",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 0,
+      "day": 3,
+      "activity": "Positive_daily_action_D04",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 0,
+      "day": 4,
+      "kind": "By day",
+      "activity": "Positive_daily_action_D05",
+      "activityTitle": "Do one positive action",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 0,
+      "day": 5,
+      "kind": "By day",
+      "activity": "Positive_daily_action_D06",
+      "activityTitle": "Do one positive action",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 0,
+      "day": 6,
+      "activity": "Positive_daily_action_D07",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 0,
+      "day": 2,
+      "activity": "Walk",
+      "activityTitle": "Stretch and Walk",
+      "kind": "Repeat",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 1,
+      "day": 0,
+      "activity": "Positive_daily_action_D08",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 1,
+      "day": 1,
+      "activity": "Positive_daily_action_D09",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 1,
+      "day": 2,
+      "activity": "Positive_daily_action_D10",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 1,
+      "day": 3,
+      "activity": "Positive_daily_action_D11",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 1,
+      "day": 4,
+      "kind": "By day",
+      "activity": "Positive_daily_action_D12",
+      "activityTitle": "Do one positive action",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 1,
+      "day": 5,
+      "kind": "By day",
+      "activity": "Positive_daily_action_D13",
+      "activityTitle": "Do one positive action",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 1,
+      "day": 6,
+      "activity": "Positive_daily_action_D14",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 1,
+      "day": 2,
+      "activity": "Walk",
+      "activityTitle": "Stretch and Walk",
+      "kind": "Repeat",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 2,
+      "day": 0,
+      "activity": "Positive_daily_action_D15",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 2,
+      "day": 1,
+      "activity": "Positive_daily_action_D16",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 2,
+      "day": 2,
+      "activity": "Positive_daily_action_D17",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 2,
+      "day": 3,
+      "activity": "Positive_daily_action_D18",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 2,
+      "day": 4,
+      "kind": "By day",
+      "activity": "Positive_daily_action_D19",
+      "activityTitle": "Do one positive action",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 2,
+      "day": 5,
+      "kind": "By day",
+      "activity": "Positive_daily_action_D20",
+      "activityTitle": "Do one positive action",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 2,
+      "day": 6,
+      "activity": "Positive_daily_action_D21",
+      "activityTitle": "Do one positive action",
+      "kind": "By day",
+      "quantity": 0,
+      "units": "minutes"
+    },
+    {
+      "epoch": 2,
+      "day": 2,
+      "activity": "Walk",
+      "activityTitle": "Stretch and Walk",
+      "kind": "Repeat",
+      "quantity": 0,
+      "units": "minutes"
+    }
+  ]
+}

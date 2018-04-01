@@ -1,0 +1,98 @@
+{
+  "galaxy.meteor.com": {
+    "_comment": "Settings that must be accessible for running server on Galaxy.",
+    "env": {
+      "MONGO_URL": "mongodb://hawaiimeteorclient:4de2afc9e4d84422bb4a3634ca88aacf@ds161846-a0.mlab.com:61846,ds161846-a1.mlab.com:61846/fittle-hawaii?replicaSet=rs-ds161846",
+      "MAIL_URL": "smtps://lnelson%40parc.com:RvTL5XsBPYOpJ8cN@smtp-relay.sendinblue.com:465"
+    }
+  },
+
+  "public": {
+    "STUDY_NAME": "KPH",
+    "STUDY_LENGTH_IN_DAYS": 180,
+    "IS_SILVER": false,
+    "IMAGE_POST_MAX_WIDTH": 1024,
+    "IMAGE_POST_MAX_HEIGHT": 1024,
+    "IMAGE_ICON_WIDTH":200,
+    "IMAGE_ICON_HEIGHT": 175,
+    "PROFILE_PIC_PIX": 64,
+    "IMAGE_POST_UPLOAD_CHUNK_SIZE": 4096,
+    "DISPLAY_NAME_SHOW_MAX": 22,
+    "_comment": "Settings accessible on both client and server.",
+    "BUILTIN_ADMIN_EMAIL": "admin@parc.com",
+    "persistent_session": {
+      "default_method": "persistent"
+    },
+    "S3_FETCHURL": "https://s3-us-west-1.amazonaws.com/parc.i2.dev/",
+    "ZENDESK_URL": "https://fittle.zendesk.com"
+  },
+
+  "private": {
+    "_comment": "Settings accessible only server-side.",
+    "S3_ID": "AKIAJITJQX53SNGNEL7A",
+    "S3_SECRET":  "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",
+    "S3_BUCKET": "parc.fittle.kph.prod",
+    "S3_BASEURL": "https://s3-us-west-1.amazonaws.com/parc.fittle.kph.prod/",
+    "IMAGE_API_SERVICE": "https://parc-fittle-kph-prod.herokuapp.com/",
+    "IMAGE_API_PREFIX": "api/getImage/",
+    "IMAGE_API_TOKEN": "1506382431506382434764Y1344764Y134",
+    "BUILTIN_ADMIN_EMAIL": "admin@parc.com",
+    "BUILTIN_ADMIN_PASSWORD": "==FEEL dance sugar 16==",
+    "RUN_COACH_SERVER_TEST": true,
+    "PATH_TO_COACH_TEST_SERVER_ALT1": "./app/lib/api/studyevents/server/simpleserver.py",
+    "PATH_TO_COACH_TEST_SERVER": "parccoach-exagent.meteorapp.com",
+    "ACTIVITIES_PATH": [
+      "activitiesKPH-en.json",
+      "activitiesI2.json",
+      "content/prechallenge/activitiesPreChallenge.json",
+      "content/sampleweek/activities.json",
+      "content/silver/en/activities.json"],
+    "AGENTS_PATH" : "agents.json",
+    "API_TOKEN": "woof",
+    "API_TOKEN_ADMIN": "superWoof",
+    "DEFAULT_CHALLENGE": "/content/prechallenge/activitySchedulePreChallengeSet.json",
+    "SEND_EMAIL_REMINDERS": true,
+
+    "CURRENT_LOCATION": "KPHPROD",
+
+    "COACH_LOCATIONS": {
+          "LOCAL": {
+            "BASE_URL": "localhost",
+            "BASE_PORT": 3001,
+            "BASE_EMAIL_URL": "https://parccoach-altdev.meteorapp.com",
+            "FROM_EMAIL_ADDRESS": "yourdailyreminders@gmail.com",
+            "FROM_EMAIL_PS": "parc3333reminders"
+          },
+          "PROD": {
+             "BASE_URL": "http://parccoach-altdev.meteorapp.com",
+             "BASE_PORT": 443,
+             "BASE_EMAIL_URL": "https://parccoach-altdev.meteorapp.com",
+             "FROM_EMAIL_ADDRESS": "yourdailyreminders@gmail.com",
+             "FROM_EMAIL_PS": "parc3333reminders"
+           },
+         "KPHPROD": {
+            "BASE_URL": "http://fittle-hawaii.meteorapp.com",
+            "BASE_PORT": 465,
+            "BASE_EMAIL_URL": "https://fittle-hawaii.meteorapp.com",
+            "FROM_EMAIL_ADDRESS": "yourdailyreminders@gmail.com",
+            "FROM_EMAIL_PS": "parc3333reminders"
+          },
+          "DEV": {
+            "BASE_URL": "http://parccoach-altdev.meteorapp.com",
+            "BASE_PORT": 443,
+            "BASE_EMAIL_URL": "https://parccoach-altdev.meteorapp.com",
+            "FROM_EMAIL_ADDRESS": "yourdailyreminders@gmail.com",
+            "FROM_EMAIL_PS": "parc3333reminders"
+          },
+          "KPH": {
+            "BASE_URL": "http://parccoach-altdev.meteorapp.com",
+            "BASE_PORT": 443,
+            "BASE_EMAIL_URL": "https://parccoach-altdev.meteorapp.com",
+            "FROM_EMAIL_ADDRESS": "yourdailyreminders@gmail.com",
+            "FROM_EMAIL_PS": "parc3333reminders"
+          }
+        }
+
+    }
+}
+

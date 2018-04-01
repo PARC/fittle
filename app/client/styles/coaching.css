@@ -1,0 +1,47 @@
+.coach-background {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    padding: 0px 0px 0px 0px;
+    width: 12vh;
+    height: 12vh;
+    z-index: 0;
+}
+
+.coach-image {
+    float: right;
+    height: 100%;
+    width: auto;
+}
+
+
+
+.coach-full {
+    width: 80vw;
+    min-width: 80vw;
+    height: 15vh;
+    position: fixed;
+    bottom: 3%;
+    left: 3%;
+}
+
+.coach-right {
+    float: right;
+    height: 15vh;
+    width: auto;
+}
+.coach-left {
+    position: absolute;
+    left: 3%;
+    bottom: 3%;
+    height: 15vh;
+    width: auto;
+
+}
+.coach-center {
+    height: auto;
+    width: 80vw;
+    max-width: 80vw;
+    background-color: grey;
+    display: inline-block;
+}

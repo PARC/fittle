@@ -1,0 +1,43 @@
+{
+  "sequences": [
+    {
+      "name": "goalTypeSelect",
+      "constraints": [
+        {
+          "attribute": "preferences.goalType",
+          "value": ""
+        },
+        {
+          "attribute": "settings.challengeActivities",
+          "value": ""
+        }
+      ],
+      "askDate": "-1",
+      "askTime": "07:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 10,
+      "questions": [
+        {
+          "tag":"instruction",
+          "text": "Hi there!! I will help you set a health goal to work on daily for the next 4 weeks. Please answer the next few questions carefully.",
+          "responseFormat": "list-choose-one",
+          "choices":{
+            "ok": "OK"
+          }
+        },
+        {
+          "tag": "goalType",
+          "text": "Which health goal below would you like to pursue?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "eatSlowly": "Eat slowly and mindfully",
+            "walk": "Walk everyday",
+            "eatVeggies": "Eat more vegetables"
+          },
+          "preferenceToSet": "goalType"
+        }
+      ]
+    }
+  ]
+}

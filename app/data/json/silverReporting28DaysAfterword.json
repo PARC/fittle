@@ -1,0 +1,5630 @@
+{
+  "sequences": [
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "0"
+        }
+      ],
+      "askDate": "0",
+      "askTime": "00:00",
+      "expireDate": "0",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "0"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "0",
+      "askTime": "00:00",
+      "expireDate": "0",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "0"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "0",
+      "askTime": "00:00",
+      "expireDate": "0",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "0"
+        }
+      ],
+      "askDate": "0",
+      "askTime": "00:00",
+      "expireDate": "0",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "0"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "0",
+      "askTime": "00:00",
+      "expireDate": "0",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "0"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "0",
+      "askTime": "00:00",
+      "expireDate": "0",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "1"
+        }
+      ],
+      "askDate": "1",
+      "askTime": "00:00",
+      "expireDate": "1",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "1"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "1",
+      "askTime": "00:00",
+      "expireDate": "1",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "1"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "1",
+      "askTime": "00:00",
+      "expireDate": "1",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "1"
+        }
+      ],
+      "askDate": "1",
+      "askTime": "00:00",
+      "expireDate": "1",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "1"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "1",
+      "askTime": "00:00",
+      "expireDate": "1",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "1"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "1",
+      "askTime": "00:00",
+      "expireDate": "1",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "2"
+        }
+      ],
+      "askDate": "2",
+      "askTime": "00:00",
+      "expireDate": "2",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "2"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "2",
+      "askTime": "00:00",
+      "expireDate": "2",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "2"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "2",
+      "askTime": "00:00",
+      "expireDate": "2",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "2"
+        }
+      ],
+      "askDate": "2",
+      "askTime": "00:00",
+      "expireDate": "2",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "2"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "2",
+      "askTime": "00:00",
+      "expireDate": "2",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "2"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "2",
+      "askTime": "00:00",
+      "expireDate": "2",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "3"
+        }
+      ],
+      "askDate": "3",
+      "askTime": "00:00",
+      "expireDate": "3",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "3"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "3",
+      "askTime": "00:00",
+      "expireDate": "3",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "3"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "3",
+      "askTime": "00:00",
+      "expireDate": "3",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "3"
+        }
+      ],
+      "askDate": "3",
+      "askTime": "00:00",
+      "expireDate": "3",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "3"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "3",
+      "askTime": "00:00",
+      "expireDate": "3",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "3"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "3",
+      "askTime": "00:00",
+      "expireDate": "3",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "4"
+        }
+      ],
+      "askDate": "4",
+      "askTime": "00:00",
+      "expireDate": "4",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "4"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "4",
+      "askTime": "00:00",
+      "expireDate": "4",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "4"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "4",
+      "askTime": "00:00",
+      "expireDate": "4",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "4"
+        }
+      ],
+      "askDate": "4",
+      "askTime": "00:00",
+      "expireDate": "4",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "4"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "4",
+      "askTime": "00:00",
+      "expireDate": "4",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "4"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "4",
+      "askTime": "00:00",
+      "expireDate": "4",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "5"
+        }
+      ],
+      "askDate": "5",
+      "askTime": "00:00",
+      "expireDate": "5",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "5"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "5",
+      "askTime": "00:00",
+      "expireDate": "5",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "5"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "5",
+      "askTime": "00:00",
+      "expireDate": "5",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "5"
+        }
+      ],
+      "askDate": "5",
+      "askTime": "00:00",
+      "expireDate": "5",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "5"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "5",
+      "askTime": "00:00",
+      "expireDate": "5",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "5"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "5",
+      "askTime": "00:00",
+      "expireDate": "5",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "6"
+        }
+      ],
+      "askDate": "6",
+      "askTime": "00:00",
+      "expireDate": "6",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "6"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "6",
+      "askTime": "00:00",
+      "expireDate": "6",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "6"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "6",
+      "askTime": "00:00",
+      "expireDate": "6",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "6"
+        }
+      ],
+      "askDate": "6",
+      "askTime": "00:00",
+      "expireDate": "6",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "6"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "6",
+      "askTime": "00:00",
+      "expireDate": "6",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "6"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "6",
+      "askTime": "00:00",
+      "expireDate": "6",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "7"
+        }
+      ],
+      "askDate": "7",
+      "askTime": "00:00",
+      "expireDate": "7",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "7"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "7",
+      "askTime": "00:00",
+      "expireDate": "7",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "7"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "7",
+      "askTime": "00:00",
+      "expireDate": "7",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "7"
+        }
+      ],
+      "askDate": "7",
+      "askTime": "00:00",
+      "expireDate": "7",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "7"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "7",
+      "askTime": "00:00",
+      "expireDate": "7",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "7"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "7",
+      "askTime": "00:00",
+      "expireDate": "7",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "8"
+        }
+      ],
+      "askDate": "8",
+      "askTime": "00:00",
+      "expireDate": "8",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "8"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "8",
+      "askTime": "00:00",
+      "expireDate": "8",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "8"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "8",
+      "askTime": "00:00",
+      "expireDate": "8",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "8"
+        }
+      ],
+      "askDate": "8",
+      "askTime": "00:00",
+      "expireDate": "8",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "8"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "8",
+      "askTime": "00:00",
+      "expireDate": "8",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "8"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "8",
+      "askTime": "00:00",
+      "expireDate": "8",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "9"
+        }
+      ],
+      "askDate": "9",
+      "askTime": "00:00",
+      "expireDate": "9",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "9"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "9",
+      "askTime": "00:00",
+      "expireDate": "9",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "9"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "9",
+      "askTime": "00:00",
+      "expireDate": "9",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "9"
+        }
+      ],
+      "askDate": "9",
+      "askTime": "00:00",
+      "expireDate": "9",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "9"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "9",
+      "askTime": "00:00",
+      "expireDate": "9",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "9"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "9",
+      "askTime": "00:00",
+      "expireDate": "9",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "10"
+        }
+      ],
+      "askDate": "10",
+      "askTime": "00:00",
+      "expireDate": "10",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "10"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "10",
+      "askTime": "00:00",
+      "expireDate": "10",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "10"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "10",
+      "askTime": "00:00",
+      "expireDate": "10",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "10"
+        }
+      ],
+      "askDate": "10",
+      "askTime": "00:00",
+      "expireDate": "10",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "10"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "10",
+      "askTime": "00:00",
+      "expireDate": "10",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "10"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "10",
+      "askTime": "00:00",
+      "expireDate": "10",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "11"
+        }
+      ],
+      "askDate": "11",
+      "askTime": "00:00",
+      "expireDate": "11",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "11"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "11",
+      "askTime": "00:00",
+      "expireDate": "11",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "11"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "11",
+      "askTime": "00:00",
+      "expireDate": "11",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "11"
+        }
+      ],
+      "askDate": "11",
+      "askTime": "00:00",
+      "expireDate": "11",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "11"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "11",
+      "askTime": "00:00",
+      "expireDate": "11",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "11"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "11",
+      "askTime": "00:00",
+      "expireDate": "11",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "12"
+        }
+      ],
+      "askDate": "12",
+      "askTime": "00:00",
+      "expireDate": "12",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "12"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "12",
+      "askTime": "00:00",
+      "expireDate": "12",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "12"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "12",
+      "askTime": "00:00",
+      "expireDate": "12",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "12"
+        }
+      ],
+      "askDate": "12",
+      "askTime": "00:00",
+      "expireDate": "12",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "12"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "12",
+      "askTime": "00:00",
+      "expireDate": "12",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "12"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "12",
+      "askTime": "00:00",
+      "expireDate": "12",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "13"
+        }
+      ],
+      "askDate": "13",
+      "askTime": "00:00",
+      "expireDate": "13",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "13"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "13",
+      "askTime": "00:00",
+      "expireDate": "13",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "13"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "13",
+      "askTime": "00:00",
+      "expireDate": "13",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "13"
+        }
+      ],
+      "askDate": "13",
+      "askTime": "00:00",
+      "expireDate": "13",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "13"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "13",
+      "askTime": "00:00",
+      "expireDate": "13",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "13"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "13",
+      "askTime": "00:00",
+      "expireDate": "13",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "14"
+        }
+      ],
+      "askDate": "14",
+      "askTime": "00:00",
+      "expireDate": "14",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "14"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "14",
+      "askTime": "00:00",
+      "expireDate": "14",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "14"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "14",
+      "askTime": "00:00",
+      "expireDate": "14",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "14"
+        }
+      ],
+      "askDate": "14",
+      "askTime": "00:00",
+      "expireDate": "14",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "14"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "14",
+      "askTime": "00:00",
+      "expireDate": "14",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "14"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "14",
+      "askTime": "00:00",
+      "expireDate": "14",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "15"
+        }
+      ],
+      "askDate": "15",
+      "askTime": "00:00",
+      "expireDate": "15",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "15"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "15",
+      "askTime": "00:00",
+      "expireDate": "15",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "15"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "15",
+      "askTime": "00:00",
+      "expireDate": "15",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "15"
+        }
+      ],
+      "askDate": "15",
+      "askTime": "00:00",
+      "expireDate": "15",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "15"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "15",
+      "askTime": "00:00",
+      "expireDate": "15",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "15"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "15",
+      "askTime": "00:00",
+      "expireDate": "15",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "16"
+        }
+      ],
+      "askDate": "16",
+      "askTime": "00:00",
+      "expireDate": "16",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "16"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "16",
+      "askTime": "00:00",
+      "expireDate": "16",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "16"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "16",
+      "askTime": "00:00",
+      "expireDate": "16",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "16"
+        }
+      ],
+      "askDate": "16",
+      "askTime": "00:00",
+      "expireDate": "16",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "16"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "16",
+      "askTime": "00:00",
+      "expireDate": "16",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "16"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "16",
+      "askTime": "00:00",
+      "expireDate": "16",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "17"
+        }
+      ],
+      "askDate": "17",
+      "askTime": "00:00",
+      "expireDate": "17",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "17"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "17",
+      "askTime": "00:00",
+      "expireDate": "17",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "17"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "17",
+      "askTime": "00:00",
+      "expireDate": "17",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "17"
+        }
+      ],
+      "askDate": "17",
+      "askTime": "00:00",
+      "expireDate": "17",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "17"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "17",
+      "askTime": "00:00",
+      "expireDate": "17",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "17"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "17",
+      "askTime": "00:00",
+      "expireDate": "17",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "18"
+        }
+      ],
+      "askDate": "18",
+      "askTime": "00:00",
+      "expireDate": "18",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "18"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "18",
+      "askTime": "00:00",
+      "expireDate": "18",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "18"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "18",
+      "askTime": "00:00",
+      "expireDate": "18",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "18"
+        }
+      ],
+      "askDate": "18",
+      "askTime": "00:00",
+      "expireDate": "18",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "18"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "18",
+      "askTime": "00:00",
+      "expireDate": "18",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "18"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "18",
+      "askTime": "00:00",
+      "expireDate": "18",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "19"
+        }
+      ],
+      "askDate": "19",
+      "askTime": "00:00",
+      "expireDate": "19",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "19"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "19",
+      "askTime": "00:00",
+      "expireDate": "19",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "19"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "19",
+      "askTime": "00:00",
+      "expireDate": "19",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "19"
+        }
+      ],
+      "askDate": "19",
+      "askTime": "00:00",
+      "expireDate": "19",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "19"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "19",
+      "askTime": "00:00",
+      "expireDate": "19",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "19"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "19",
+      "askTime": "00:00",
+      "expireDate": "19",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "20"
+        }
+      ],
+      "askDate": "20",
+      "askTime": "00:00",
+      "expireDate": "20",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "20"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "20",
+      "askTime": "00:00",
+      "expireDate": "20",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "20"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "20",
+      "askTime": "00:00",
+      "expireDate": "20",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "20"
+        }
+      ],
+      "askDate": "20",
+      "askTime": "00:00",
+      "expireDate": "20",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "20"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "20",
+      "askTime": "00:00",
+      "expireDate": "20",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "20"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "20",
+      "askTime": "00:00",
+      "expireDate": "20",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "21"
+        }
+      ],
+      "askDate": "21",
+      "askTime": "00:00",
+      "expireDate": "21",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "21"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "21",
+      "askTime": "00:00",
+      "expireDate": "21",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "21"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "21",
+      "askTime": "00:00",
+      "expireDate": "21",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "21"
+        }
+      ],
+      "askDate": "21",
+      "askTime": "00:00",
+      "expireDate": "21",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "21"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "21",
+      "askTime": "00:00",
+      "expireDate": "21",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "21"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "21",
+      "askTime": "00:00",
+      "expireDate": "21",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "22"
+        }
+      ],
+      "askDate": "22",
+      "askTime": "00:00",
+      "expireDate": "22",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "22"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "22",
+      "askTime": "00:00",
+      "expireDate": "22",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "22"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "22",
+      "askTime": "00:00",
+      "expireDate": "22",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "22"
+        }
+      ],
+      "askDate": "22",
+      "askTime": "00:00",
+      "expireDate": "22",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "22"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "22",
+      "askTime": "00:00",
+      "expireDate": "22",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "22"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "22",
+      "askTime": "00:00",
+      "expireDate": "22",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "23"
+        }
+      ],
+      "askDate": "23",
+      "askTime": "00:00",
+      "expireDate": "23",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "23"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "23",
+      "askTime": "00:00",
+      "expireDate": "23",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "23"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "23",
+      "askTime": "00:00",
+      "expireDate": "23",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "23"
+        }
+      ],
+      "askDate": "23",
+      "askTime": "00:00",
+      "expireDate": "23",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "23"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "23",
+      "askTime": "00:00",
+      "expireDate": "23",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "23"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "23",
+      "askTime": "00:00",
+      "expireDate": "23",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "24"
+        }
+      ],
+      "askDate": "24",
+      "askTime": "00:00",
+      "expireDate": "24",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "24"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "24",
+      "askTime": "00:00",
+      "expireDate": "24",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "24"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "24",
+      "askTime": "00:00",
+      "expireDate": "24",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "24"
+        }
+      ],
+      "askDate": "24",
+      "askTime": "00:00",
+      "expireDate": "24",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "24"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "24",
+      "askTime": "00:00",
+      "expireDate": "24",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "24"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "24",
+      "askTime": "00:00",
+      "expireDate": "24",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "25"
+        }
+      ],
+      "askDate": "25",
+      "askTime": "00:00",
+      "expireDate": "25",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "25"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "25",
+      "askTime": "00:00",
+      "expireDate": "25",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "25"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "25",
+      "askTime": "00:00",
+      "expireDate": "25",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "25"
+        }
+      ],
+      "askDate": "25",
+      "askTime": "00:00",
+      "expireDate": "25",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "25"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "25",
+      "askTime": "00:00",
+      "expireDate": "25",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "25"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "25",
+      "askTime": "00:00",
+      "expireDate": "25",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "26"
+        }
+      ],
+      "askDate": "26",
+      "askTime": "00:00",
+      "expireDate": "26",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "26"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "26",
+      "askTime": "00:00",
+      "expireDate": "26",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "26"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "26",
+      "askTime": "00:00",
+      "expireDate": "26",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "26"
+        }
+      ],
+      "askDate": "26",
+      "askTime": "00:00",
+      "expireDate": "26",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "26"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "26",
+      "askTime": "00:00",
+      "expireDate": "26",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "26"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "26",
+      "askTime": "00:00",
+      "expireDate": "26",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "27"
+        }
+      ],
+      "askDate": "27",
+      "askTime": "00:00",
+      "expireDate": "27",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "27"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "27",
+      "askTime": "00:00",
+      "expireDate": "27",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "27"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "27",
+      "askTime": "00:00",
+      "expireDate": "27",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "27"
+        }
+      ],
+      "askDate": "27",
+      "askTime": "00:00",
+      "expireDate": "27",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "27"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "27",
+      "askTime": "00:00",
+      "expireDate": "27",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "27"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "27",
+      "askTime": "00:00",
+      "expireDate": "27",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "28"
+        }
+      ],
+      "askDate": "28",
+      "askTime": "00:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalmet",
+          "text": "Were the exercises easy for you to do?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "28"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "yes"
+        }
+      ],
+      "askDate": "28",
+      "askTime": "00:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were easy to do? (Select all that apply):",
+          "afterword": "Great! You can always try a more challenging version of an exercise.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNotEasy",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedMet",
+          "value": "28"
+        },
+        {
+          "attribute": "preferences.goalMetEasy",
+          "value": "no"
+        }
+      ],
+      "askDate": "28",
+      "askTime": "00:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) were too challenging for you to do? (Select all that apply):",
+          "afterword": "OK, You may want to try less challenging versions of these exercises.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetEasy"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefUnmet",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "28"
+        }
+      ],
+      "askDate": "28",
+      "askTime": "00:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Did you do some of the exercises?",
+          "responseFormat": "list-choose-one",
+          "choices": {
+            "yes": "Yes",
+            "no": "No"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetNone",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "28"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "no"
+        }
+      ],
+      "askDate": "28",
+      "askTime": "00:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "What are the reasons you did not do any exercise today? (Select all that apply):",
+          "afterword": "OK, Try to do one or more of the exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "unwell": "I was not feeling well",
+            "traveling": "I was traveling",
+            "sore": "I'm sore from doing yesterday's exercises",
+            "bored": "I was bored doing these exercises",
+            "rest": "I wanted to take a day to rest"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    },
+    {
+      "name": "activityDebriefSilverMetSome",
+      "constraints": [
+        {
+          "attribute": "settings.goalReportedUnmet",
+          "value": "28"
+        },
+        {
+          "attribute": "preferences.goalMetSome",
+          "value": "yes"
+        }
+      ],
+      "askDate": "28",
+      "askTime": "00:00",
+      "expireDate": "28",
+      "expireTime": "23:59",
+      "sequenceBase": 300,
+      "linkToActivity": true,
+      "questions": [
+        {
+          "tag": "goalMetFollowUp",
+          "text": "Which one(s) did you do? (Select all that apply):",
+          "afterword": "As a challenge consider completing more of your scheduled exercises next time.",
+          "responseFormat": "list-choose-multiple",
+          "choices": {
+            "upper": "Upper body",
+            "lower": "Lower body",
+            "balance": "Balance",
+            "flexibility": "Flexibility",
+            "cardio": "Cardio"
+          },
+          "preferenceToSet": "goalMetSome"
+        }
+      ]
+    }
+  ]
+}

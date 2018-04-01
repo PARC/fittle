@@ -1,0 +1,12 @@
+[
+  {
+    "contentRoot": "/test_files/task.helpers.testing.jsonAssetFile.json",
+    "startDayForThisContent": null,
+    "startDateForThisContent": null
+  },
+  {
+    "contentRoot": "/test_files/task.helpers.testing.jsonAssetFileMore.json",
+    "startDayForThisContent": null,
+    "startDateForThisContent": "7/1/2017"
+  }
+]

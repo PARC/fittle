@@ -1,0 +1,122 @@
+{
+  "title": "Plan Healthier Meals",
+  "scheduling": "FromRegistered",
+  "schedule": [
+    {
+      "activity": "PlanHealthierMeals-D00",
+      "scheduledDay": 0
+    },
+    {
+      "activity": "PlanHealthierMeals-D01",
+      "scheduledDay": 1
+    },
+    {
+      "activity": "PlanHealthierMeals-D02",
+      "scheduledDay": 2
+    },
+    {
+      "activity": "PlanHealthierMeals-D03",
+      "scheduledDay": 3
+    },
+    {
+      "activity": "PlanHealthierMeals-D04",
+      "scheduledDay": 4
+    },
+    {
+      "activity": "PlanHealthierMeals-D05",
+      "scheduledDay": 5
+    },
+    {
+      "activity": "PlanHealthierMeals-D06",
+      "scheduledDay": 6
+    },
+    {
+      "activity": "PlanHealthierMeals-D07",
+      "scheduledDay": 7
+    },
+    {
+      "activity": "PlanHealthierMeals-D08",
+      "scheduledDay": 8
+    },
+    {
+      "activity": "PlanHealthierMeals-D09",
+      "scheduledDay": 9
+    },
+    {
+      "activity": "PlanHealthierMeals-D10",
+      "scheduledDay": 10
+    },
+    {
+      "activity": "PlanHealthierMeals-D11",
+      "scheduledDay": 11
+    },
+    {
+      "activity": "PlanHealthierMeals-D12",
+      "scheduledDay": 12
+    },
+    {
+      "activity": "PlanHealthierMeals-D13",
+      "scheduledDay": 13
+    },
+    {
+      "activity": "PlanHealthierMeals-D14",
+      "scheduledDay": 14
+    },
+    {
+      "activity": "PlanHealthierMeals-D15",
+      "scheduledDay": 15
+    },
+    {
+      "activity": "PlanHealthierMeals-D16",
+      "scheduledDay": 16
+    },
+    {
+      "activity": "PlanHealthierMeals-D17",
+      "scheduledDay": 17
+    },
+    {
+      "activity": "PlanHealthierMeals-D18",
+      "scheduledDay": 18
+    },
+    {
+      "activity": "PlanHealthierMeals-D19",
+      "scheduledDay": 19
+    },
+    {
+      "activity": "PlanHealthierMeals-D20",
+      "scheduledDay": 20
+    },
+    {
+      "activity": "PlanHealthierMeals-D21",
+      "scheduledDay": 21
+    },
+    {
+      "activity": "PlanHealthierMeals-D22",
+      "scheduledDay": 22
+    },
+    {
+      "activity": "PlanHealthierMeals-D23",
+      "scheduledDay": 23
+    },
+    {
+      "activity": "PlanHealthierMeals-D24",
+      "scheduledDay": 24
+    },
+    {
+      "activity": "PlanHealthierMeals-D25",
+      "scheduledDay": 25
+    },
+    {
+      "activity": "PlanHealthierMeals-D26",
+      "scheduledDay": 26
+    },
+    {
+      "activity": "PlanHealthierMeals-D27",
+      "scheduledDay": 27
+    },
+    {
+      "activity": "PlanHealthierMeals-D28",
+      "scheduledDay": 28
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Static Schedule",
+  "scheduling": "FromRegistered",
+  "schedule": [
+    {
+      "activity": "I2_Walk",
+      "scheduledDay": 1
+    },
+    {
+      "activity": "I2_Eat_Veggies",
+      "scheduledDay": 2
+    },
+    {
+      "activity": "I2_Eat_Slower",
+      "scheduledDay": 3
+    },
+    {
+      "activity": "I2_Walk",
+      "scheduledDay": 4
+    },
+    {
+      "activity": "I2_Eat_Veggies",
+      "scheduledDay": 5
+    },
+    {
+      "activity": "I2_Eat_Slower",
+      "scheduledDay": 6
+    },
+    {
+      "activity": "I2_Walk",
+      "scheduledDay": 7
+    },
+    {
+      "activity": "I2_Eat_Veggies",
+      "scheduledDay": 8
+    },
+    {
+      "activity": "Relax Today",
+      "scheduledDay": 9
+    },
+    {
+      "activity": "Relax Today",
+      "scheduledDay": 10
+    }
+  ]
+}

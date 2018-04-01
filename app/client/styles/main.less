@@ -1,0 +1,573 @@
+@import "/client/react/styles/color-template.import.less";
+
+
+html {
+    font-size: 2.2vmin;
+}
+
+body {
+    /*font-size: @default-font-size; */
+}
+
+.top-container {
+    height: 75%
+}
+
+.footer-container {
+    height: 24%;
+}
+
+.form-control:focus, input, input:focus, button:focus {
+    box-shadow: none;
+    border: 0 !important;
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.no-padding {
+    padding-right:0 !important;
+    padding-left:0 !important;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    margin: auto;
+}
+
+.pad-bottom {
+    padding-bottom: 1.5em;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.danger-validation {
+    color: #d9534f;
+}
+
+.div-bottom-margin {
+    margin-bottom: 20px;
+}
+
+.image-fill-bounding {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+#errorModal {
+    margin-top: 14%;
+    margin-left: 8%;
+    height: 70%;
+    width: 80%;
+}
+
+.flex-container {
+    /* We first create a flex layout context */
+    display: flex;
+    display: -webkit-flex;
+
+    /* Then we define the flow direction and if we allow the items to wrap
+     * Remember this is the same as:
+     * flex-direction: row;
+     * flex-wrap: wrap;
+     */
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+}
+
+.flex-question-container {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column;
+    -webkit-flex-flow: column;
+    width: 100%;
+    height: 75%;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    z-index: 1;
+}
+
+.flex-row-container {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+}
+
+
+.flex-hbox-container {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column;
+    -webkit-flex-flow: column;
+}
+
+.flex-vbox-container {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row;
+    -webkit-flex-flow: row;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.full-100-pct-height {
+    height: 100% !important;
+}
+
+.width-100-pct {
+    width: 100%;
+}
+
+.full-vw {
+    width: 100vw;
+}
+
+.flex-hbox {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row;
+    -webkit-flex-flow: row;
+    margin: auto;
+}
+
+.flex-hbox-no-margin {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row;
+    -webkit-flex-flow: row;
+}
+
+.flex-hbox.left {
+    margin-left: 0;
+}
+
+.flex-hbox .icons {
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: center;
+    font-size: @applaud-text-size;
+}
+
+.flex-vbox {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column;
+    -webkit-flex-flow: column;
+    margin: auto;
+}
+
+.flex-vbox-no-margin {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column;
+    -webkit-flex-flow: column;
+}
+
+.flex-title-center {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-flow:column;
+    -webkit-flex-flow: column;
+}
+
+.flex-item {
+    display: inline-flex;
+}
+
+.flex-center {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+}
+
+.flex-align-items-center {
+    align-items: center;
+}
+
+.flex-question-item {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.parent {
+    display: flex;
+    display: -webkit-flex;
+    height: 300px; /* Or whatever */
+}
+
+.child {
+    width: 100px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    margin: auto;  /* Magic! */
+}
+
+.wrapper {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap
+}
+
+/* We tell all items to be 100% width */
+.main, .nav, .aside {
+    flex: 1 100%;
+    -webkit-flex: 1 100%;
+}
+
+.header {
+    width: 100%;
+}
+
+.footer {
+    flex:none;
+}
+
+/* We rely on source order for mobile-first approach
+ * in this case:
+ * 1. header
+ * 2. nav
+ * 3. main
+ * 4. aside
+ * 5. footer
+ */
+
+iframe {
+    border: none;
+}
+
+/* Medium screens */
+@media all and (min-width: 600px) {
+    /* We tell both sidebars to share a row */
+    .aside { flex: 1 auto; -webkit-flex: 1 auto;}
+}
+
+/* Large screens */
+@media all and (min-width: 800px) {
+    /* We invert order of first sidebar and main
+     * And tell the main element to take twice as much width as the other two sidebars
+     */
+    .main { flex: 2 0px;  -webkit-flex: 2 ;}
+
+    .aside-1 { order: 1; }
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+}
+
+.container-center {
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+.list-container {
+    justify-content: left;
+}
+
+.list-container.space-items div {
+    margin-top: 4%;
+}
+
+.link-color {
+    color: @link-color;
+}
+
+.btn {
+    border-radius: @default-box-radius ;
+    -moz-border-radius: @default-box-radius;
+    -webkit-border-radius: @default-box-radius;
+    font-size: @default-btn-font-size;
+}
+
+.btn-submit {
+    background: @btn-primary-bg !important;
+    border-color: @btn-primary-border !important;
+    color: white;
+}
+
+.btn-submit:disabled {
+    background: @btn-primary-disabled-bg !important;
+    border-color: @btn-primary-disabled-border !important;
+    color: white;
+}
+
+.btn-default:hover {
+    background-color: white;
+    color: @btn-norm-color;
+}
+
+.btn-normal {
+    font-size: @default-btn-font-size;
+    font-weight: normal;
+    color: @btn-norm-color;
+    padding: 1vh 2vw;
+}
+
+.btn-blue  {
+    font-size: @default-font-size;
+    font-weight: normal;
+    color: @btn-blue-color;
+    padding: 1vh 2vw;
+}
+
+.btn-chat-back {
+    font-size: @post-line-font-size - 0.3;
+    align-self: center;
+    min-width: 8vw;
+    margin-left: 1.5vw;
+}
+
+.btn-black-text:hover {
+    color: black !important;
+}
+
+.margin-left-off {
+    margin-left: 0;
+}
+
+.login-base-image {
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin-top: 4vh;
+    margin-bottom: 6vh;
+    height: 65vw;
+    width: 65vw;
+    max-width: 45vh;
+    max-height: 45vh;
+}
+
+.login-base-image-silver {
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin-top: 4vh;
+    margin-bottom: 6vh;
+    height: 25vw;
+    width: 25vw;
+    max-width: 25vh;
+    max-height: 25vh;
+}
+
+.login-base-image-small {
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    height: 8vw;
+    width: 8vw;
+    max-width: 8vh;
+    max-height: 8vh;
+}
+
+.login-base-image img, .login-base-image-silver img , .login-base-image-small img  {
+    height: 100%;
+    width: auto;
+}
+
+
+.login-username {
+    justify-content: center;
+    -webkit-justify-content: center;
+    width: 60vw;
+    border-radius: @default-box-radius;
+    -moz-border-radius: @default-box-radius;
+    -webkit-border-radius: @default-box-radius;
+}
+
+.bio-form-control {
+    font-size: @default-input-font-size !important;
+    width: 94% !important;
+    padding-left:2vw;
+}
+
+.border-me {
+    justify-content: center;
+    -webkit-justify-content: center;
+    width: 91vw;
+    border-radius: @default-box-radius;
+    -moz-border-radius: @default-box-radius;
+    -webkit-border-radius: @default-box-radius;
+    border: 1px solid @btn-norm-color;
+}
+
+.border-me:focus {
+    border: 1px solid @btn-norm-color !important;
+}
+
+.gray-input-border {
+    border: 1px solid @btn-primary-bg !important;
+    border-radius: @default-box-radius;
+    -moz-border-radius: @default-box-radius;
+    -webkit-border-radius: @default-box-radius;
+}
+
+.gray-input-border input {
+    width: 100%;
+}
+
+.login-submit {
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.login-submit button {
+    background-color: @btn-primary-bg;
+    border-color: @btn-primary-border;
+    color: white !important;
+    border: 0 !important;
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.login-privacy-line {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.login-username img {
+    margin-left: auto;
+}
+
+.c-padding {
+    padding-bottom: 1vh;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+
+.justify-content-space-around {
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+}
+
+.error-text {
+    color: @error-color;
+    font-size: @info-font-size;
+}
+.error-input-border {
+    border: 1px solid @error-color !important;
+}
+
+.error-base-image {
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin-top: 2vh;
+    height: 25vw;
+    width: 25vw;
+    max-width: 25vh;
+    max-height: 25vh;
+}
+
+.error-base-image img {
+    height: 100%;
+    width: auto;
+}
+
+.password-div {
+    border: 1px solid @btn-primary-bg !important;
+
+}
+
+.password-div input {
+    border: 0;
+}
+
+.password-div img {
+    height: @default-input-font-size+1;
+    margin-right: 2vw;
+}
+
+.password-div-larger img {
+    height: @default-input-font-size+1;
+    margin-right: 2vw;
+}
+
+.form-control {
+    font-size: @default-input-font-size !important;
+    height: @default-input-font-size+2.6;
+}
+
+.form-control-larger {
+    font-size: @default-input-font-size+1.5 !important;
+    height: @default-input-font-size+4;
+}
+
+textarea.form-control, input.form-control {
+    width: 94% !important;
+    height: @default-input-font-size+2;
+    margin-left:2vw;
+}
+
+textarea.form-control-larger, input.form-control-larger {
+    width: 94% !important;
+    height: @default-input-font-size+3.4;
+    margin-left:2vw;
+}
+
+.bigger-text {
+    font-size: @default-input-font-size+2.5 !important;
+}
+
+.info-font {
+    font-size: @info-font-size;
+}
+
+.info-font-larger {
+    font-size: @info-font-size+2.5;
+    display: flex;
+}
+
+.input-border {
+    border: 1px black solid;
+}
+
+.tooltip-font {
+    font-size: @tooltip-font-size;
+}
+
+.tooltip-names {
+  font-size: @tooltip-font-size;
+  text-align: center;
+}
+
+.__react_component_tooltip {
+  border-radius: 1rem !important;
+}
+
+.questionTextInputWidth {
+    width: 65vw;
+}

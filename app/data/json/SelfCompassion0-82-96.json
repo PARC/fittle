@@ -1,0 +1,312 @@
+{
+  "sequences": [
+    {
+      "sequenceBase": 2000,
+      "constraints": [
+        {
+          "value": "yes",
+          "attribute": "settings.selfCompassion"
+        }
+      ],
+      "askDate": "82",
+      "expireDate": "82",
+      "name": "reminderSC",
+      "questions": [
+        {
+          "choices": [
+            "ok"
+          ],
+          "text": "People have told me that they feel bad about not reflecting and moving forward, so I hope you won't be hard on yourself. This happens to everybody, and everyone trying to achieve this goal occasionally forgets, so I don\u2019t think there\u2019s any reason to feel really bad about it. A small setback doesn\u2019t really matter anyway. No worries. Let's get back on track today!",
+          "tag": "reminderTime",
+          "responseFormat": "list-choose-one"
+        }
+      ]
+    },
+    {
+      "sequenceBase": 2000,
+      "constraints": [
+        {
+          "value": "yes",
+          "attribute": "settings.selfCompassion"
+        }
+      ],
+      "askDate": "83",
+      "expireDate": "83",
+      "name": "reminderSC",
+      "questions": [
+        {
+          "choices": [
+            "ok"
+          ],
+          "text": "People have told me that they feel bad about not reflecting and moving forward, so I hope you won't be hard on yourself. This happens to everybody, and everyone trying to achieve this goal occasionally forgets, so I don\u2019t think there\u2019s any reason to feel really bad about it. A small setback doesn\u2019t really matter anyway. No worries. Let's get back on track today!",
+          "tag": "reminderTime",
+          "responseFormat": "list-choose-one"
+        }
+      ]
+    },
+    {
+      "sequenceBase": 2000,
+      "constraints": [
+        {
+          "value": "yes",
+          "attribute": "settings.selfCompassion"
+        }
+      ],
+      "askDate": "84",
+      "expireDate": "84",
+      "name": "reminderSC",
+      "questions": [
+        {
+          "choices": [
+            "ok"
+          ],
+          "text": "People have told me that they feel bad about not reflecting and moving forward, so I hope you won't be hard on yourself. This happens to everybody, and everyone trying to achieve this goal occasionally forgets, so I don\u2019t think there\u2019s any reason to feel really bad about it. A small setback doesn\u2019t really matter anyway. No worries. Let's get back on track today!",
+          "tag": "reminderTime",
+          "responseFormat": "list-choose-one"
+        }
+      ]
+    },
+    {
+      "sequenceBase": 2000,
+      "constraints": [
+        {
+          "value": "yes",
+          "attribute": "settings.selfCompassion"
+        }
+      ],
+      "askDate": "85",
+      "expireDate": "85",
+      "name": "reminderSC",
+      "questions": [
+        {
+          "choices": [
+            "ok"
+          ],
+          "text": "People have told me that they feel bad about not reflecting and moving forward, so I hope you won't be hard on yourself. This happens to everybody, and everyone trying to achieve this goal occasionally forgets, so I don\u2019t think there\u2019s any reason to feel really bad about it. A small setback doesn\u2019t really matter anyway. No worries. Let's get back on track today!",
+          "tag": "reminderTime",
+          "responseFormat": "list-choose-one"
+        }
+      ]
+    },
+    {
+      "sequenceBase": 2000,
+      "constraints": [
+        {
+          "value": "yes",
+          "attribute": "settings.selfCompassion"
+        }
+      ],
+      "askDate": "86",
+      "expireDate": "86",
+      "name": "reminderSC",
+      "questions": [
+        {
+          "choices": [
+            "ok"
+          ],
+          "text": "People have told me that they feel bad about not reflecting and moving forward, so I hope you won't be hard on yourself. This happens to everybody, and everyone trying to achieve this goal occasionally forgets, so I don\u2019t think there\u2019s any reason to feel really bad about it. A small setback doesn\u2019t really matter anyway. No worries. Let's get back on track today!",
+          "tag": "reminderTime",
+          "responseFormat": "list-choose-one"
+        }
+      ]
+    },
+    {
+      "sequenceBase": 2000,
+      "constraints": [
+        {
+          "value": "yes",
+          "attribute": "settings.selfCompassion"
+        }
+      ],
+      "askDate": "87",
+      "expireDate": "87",
+      "name": "reminderSC",
+      "questions": [
+        {
+          "choices": [
+            "ok"
+          ],
+          "text": "People have told me that they feel bad about not reflecting and moving forward, so I hope you won't be hard on yourself. This happens to everybody, and everyone trying to achieve this goal occasionally forgets, so I don\u2019t think there\u2019s any reason to feel really bad about it. A small setback doesn\u2019t really matter anyway. No worries. Let's get back on track today!",
+          "tag": "reminderTime",
+          "responseFormat": "list-choose-one"
+        }
+      ]
+    },
+    {
+      "sequenceBase": 2000,
+      "constraints": [
+        {
+          "value": "yes",
+          "attribute": "settings.selfCompassion"
+        }
+      ],
+      "askDate": "88",
+      "expireDate": "88",
+      "name": "reminderSC",
+      "questions": [
+        {
+          "choices": [
+            "ok"
+          ],
+          "text": "People have told me that they feel bad about not reflecting and moving forward, so I hope you won't be hard on yourself. This happens to everybody, and everyone trying to achieve this goal occasionally forgets, so I don\u2019t think there\u2019s any reason to feel really bad about it. A small setback doesn\u2019t really matter anyway. No worries. Let's get back on track today!",
+          "tag": "reminderTime",
+          "responseFormat": "list-choose-one"
+        }
+      ]
+    },
+    {
+      "sequenceBase": 2000,
+      "constraints": [
+        {
+          "value": "yes",
+          "attribute": "settings.selfCompassion"
+        }
+      ],
+      "askDate": "89",
+      "expireDate": "89",
+      "name": "reminderSC",
+      "questions": [
+        {
+          "choices": [
+            "ok"
+          ],
+          "text": "People have told me that they feel bad about not reflecting and moving forward, so I hope you won't be hard on yourself. This happens to everybody, and everyone trying to achieve this goal occasionally forgets, so I don\u2019t think there\u2019s any reason to feel really bad about it. A small setback doesn\u2019t really matter anyway. No worries. Let's get back on track today!",
+          "tag": "reminderTime",
+          "responseFormat": "list-choose-one"
+        }
+      ]
+    },
+    {
+      "sequenceBase": 2000,
+      "constraints": [
+        {
+          "value": "yes",
+          "attribute": "settings.selfCompassion"
+        }
+      ],
+      "askDate": "90",
+      "expireDate": "90",
+      "name": "reminderSC",
+      "questions": [
+        {
+          "choices": [
+            "ok"
+          ],
+          "text": "People have told me that they feel bad about not reflecting and moving forward, so I hope you won't be hard on yourself. This happens to everybody, and everyone trying to achieve this goal occasionally forgets, so I don\u2019t think there\u2019s any reason to feel really bad about it. A small setback doesn\u2019t really matter anyway. No worries. Let's get back on track today!",
+          "tag": "reminderTime",
+          "responseFormat": "list-choose-one"
+        }
+      ]
+    },
+    {
+      "sequenceBase": 2000,
+      "constraints": [
+        {
+          "value": "yes",
+          "attribute": "settings.selfCompassion"
+        }
+      ],
+      "askDate": "91",
+      "expireDate": "91",
+      "name": "reminderSC",
+      "questions": [
+        {
+          "choices": [
+            "ok"
+          ],
+          "text": "People have told me that they feel bad about not reflecting and moving forward, so I hope you won't be hard on yourself. This happens to everybody, and everyone trying to achieve this goal occasionally forgets, so I don\u2019t think there\u2019s any reason to feel really bad about it. A small setback doesn\u2019t really matter anyway. No worries. Let's get back on track today!",
+          "tag": "reminderTime",
+          "responseFormat": "list-choose-one"
+        }
+      ]
+    },
+    {
+      "sequenceBase": 2000,
+      "constraints": [
+        {
+          "value": "yes",
+          "attribute": "settings.selfCompassion"
+        }
+      ],
+      "askDate": "92",
+      "expireDate": "92",
+      "name": "reminderSC",
+      "questions": [
+        {
+          "choices": [
+            "ok"
+          ],
+          "text": "People have told me that they feel bad about not reflecting and moving forward, so I hope you won't be hard on yourself. This happens to everybody, and everyone trying to achieve this goal occasionally forgets, so I don\u2019t think there\u2019s any reason to feel really bad about it. A small setback doesn\u2019t really matter anyway. No worries. Let's get back on track today!",
+          "tag": "reminderTime",
+          "responseFormat": "list-choose-one"
+        }
+      ]
+    },
+    {
+      "sequenceBase": 2000,
+      "constraints": [
+        {
+          "value": "yes",
+          "attribute": "settings.selfCompassion"
+        }
+      ],
+      "askDate": "93",
+      "expireDate": "93",
+      "name": "reminderSC",
+      "questions": [
+        {
+          "choices": [
+            "ok"
+          ],
+          "text": "People have told me that they feel bad about not reflecting and moving forward, so I hope you won't be hard on yourself. This happens to everybody, and everyone trying to achieve this goal occasionally forgets, so I don\u2019t think there\u2019s any reason to feel really bad about it. A small setback doesn\u2019t really matter anyway. No worries. Let's get back on track today!",
+          "tag": "reminderTime",
+          "responseFormat": "list-choose-one"
+        }
+      ]
+    },
+    {
+      "sequenceBase": 2000,
+      "constraints": [
+        {
+          "value": "yes",
+          "attribute": "settings.selfCompassion"
+        }
+      ],
+      "askDate": "94",
+      "expireDate": "94",
+      "name": "reminderSC",
+      "questions": [
+        {
+          "choices": [
+            "ok"
+          ],
+          "text": "People have told me that they feel bad about not reflecting and moving forward, so I hope you won't be hard on yourself. This happens to everybody, and everyone trying to achieve this goal occasionally forgets, so I don\u2019t think there\u2019s any reason to feel really bad about it. A small setback doesn\u2019t really matter anyway. No worries. Let's get back on track today!",
+          "tag": "reminderTime",
+          "responseFormat": "list-choose-one"
+        }
+      ]
+    },
+    {
+      "sequenceBase": 2000,
+      "constraints": [
+        {
+          "value": "yes",
+          "attribute": "settings.selfCompassion"
+        }
+      ],
+      "askDate": "95",
+      "expireDate": "95",
+      "name": "reminderSC",
+      "questions": [
+        {
+          "choices": [
+            "ok"
+          ],
+          "text": "People have told me that they feel bad about not reflecting and moving forward, so I hope you won't be hard on yourself. This happens to everybody, and everyone trying to achieve this goal occasionally forgets, so I don\u2019t think there\u2019s any reason to feel really bad about it. A small setback doesn\u2019t really matter anyway. No worries. Let's get back on track today!",
+          "tag": "reminderTime",
+          "responseFormat": "list-choose-one"
+        }
+      ]
+    }
+  ]
+}

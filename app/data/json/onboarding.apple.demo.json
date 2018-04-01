@@ -1,0 +1,14 @@
+[
+  {
+    "emailAddress": "apple.demo@example.com",
+    "condition": "kph",
+    "settings": {
+      "name": "Demo",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/KPH_Transitions_Content/activityScheduleKPH.json"
+    },
+    "preferences": {
+    }
+  }
+]

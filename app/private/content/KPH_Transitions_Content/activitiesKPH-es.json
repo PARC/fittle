@@ -1,0 +1,929 @@
+[
+  {
+    "code": "0",
+    "activity": "PositiveDailyAction-D00",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D00.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "1",
+    "activity": "PositiveDailyAction-D01",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D01.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "2",
+    "activity": "PositiveDailyAction-D02",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D02.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "3",
+    "activity": "PositiveDailyAction-D03",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D03.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "4",
+    "activity": "PositiveDailyAction-D04",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D04.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "5",
+    "activity": "PositiveDailyAction-D05",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D05.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "6",
+    "activity": "PositiveDailyAction-D06",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D06.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "7",
+    "activity": "PositiveDailyAction-D07",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D07.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "8",
+    "activity": "PositiveDailyAction-D08",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D08.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "9",
+    "activity": "PositiveDailyAction-D09",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D09.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "10",
+    "activity": "PositiveDailyAction-D10",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D10.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "11",
+    "activity": "PositiveDailyAction-D11",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D11.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "12",
+    "activity": "PositiveDailyAction-D12",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D12.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "13",
+    "activity": "PositiveDailyAction-D13",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D13.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "14",
+    "activity": "PositiveDailyAction-D14",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D14.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "15",
+    "activity": "PositiveDailyAction-D15",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D15.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "16",
+    "activity": "PositiveDailyAction-D16",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D16.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "17",
+    "activity": "PositiveDailyAction-D17",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D17.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "18",
+    "activity": "PositiveDailyAction-D18",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D18.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "19",
+    "activity": "PositiveDailyAction-D19",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D19.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "20",
+    "activity": "PositiveDailyAction-D20",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D20.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "21",
+    "activity": "PositiveDailyAction-D21",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D21.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "22",
+    "activity": "PositiveDailyAction-D22",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D22.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "23",
+    "activity": "PositiveDailyAction-D23",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D23.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "24",
+    "activity": "PositiveDailyAction-D24",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D24.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "25",
+    "activity": "PositiveDailyAction-D25",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D25.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "26",
+    "activity": "PositiveDailyAction-D26",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D26.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "27",
+    "activity": "PositiveDailyAction-D27",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D27.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "28",
+    "activity": "PositiveDailyAction-D28",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/html-es/Positive_daily_action_D28.html",
+    "title": "Acción Diaria Positiva",
+    "description" : "Realice una acción de salud positiva de 5, 10 o 15 minutos de su elección.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_1-4_Positive_Daily_Action/activity_icons/daily_action-icon.svg"
+  },
+  {
+    "code": "0",
+    "activity": "EatSlower-D00",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D00.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "1",
+    "activity": "EatSlower-D01",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D01.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "2",
+    "activity": "EatSlower-D02",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D02.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "3",
+    "activity": "EatSlower-D03",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D03.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "4",
+    "activity": "EatSlower-D04",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D04.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "5",
+    "activity": "EatSlower-D05",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D05.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "6",
+    "activity": "EatSlower-D06",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D06.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "7",
+    "activity": "EatSlower-D07",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D07.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "8",
+    "activity": "EatSlower-D08",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D08.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "9",
+    "activity": "EatSlower-D09",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D09.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "10",
+    "activity": "EatSlower-D10",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D10.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "11",
+    "activity": "EatSlower-D11",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D11.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "12",
+    "activity": "EatSlower-D12",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D12.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "13",
+    "activity": "EatSlower-D13",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D13.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "14",
+    "activity": "EatSlower-D14",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/html-es/Eat_slower_D14.html",
+    "title": "Coma Más Despacio",
+    "description" : "Coma más lentamente por deliberadamente y conscientemente disminuir el ritmo en el que usted come sus comidas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_5-6_Eat_Slower/activity_icons/eating_slow-icon.svg"
+  },
+  {
+    "code": "0",
+    "activity": "EatProtein-D00",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D00.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "1",
+    "activity": "EatProtein-D01",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D01.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "2",
+    "activity": "EatProtein-D02",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D02.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "3",
+    "activity": "EatProtein-D03",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D03.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "4",
+    "activity": "EatProtein-D04",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D04.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "5",
+    "activity": "EatProtein-D05",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D05.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "6",
+    "activity": "EatProtein-D06",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D06.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "7",
+    "activity": "EatProtein-D07",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D07.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "8",
+    "activity": "EatProtein-D08",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D08.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "9",
+    "activity": "EatProtein-D09",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D09.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "10",
+    "activity": "EatProtein-D10",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D10.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "11",
+    "activity": "EatProtein-D11",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D11.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "12",
+    "activity": "EatProtein-D12",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D12.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "13",
+    "activity": "EatProtein-D13",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D13.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "14",
+    "activity": "EatProtein-D14",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/html-es/Eat_protein_D14.html",
+    "title": "Coma La Proteína",
+    "description" : "Coma proteínas temprano y frecuentemente, preferiblemente con cada comida.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_7-8_Eat_Protein/activity_icons/eat_protein-icon.svg"
+  },
+  {
+    "code": "0",
+    "activity": "PlanHealthierMeals-D00",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D00.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "1",
+    "activity": "PlanHealthierMeals-D01",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D01.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "2",
+    "activity": "PlanHealthierMeals-D02",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D02.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "3",
+    "activity": "PlanHealthierMeals-D03",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D03.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "4",
+    "activity": "PlanHealthierMeals-D04",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D04.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "5",
+    "activity": "PlanHealthierMeals-D05",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D05.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "6",
+    "activity": "PlanHealthierMeals-D06",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D06.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "7",
+    "activity": "PlanHealthierMeals-D07",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D07.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "8",
+    "activity": "PlanHealthierMeals-D08",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D08.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "9",
+    "activity": "PlanHealthierMeals-D09",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D09.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "10",
+    "activity": "PlanHealthierMeals-D10",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D10.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "11",
+    "activity": "PlanHealthierMeals-D11",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D11.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "12",
+    "activity": "PlanHealthierMeals-D12",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D12.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "13",
+    "activity": "PlanHealthierMeals-D13",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D13.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "14",
+    "activity": "PlanHealthierMeals-D14",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D14.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "15",
+    "activity": "PlanHealthierMeals-D15",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D15.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "16",
+    "activity": "PlanHealthierMeals-D16",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D16.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "17",
+    "activity": "PlanHealthierMeals-D17",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D17.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "18",
+    "activity": "PlanHealthierMeals-D18",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D18.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "19",
+    "activity": "PlanHealthierMeals-D19",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D19.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "20",
+    "activity": "PlanHealthierMeals-D20",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D20.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "21",
+    "activity": "PlanHealthierMeals-D21",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D21.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "22",
+    "activity": "PlanHealthierMeals-D22",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D22.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "23",
+    "activity": "PlanHealthierMeals-D23",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D23.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "24",
+    "activity": "PlanHealthierMeals-D24",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D24.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "25",
+    "activity": "PlanHealthierMeals-D25",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D25.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "26",
+    "activity": "PlanHealthierMeals-D26",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D26.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "27",
+    "activity": "PlanHealthierMeals-D27",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D27.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "28",
+    "activity": "PlanHealthierMeals-D28",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/html-en/Plan_healthier_meals_D28.html",
+    "title": "Planifique comidas saludables",
+    "description" : "Formule e incorpore comidas más sanas en su plan diario de la consumición con la planificación y la preparación avanzadas.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_9-12_Plan_Healthier_Meals/activity_icons/plan_healthy_icon.svg"
+  },
+  {
+    "code": "0",
+    "activity": "ReflectThenMoveForward-D00",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D00.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  },
+  {
+    "code": "1",
+    "activity": "ReflectThenMoveForward-D01",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D01.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  },
+  {
+    "code": "2",
+    "activity": "ReflectThenMoveForward-D02",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D02.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  },
+  {
+    "code": "3",
+    "activity": "ReflectThenMoveForward-D03",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D03.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  },
+  {
+    "code": "4",
+    "activity": "ReflectThenMoveForward-D04",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D04.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  },
+  {
+    "code": "5",
+    "activity": "ReflectThenMoveForward-D05",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D05.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  },
+  {
+    "code": "6",
+    "activity": "ReflectThenMoveForward-D06",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D06.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  },
+  {
+    "code": "7",
+    "activity": "ReflectThenMoveForward-D07",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D07.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  },
+  {
+    "code": "8",
+    "activity": "ReflectThenMoveForward-D08",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D08.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  },
+  {
+    "code": "9",
+    "activity": "ReflectThenMoveForward-D09",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D09.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  },
+  {
+    "code": "10",
+    "activity": "ReflectThenMoveForward-D10",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D10.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  },
+  {
+    "code": "11",
+    "activity": "ReflectThenMoveForward-D11",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D11.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  },
+  {
+    "code": "12",
+    "activity": "ReflectThenMoveForward-D12",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D12.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  },
+  {
+    "code": "13",
+    "activity": "ReflectThenMoveForward-D13",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D13.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  },
+  {
+    "code": "14",
+    "activity": "ReflectThenMoveForward-D14",
+    "tag": "KPH-Transitions",
+    "content": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/html-en/Reflect_and_Move_Forward_D14.html",
+    "title": "Reflexionar...",
+    "description" : "Reflexionar y celebrar de todos sus logros personales y experiencias únicas durante el programa y compartir con el equipo.",
+    "thumbnail": "content/KPH_Transitions_Content/Weeks_13-14_Reflect_and_Move_Forward/activity_icons/reflection-icon.svg"
+  }
+]

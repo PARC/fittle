@@ -1,0 +1,33 @@
+[
+  {
+    "name": "localtest",
+    "url": "http://localhost:8888/",
+    "events": [
+      "start",
+      "stop",
+      "report"
+    ],
+    "active": false
+  },
+  {
+    "name": "Test",
+    "url": "https://parccoach-exagent.meteorapp.com/api/v1/event/add/woof",
+    "events": [
+      "start",
+      "stop",
+      "report"
+    ],
+    "active": true
+  },
+  {
+    "name": "JACE",
+    "url": "http://54.89.149.144:32795/communications/reports/",
+    "events": [
+      "start",
+      "stop",
+      "report"
+    ],
+    "active": false
+  }
+
+]

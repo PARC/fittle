@@ -1,0 +1,66 @@
+{
+  "title": "Eat Protein",
+  "scheduling": "FromRegistered",
+  "schedule": [
+    {
+      "activity": "EatProtein-D00",
+      "scheduledDay": 0
+    },
+    {
+      "activity": "EatProtein-D01",
+      "scheduledDay": 1
+    },
+    {
+      "activity": "EatProtein-D02",
+      "scheduledDay": 2
+    },
+    {
+      "activity": "EatProtein-D03",
+      "scheduledDay": 3
+    },
+    {
+      "activity": "EatProtein-D04",
+      "scheduledDay": 4
+    },
+    {
+      "activity": "EatProtein-D05",
+      "scheduledDay": 5
+    },
+    {
+      "activity": "EatProtein-D06",
+      "scheduledDay": 6
+    },
+    {
+      "activity": "EatProtein-D07",
+      "scheduledDay": 7
+    },
+    {
+      "activity": "EatProtein-D08",
+      "scheduledDay": 8
+    },
+    {
+      "activity": "EatProtein-D09",
+      "scheduledDay": 9
+    },
+    {
+      "activity": "EatProtein-D10",
+      "scheduledDay": 10
+    },
+    {
+      "activity": "EatProtein-D11",
+      "scheduledDay": 11
+    },
+    {
+      "activity": "EatProtein-D12",
+      "scheduledDay": 12
+    },
+    {
+      "activity": "EatProtein-D13",
+      "scheduledDay": 13
+    },
+    {
+      "activity": "EatProtein-D14",
+      "scheduledDay": 14
+    }
+  ]
+}

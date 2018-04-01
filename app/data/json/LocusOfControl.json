@@ -1,0 +1,134 @@
+{
+	"sequences": [{
+		"name": "dispayName1",
+		"constraints": [{
+			"attribute": "preferences.goalSpecific",
+			"value": ""
+		}],
+		"askDate": "-1",
+		"askTime": "07:00",
+		"expireDate": "28",
+		"expireTime": "23:59",
+		"sequenceBase": 12,
+
+		"questions": [{
+				"text": "For the following please rate the degree to which you agree",
+				"responseFormat": "list-choose-one",
+				"tag": "Valid",
+				"choices": {
+					"1": "Okay"
+				}
+			},
+			{
+				"text": "My life is determined by my own actions.",
+				"responseFormat": "list-choose-one",
+				"tag": "Own Actions",
+				"choices": {
+					"2": "Agree",
+					"1": "Strongly Agree",
+					"3": "Undecided",
+					"5": "Strongly Disagree",
+					"4": "Disagree"
+				}
+			},
+			{
+				"text": "I can pretty much determine what will happen in my life.",
+				"responseFormat": "list-choose-one",
+				"tag": "determine",
+				"choices": {
+					"2": "Agree",
+					"1": "Strongly Agree",
+					"3": "Undecided",
+					"5": "Strongly Disagree",
+					"4": "Disagree"
+				}
+			},
+			{
+				"text": "I am usually able to protect my personal interests.",
+				"responseFormat": "list-choose-one",
+				"tag": "protect",
+				"choices": {
+					"2": "Agree",
+					"1": "Strongly Agree",
+					"3": "Undecided",
+					"5": "Strongly Disagree",
+					"4": "Disagree"
+				}
+			},
+			{
+				"text": "To a great extent, my life is controlled by accidental happenings. ",
+				"responseFormat": "list-choose-one",
+				"tag": "Accidental Happenings",
+				"choices": {
+					"2": "Agree",
+					"1": "Strongly Agree",
+					"3": "Undecided",
+					"5": "Strongly Disagree",
+					"4": "Disagree"
+				}
+			},
+			{
+				"text": "Often there is no chance of protecting my personal interests from bad luck happenings.",
+				"responseFormat": "list-choose-one",
+				"tag": "bad happenings",
+				"choices": {
+					"2": "Agree",
+					"1": "Strongly Agree",
+					"3": "Undecided",
+					"5": "Strongly Disagree",
+					"4": "Disagree"
+				}
+			},
+			{
+				"text": "When I get what I want, it's usually because I'm lucky.",
+				"responseFormat": "list-choose-one",
+				"tag": "lucky",
+				"choices": {
+					"2": "Agree",
+					"1": "Strongly Agree",
+					"3": "Undecided",
+					"5": "Strongly Disagree",
+					"4": "Disagree"
+				}
+			},
+			{
+				"text": "People like myself have very little chance of protecting our personal interests where they conflict with those of strong pressure groups.",
+				"responseFormat": "list-choose-one",
+				"tag": "pressure-groups",
+				"choices": {
+					"2": "Agree",
+					"1": "Strongly Agree",
+					"3": "Undecided",
+					"5": "Strongly Disagree",
+					"4": "Disagree"
+				}
+			},
+			{
+				"text": "My life is chiefly controlled by powerful others.",
+				"responseFormat": "list-choose-one",
+				"tag": "powerful others",
+				"choices": {
+					"2": "Agree",
+					"1": "Strongly Agree",
+					"3": "Undecided",
+					"5": "Strongly Disagree",
+					"4": "Disagree"
+				}
+			},
+			{
+				"text": "I feel like what happens in my life is mostly determined by powerful people.",
+				"responseFormat": "list-choose-one",
+				"tag": "powerful people",
+				"choices": {
+					"2": "Agree",
+					"1": "Strongly Agree",
+					"3": "Undecided",
+					"5": "Strongly Disagree",
+					"4": "Disagree"
+				}
+			}
+
+
+		]
+	}]
+}

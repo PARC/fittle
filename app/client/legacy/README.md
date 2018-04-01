@@ -1,0 +1,1 @@
+The file app/client/legacy/views/main.html is still needed with Meteor/React.

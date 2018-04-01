@@ -1,0 +1,33 @@
+[
+  {
+    "emailAddress": "additive@parc.com",
+    "condition": "I2-08",
+    "settings": {
+      "name": "Test",
+      "studyId": "additive",
+      "language": "en",
+      "age": "105",
+      "location": "maui",
+      "selfEfficacy": "high",
+      "implementationIntention": "yes",
+      "reminders": "yes",
+      "reminderDistribution": "masked",
+      "reminderCount": "7",
+      "goalReported": "empty",
+      "challengeActivities": ""
+    },
+    "preferences": {
+      "goalType": "",
+      "goalSpecific": "",
+      "dailyGoalText": "",
+      "difficulty": "",
+      "goalContent": "",
+      "choice": "",
+      "place": "",
+      "person": "",
+      "eventTime": "",
+      "reminderPeriod": "",
+      "reminderText": ""
+    }
+  }
+]

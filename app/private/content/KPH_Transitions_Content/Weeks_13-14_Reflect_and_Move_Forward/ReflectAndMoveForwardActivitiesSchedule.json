@@ -1,0 +1,66 @@
+{
+  "title": "Reflect... then Move Forward",
+  "scheduling": "FromRegistered",
+  "schedule": [
+    {
+      "activity": "ReflectThenMoveForward-D00",
+      "scheduledDay": 0
+    },
+    {
+      "activity": "ReflectThenMoveForward-D01",
+      "scheduledDay": 1
+    },
+    {
+      "activity": "ReflectThenMoveForward-D02",
+      "scheduledDay": 2
+    },
+    {
+      "activity": "ReflectThenMoveForward-D03",
+      "scheduledDay": 3
+    },
+    {
+      "activity": "ReflectThenMoveForward-D04",
+      "scheduledDay": 4
+    },
+    {
+      "activity": "ReflectThenMoveForward-D05",
+      "scheduledDay": 5
+    },
+    {
+      "activity": "ReflectThenMoveForward-D06",
+      "scheduledDay": 6
+    },
+    {
+      "activity": "ReflectThenMoveForward-D07",
+      "scheduledDay": 7
+    },
+    {
+      "activity": "ReflectThenMoveForward-D08",
+      "scheduledDay": 8
+    },
+    {
+      "activity": "ReflectThenMoveForward-D09",
+      "scheduledDay": 9
+    },
+    {
+      "activity": "ReflectThenMoveForward-D10",
+      "scheduledDay": 10
+    },
+    {
+      "activity": "ReflectThenMoveForward-D11",
+      "scheduledDay": 11
+    },
+    {
+      "activity": "ReflectThenMoveForward-D12",
+      "scheduledDay": 12
+    },
+    {
+      "activity": "ReflectThenMoveForward-D13",
+      "scheduledDay": 13
+    },
+    {
+      "activity": "ReflectThenMoveForward-D14",
+      "scheduledDay": 14
+    }
+  ]
+}

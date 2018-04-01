@@ -1,0 +1,10 @@
+{
+  "title": "Silver Schedule Before Challenge",
+  "scheduling": "FromRegistered",
+  "schedule": [
+    {
+      "activity": "PreSilver",
+      "scheduledDay": 0
+    }
+  ]
+}
