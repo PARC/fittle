@@ -1,0 +1,120 @@
+[
+  {
+    "emailAddress": "lnelson@parc.com",
+    "condition": "I2-10",
+    "settings": {
+      "name": "Les",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/I2/activityScheduleI2.json"
+    },
+    "preferences": {
+    }
+  },
+  {
+    "emailAddress": "miami1@parc.com",
+    "condition": "silver",
+    "settings": {
+      "name": "Miami",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/I2/activityScheduleI2.json"
+    },
+    "preferences": {
+    }
+  },
+  {
+    "emailAddress": "test1@parc.com",
+    "condition": "I2-10",
+    "settings": {
+      "name": "Les",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/I2/activityScheduleI2.json"
+    },
+    "preferences": {
+    }
+  },
+  {
+    "emailAddress": "test2@parc.com",
+    "condition": "I2-10",
+    "settings": {
+      "name": "Les",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/I2/activityScheduleI2.json"
+    },
+    "preferences": {
+    }
+  },
+  {
+    "emailAddress": "test3@parc.com",
+    "condition": "test",
+    "settings": {
+      "name": "Les",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/I2/activityScheduleI2.json"
+    },
+    "preferences": {
+    }
+  },
+  {
+    "emailAddress": "silver.es@parc.com",
+    "condition": "I2-10",
+    "settings": {
+      "name": "Silver",
+      "studyId": "",
+      "language": "es",
+      "challengeActivities": ""
+    },
+    "preferences": {
+      "goalType": "",
+      "goalSpecific": "",
+      "dailyGoalText": "",
+      "difficulty": "",
+      "goalContent": "",
+      "choice": "",
+      "place": "",
+      "person": "",
+      "eventTime": "",
+      "reminderPeriod": "",
+      "reminderText": "/content/I2/activityScheduleI2.json"
+    }
+  },
+  {
+    "emailAddress": "silver2@parc.com",
+    "condition": "I2-10",
+    "settings": {
+      "name": "Les",
+      "studyId": "",
+      "language": "en",
+      "challengeActivities": "/content/I2/activityScheduleI2.json"
+    },
+    "preferences": {
+    }
+  },
+  {
+    "emailAddress": "silver2.es@parc.com",
+    "condition": "I2-10",
+    "settings": {
+      "name": "Silver",
+      "studyId": "",
+      "language": "es",
+      "challengeActivities": "/content/I2/activityScheduleI2.json"
+    },
+    "preferences": {
+      "goalType": "",
+      "goalSpecific": "",
+      "dailyGoalText": "",
+      "difficulty": "",
+      "goalContent": "",
+      "choice": "",
+      "place": "",
+      "person": "",
+      "eventTime": "",
+      "reminderPeriod": "",
+      "reminderText": ""
+    }
+  }
+]
