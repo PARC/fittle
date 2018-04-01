@@ -154,7 +154,7 @@ describe('Unit Test', function () {
         context("Send http request", function () {
             var _eventData = null;
             let serverSeen = true;
-            const url = 'https://parccoach-exagent.meteorapp.com/api/v1/ping/' + Meteor.settings.private.API_TOKEN;
+            const url = 'https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/ping/' + Meteor.settings.private.API_TOKEN;
             beforeEach(function (testSetUpDone) {
                 if (Meteor.settings.private.RUN_COACH_SERVER_TEST) {
                     _eventData = Studyevents.create(VALID_NAME, VALID_KIND, VALID_SOURCE, VALID_DATA);
@@ -198,7 +198,7 @@ describe('Unit Test', function () {
                         done()
                     };
                     const makeCall = new Promise((resolve, reject) => {
-                        const url = 'https://parccoach-exagent.meteorapp.com/api/v1/event/add/' + Meteor.settings.private.API_TOKEN;
+                        const url = 'https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/' + Meteor.settings.private.API_TOKEN;
                         Meteor.call('httpSend', 'POST', url, {data: studyevent},
                             (error, response) => {
                                 if (error) {
@@ -239,7 +239,7 @@ describe('Unit Test', function () {
                     areEqual(studyevent.source, VALID_SOURCE);
                     areEqual(JSON.stringify(studyevent.data), JSON.stringify(VALID_DATA));
                     const makeCall = new Promise((resolve, reject) => {
-                        Meteor.call('httpSend', 'POST', 'https://parccoach-exagent.meteorapp.com/api/v1/invalid/woof', {data: studyevent},
+                        Meteor.call('httpSend', 'POST', 'https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/invalid/woof', {data: studyevent},
                             (error, response) => {
                                 if (error) {
                                     reject(error);

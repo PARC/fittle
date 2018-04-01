@@ -2,7 +2,7 @@
   "galaxy.meteor.com": {
     "_comment": "Settings that must be accessible for running server on Galaxy.",
     "env": {
-      "MONGO_URL": "mongodb://YOUR_DBUSER_HERE:PW@HOSTNAME.mlab.com:33710,HOSTNAME.mlab.com:33710/ACTUAL_HOSTNAME_GOES_HERE?replicaSet=rs-ds133710",
+      "MONGO_URL": "mongodb://YOUR_DBUSER_HERE:PW@HOSTNAME.mlab.com:33710,HOSTNAME.mlab.com:33710/ACTUAL_HOSTNAME_GOES_HERE?replicaSet=ACTUAL_VALUE_GOES_HERE",
       "MAIL_URL": "smtps://USERNAME:PW@smtp-relay.sendinblue.com:465"
     }
   },

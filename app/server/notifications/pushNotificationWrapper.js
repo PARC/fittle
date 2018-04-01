@@ -28,35 +28,39 @@ export class PushNotificationWrapper {
     }
 
     static initializePushNotifications() {
-        console.log('INFO initialize Push Notifications');
-        if (Meteor.isDevelopment) {
-            Push.debug = true;
-        }
-
-
-        // From /private/APN_Fittle_KPH_Production_Cert.pem
-
-        Push.Configure({
-            apn: {
-                passphrase: "Atigdng04",
-                keyData: Assets.getText("APN_Fittle_KPH_Production_Key.pem"),
-                certData: Assets.getText("APN_Fittle_KPH_Production_Cert.pem"),
-                production: true
-
-            },
-            gcm: {
-                apiKey: "AIzaSyCqbdIPYIQ2NiE0yFBw1gSYLyxtRZewbl8",
-                projectNumber: 455365303431
-            },
-            production: true
-        });
-
-        //Deny all users from sending push notifications from client
-        Push.deny({
-            send: function(userId, notification) {
-                return true;
+        try {
+            console.log('INFO initialize Push Notifications');
+            if (Meteor.isDevelopment) {
+                Push.debug = true;
             }
-        }); 
+
+
+            // From /private/APN_Fittle_KPH_Production_Cert.pem
+
+            Push.Configure({
+                apn: {
+                    passphrase: "Atigdng04",
+                    keyData: Assets.getText("ACTUAL_KEY_GOES_HERE.pem"),
+                    certData: Assets.getText("ACTUAL_CERT_GOES_HERE.pem"),
+                    production: true
+
+                },
+                gcm: {
+                    apiKey: "ACTUAL_KEY_GOES_HER",
+                    projectNumber: 666
+                },
+                production: true
+            });
+
+            //Deny all users from sending push notifications from client
+            Push.deny({
+                send: function (userId, notification) {
+                    return true;
+                }
+            });
+        } catch (err) {
+            console.log("ERROR: Could not initialize Push Notifications: " + err.message)
+        }
     }
 
     static notifyAllUsers(text, title, badge = 1,

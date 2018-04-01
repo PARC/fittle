@@ -1,9 +1,9 @@
 App.info({
-   id: 'com.parc.fittle.silver2',
-   name: 'PARC Coach',
+   id: 'com.parc.fittle.ACTUAL_VALUE_GOES_HERE',
+   name: 'ACTUAL_NAME_GOES_HERE',
    description: 'Research mobile app for behavior change.',
-   author: 'Human Machine Collaboration Area @ PARC',
-   email: 'lnelson@parc.com',
+   author: 'ACTUAL_AUTHOR_GOES_HERE',
+   email: 'ACTUAL_EMAIL_GOES_HERE',
    version: "0.2.9"
 });
 
@@ -99,5 +99,5 @@ App.launchScreens({
 
 
 App.configurePlugin('phonegap-plugin-push', {
-    SENDER_ID: 455365303431
+    SENDER_ID: 666
 });

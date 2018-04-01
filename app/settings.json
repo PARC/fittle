@@ -2,8 +2,8 @@
   "galaxy.meteor.com": {
     "_comment": "Settings that must be accessible for running server on Galaxy.",
     "env": {
-      "MONGO_URL": "mongodb://i2ameteorclient:vKy7G6#t07EI1MIX@ds133710-a0.mlab.com:33710,ds133710-a1.mlab.com:33710/parccoach-prod?replicaSet=rs-ds133710",
-      "MAIL_URL": "smtps://lnelson%40parc.com:RvTL5XsBPYOpJ8cN@smtp-relay.sendinblue.com:465"
+      "MONGO_URL": "mongodb://ACTUAL_DATABASE_USERNAME_GOES_HERE:ACTUAL_PASSWORD_GOES_HERE@ACTUAL_VALUE_GOES_HERE.mlab.com:ACTUAL_PORT_GOES_HERE,ACTUAL_VALUE_GOES_HERE.mlab.com:ACTUAL_PORT_GOES_HERE/ACTUAL_DATABASE_NAME_GOES_HEREd?replicaSet=ACTUAL_VALUE_GOES_HERE",
+      "MAIL_URL": "smtps://ACTUAL_USERNAME_GOES_HERE:ACTUAL_PASSWORD_GOES_HER@smtp-relay.sendinblue.com:465"
     }
   },
 
@@ -23,34 +23,32 @@
     "persistent_session": {
       "default_method": "persistent"
     },
-    "S3_FETCHURL": "https://s3-us-west-1.amazonaws.com/parc.i2.dev/",
+    "S3_FETCHURL": "USE_REAL_URL_HERE",
     "ZENDESK_URL": "https://fittle.zendesk.com"
   },
 
   "private": {
     "_comment": "Settings accessible only server-side.",
-    "S3_ID": "AKIAJITJQX53SNGNEL7A",
-    "S3_SECRET":  "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",
-    "S3_BUCKET": "parc.fittle.senior.prod",
-    "S3_BASEURL": "https://s3-us-west-1.amazonaws.com/parc.fittle.senior.prod/",
-    "IMAGE_API_SERVICE": "https://parc-fittle-senior-prod.herokuapp.com/",
+    "S3_ID": "USE_REAL_ID_HERE",
+    "S3_SECRET":  "USE_REAL_SECRET_HERE",
+    "S3_BUCKET": "USE_REAL_BUCKET_HERE",
+    "S3_BASEURL": "https://s3-us-west-1.amazonaws.com/USE_REAL_BUCKET_HERE/",
+    "IMAGE_API_SERVICE": "USE_REAL_URL_HERE",
     "IMAGE_API_PREFIX": "api/getImage/",
-    "IMAGE_API_TOKEN": "1506382431506382434764Y1344764Y134",
+    "IMAGE_API_TOKEN": "USE_REAL_TOKEN_HERE",
     "BUILTIN_ADMIN_EMAIL": "admin@parc.com",
-    "BUILTIN_ADMIN_PASSWORD": "==BUSY staff minister 18==",
+    "BUILTIN_ADMIN_PASSWORD": "USE_REAL_PASSWORD_HERE",
     "RUN_COACH_SERVER_TEST": true,
     "PATH_TO_COACH_TEST_SERVER_ALT1": "./app/lib/api/studyevents/server/simpleserver.py",
-    "PATH_TO_COACH_TEST_SERVER": "parccoach-exagent.meteorapp.com",
+    "PATH_TO_COACH_TEST_SERVER": "ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com",
     "ACTIVITIES_PATH": [
-      "activitiesKPH-en.json",
       "activitiesI2.json",
       "content/prechallenge/activitiesPreChallenge.json",
-      "content/sampleweek/activities.json",
-      "content/silver/en/activities.json"],
+      "content/sampleweek/activities.json"],
     "AGENTS_PATH" : "agents.json",
     "CARDS_PATH" : "cards.json",
-    "API_TOKEN": "41C54596DF364B5F9D9426D680A16D14",
-    "API_TOKEN_ADMIN": "682888C665E545FAB52A18003728F61A",
+    "API_TOKEN": "ACTUAL_TOKEN_GOES_HERE",
+    "API_TOKEN_ADMIN": "ACTUAL_TOKEN_GOES_HERE",
     "DEFAULT_CHALLENGE": "/content/prechallenge/activitySchedulePreChallengeSet.json",
     "SEND_EMAIL_REMINDERS": false,
 
@@ -60,23 +58,23 @@
           "LOCAL": {
             "BASE_URL": "localhost",
             "BASE_PORT": 3001,
-            "BASE_EMAIL_URL": "https://parccoach-altdev.meteorapp.com",
-            "FROM_EMAIL_ADDRESS": "yourdailyreminders@gmail.com",
-            "FROM_EMAIL_PS": "parc3333reminders"
+            "BASE_EMAIL_URL": "ACTUAL_URL_GOES_HERE",
+            "FROM_EMAIL_ADDRESS": "ACTUAL_ADDRESS_GOES_HERE",
+            "FROM_EMAIL_PS": "ACTUAL_PS_GOES_HERE"
           },
           "PROD": {
-            "BASE_URL": "http://parccoach-prod.meteorapp.com",
+            "BASE_URL": "ACTUAL_URL_GOES_HERE",
             "BASE_PORT": 443,
-            "BASE_EMAIL_URL": "https://parccoach-prod.meteorapp.com",
-            "FROM_EMAIL_ADDRESS": "yourdailyreminders@gmail.com",
-            "FROM_EMAIL_PS": "parc3333reminders"
+            "BASE_EMAIL_URL": "ACTUAL_URL_GOES_HERE",
+            "FROM_EMAIL_ADDRESS": "ACTUAL_ADDRESS_GOES_HERE",
+            "FROM_EMAIL_PS": "ACTUAL_PS_GOES_HERE"
           },
           "DEV": {
-            "BASE_URL": "http://parccoach-altdev.meteorapp.com",
+            "BASE_URL": "ACTUAL_URL_GOES_HERE",
             "BASE_PORT": 443,
-            "BASE_EMAIL_URL": "https://parccoach-altdev.meteorapp.com",
-            "FROM_EMAIL_ADDRESS": "yourdailyreminders@gmail.com",
-            "FROM_EMAIL_PS": "parc3333reminders"
+            "BASE_EMAIL_URL": "ACTUAL_URL_GOES_HERE",
+            "FROM_EMAIL_ADDRESS": "ACTUAL_ADDRESS_GOES_HERE",
+            "FROM_EMAIL_PS": "ACTUAL_PS_GOES_HERE"
           }
         }
   }

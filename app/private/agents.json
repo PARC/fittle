@@ -11,13 +11,13 @@
   },
   {
     "name": "Test",
-    "url": "https://parccoach-exagent.meteorapp.com/api/v1/event/add/woof",
+    "url": "https://ACTUAL_HOSTNAME_GOES_HERE.meteorapp.com/api/v1/event/add/woof",
     "events": [
       "start",
       "stop",
       "report"
     ],
-    "active": true
+    "active": false
   },
   {
     "name": "JACE",
