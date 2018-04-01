@@ -1,4 +1,4 @@
-# PARC Coach Specification Files
+# Fittle Specification Files
 
 This describes document JSON structures used in the I2 studies by Study Administrators to configure a Study
 
@@ -117,7 +117,21 @@ may be generalized as a Meteor setting (e.g., a definition in settings.json)
 
 * When switching from Silver to Non-Silver deployments, prior to building the system, delete the folder .meteor/local
 
-## History
 
-Created 21 April 2017
-Updated 12 October 2017 with Deployment Notes
+```
+*************************************************************************
+*
+*  © [2018] PARC Inc., A Xerox Company
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Xerox Corporation.
+* The intellectual and technical concepts contained
+* herein are proprietary to PARC Inc. and Xerox Corp.,
+* and may be covered by U.S. and Foreign Patents,
+* patents in process, and may be protected by copyright law.
+* This file is subject to the terms and conditions defined in
+* file 'LICENSE.md', which is part of this source code package.
+*
+**************************************************************************/
+```

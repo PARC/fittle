@@ -1,4 +1,4 @@
-# PARC Coach Specification Files
+# Fittle Application Programming Interface
 
 This describes documents Coach-related API calls to the Meteor Server
 
@@ -12,21 +12,21 @@ This describes documents Coach-related API calls to the Meteor Server
 ## API CURL Examples
 
 ```
-curl -H "Content-Type: application/json" -X DELETE http://localhost:3000/serviceapi/resetAllForTesting/superWoof
-curl -H "Content-Type: application/json" -X POST -d @./data/json/onboardingI2.json http://localhost:3000/serviceapi/participants/add/woof
-curl -H "Content-Type: application/json" -X POST -d @./data/json/I2QuestionsGoalTypeSelect.json http://localhost:3000/serviceapi/scheduledmessages/add/woof
-curl -H "Content-Type: application/json" -X POST -d @./data/json/I2QuestionsI2Select.json http://localhost:3000/serviceapi/scheduledmessages/add/woof
-curl -H "Content-Type: application/json" -X POST -d @./data/json/I2QuestionsSpecificGoalSelect.json http://localhost:3000/serviceapi/scheduledmessages/add/woof
-curl -H "Content-Type: application/json" -X POST -d @./data/json/I2QuestionsReporting.json http://localhost:3000/serviceapi/scheduledmessages/add/woof
-curl -H "Content-Type: application/json" -X GET http://localhost:3000/serviceapi/scheduledmessages/woof
-curl -H "Content-Type: application/json" -X GET http://localhost:3000/serviceapi/participants/woof
-curl -H "Content-Type: application/json" -X GET http://localhost:3000/serviceapi/questions/woof
-curl -H "Content-Type: application/json" -X GET http://localhost:3000/serviceapi/tasks/woof
-curl -H "Content-Type: application/json" -X POST -d @/Users/lnelson/meteor_home/positivedayI2/data/json/exampleQuestion.json http://localhost:3000/serviceapi/questions/add/woof
-curl -H "Content-Type: application/json" -X DELETE http://localhost:3000/serviceapi/participant/<put ID here>/woof
-curl -H "Content-Type: application/json" -X DELETE http://localhost:3000/serviceapi/scheduledmessages//woof
-curl -H "Content-Type: application/json" -X DELETE http://localhost:3000/serviceapi/question/<put ID here>/woof
-curl -H "Content-Type: application/json" -X DELETE http://localhost:3000/serviceapi/task/<put ID here>/woof
+curl -H "Content-Type: application/json" -X DELETE http://localhost:3000/serviceapi/resetAllForTesting/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @./data/json/onboardingI2.json http://localhost:3000/serviceapi/participants/add/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @./data/json/I2QuestionsGoalTypeSelect.json http://localhost:3000/serviceapi/scheduledmessages/add/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @./data/json/I2QuestionsI2Select.json http://localhost:3000/serviceapi/scheduledmessages/add/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @./data/json/I2QuestionsSpecificGoalSelect.json http://localhost:3000/serviceapi/scheduledmessages/add/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @./data/json/I2QuestionsReporting.json http://localhost:3000/serviceapi/scheduledmessages/add/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X GET http://localhost:3000/serviceapi/scheduledmessages/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X GET http://localhost:3000/serviceapi/participants/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X GET http://localhost:3000/serviceapi/questions/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X GET http://localhost:3000/serviceapi/tasks/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X POST -d @/Users/lnelson/meteor_home/positivedayI2/data/json/exampleQuestion.json http://localhost:3000/serviceapi/questions/add/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X DELETE http://localhost:3000/serviceapi/participant/<put ID here>/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X DELETE http://localhost:3000/serviceapi/scheduledmessages//ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X DELETE http://localhost:3000/serviceapi/question/<put ID here>/ACTUAL_TOKEN_GOES_HERE
+curl -H "Content-Type: application/json" -X DELETE http://localhost:3000/serviceapi/task/<put ID here>/ACTUAL_TOKEN_GOES_HERE
 ```
 
 See data files in parccoach/app/data/json/

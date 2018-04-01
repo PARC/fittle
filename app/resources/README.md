@@ -1,4 +1,10 @@
-The file app/client/legacy/views/main.html is still needed with Meteor/React.
+# Fittle Cordova App resources
+
+Images used in creating the Cordova apps.
+
+## Implmentation Notes
+
+* Resources used for a specific build are specified in the file app/mobile-config.js
 
 ```
 *************************************************************************

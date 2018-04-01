@@ -1,4 +1,7 @@
-The file app/client/legacy/views/main.html is still needed with Meteor/React.
+# Fittle Text Internationalization
+
+This folder provides internationalization support for NodeJS applications using the i18n package compatible with Meteor
+applications (https://www.npmjs.com/package/i18n)
 
 ```
 *************************************************************************

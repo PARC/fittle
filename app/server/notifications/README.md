@@ -1,4 +1,7 @@
-The file app/client/legacy/views/main.html is still needed with Meteor/React.
+# Fittle Push Notifications services
+
+This folder provides Android and iOS (APN) push notification using the third party Meteor package, https://github.com/raix/push
+
 
 ```
 *************************************************************************

@@ -1,4 +1,14 @@
-The file app/client/legacy/views/main.html is still needed with Meteor/React.
+# Fittle Data generation
+
+This folder provides the data structures that drive specific PARC Coach studies.  The results
+
+## Repository Structure
+
+|File |Purpose  |
+|----|:----|
+|`.json` |NodeJS programs used to generate repetitive JSON structures for various Fittle Studies|
+|`json` |Various JSON files used in different Fittle Studies|
+|`How to Use Fittle Admin Interface.pdf` |Overview of Fittle Data Structures and their Use|
 
 ```
 *************************************************************************

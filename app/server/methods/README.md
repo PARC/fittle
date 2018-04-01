@@ -1,4 +1,11 @@
-The file app/client/legacy/views/main.html is still needed with Meteor/React.
+# Fittle Meteor Methods
+
+This folder provides the method and helper function for defining all the Meteor Server services that are called by the Meteor Clients.
+
+See https://guide.meteor.com/methods.html for more details on Meteor Methods.
+
+In particular, the messages folder contains all the code that processes the JSON configuration files that define the detail operation of a Fittle Study.
+See ```app/data/How to Use Fittle Admin Interface.pdf``` for an overview of these JSON structures and their use.
 
 ```
 *************************************************************************

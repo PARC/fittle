@@ -1,4 +1,17 @@
-The file app/client/legacy/views/main.html is still needed with Meteor/React.
+# Fittle Meteor Library files
+
+This folder provides the code shared by both Meteor Client and Server.
+
+## Repository Structure
+
+|File |Purpose  |
+|----|:----|
+|`api` |Mongo Database data models and schema|
+|`startup` |Code used in Client and/or Server startup|
+|`ui` |Standard Meteor components for User Accounts, Registration, and Login|
+|`*helper*.js` |Helper code supporting common operations|
+|`staticContent.js` |Values used in early studies, now deprecated|
+|`studyContactInformation.js` |Values used in for Study Administrator contact information, now deprecated in favor of settings.json|
 
 ```
 *************************************************************************
