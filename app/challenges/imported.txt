@@ -1,1 +1,0 @@
-mongoimport -h localhost:3001 --db meteor --collection challenges --type json --file /Users/lnelson/meteor_home/meteorwalking/challenges/KPT123.json
