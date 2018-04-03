@@ -115,5 +115,5 @@ _Content, not code, Non-Commercial Use Permitted under the following conditions_
 
 The non-code content in this repository is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://github.com/PARC/fittle/blob/master/CONTENT_LICENSE-CC-BY-NC-SA-4.md) (CC BY-NC-SA 4.0). A [quick summary](https://creativecommons.org/licenses/by-nc-sa/4.0/) of this license is that you ARE FREE to Share and Adapt PROVIDED that you Provide Attribution, Use Non-Commercially, and Share Alike.
 
-_For those interested in Commercial Use, please contact PARC, Inc._
+_For those interested in Commercial Use, please contact PARC, Inc. by email at engage@parc.com_
 
