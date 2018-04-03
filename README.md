@@ -104,3 +104,16 @@ See the various other README.md files to explain aspects of configuring the syst
 *
 **************************************************************************/
 ```
+
+## LICENSES
+
+_Source Code, Non-Commercial Use Permitted under the following conditions_
+
+This software is licensed under the [Aladdin Free Public License](https://github.com/PARC/fittle/blob/master/LICENSE-AFPL.md). A [quick summary](https://tldrlegal.com/license/aladdin-free-public-license#summary) of this license is that you CAN Modify and Distribute, you CANNOT Hold Liable, Sublicense, Place Warranty, or Use Comercially, and you MUST Include License, Include Original Code, and State Your Changes.
+
+_Content, not code, Non-Commercial Use Permitted under the following conditions_
+
+The non-code content in this repository is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://github.com/PARC/fittle/blob/master/CONTENT_LICENSE-CC-BY-NC-SA-4.md) (CC BY-NC-SA 4.0). A [quick summary](https://creativecommons.org/licenses/by-nc-sa/4.0/) of this license is that you ARE FREE to Share and Adapt PROVIDED that you Provide Attribution, Use Non-Commercially, and Share Alike.
+
+_For those interested in Commercial Use, please contact PARC, Inc._
+
